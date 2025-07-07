@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gillot.rcmdomini.cat/sitemap-index.xml
