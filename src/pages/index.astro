@@ -1,11 +1,148 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Layout from "@/layouts/Layout.astro";
 ---
 
-<Layout>
-	<Welcome />
+<Layout
+    title="Home - Gillot Consulting"
+    description="Welcome to Gillot Consulting, your partner in digital transformation and business growth."
+>
+    <link slot="preload" rel="preload" as="image" href="/img/content/ItConsultory.webp" />
+    <img
+        src="/img/content/ItConsultory.webp"
+        alt="Background Image"
+        loading="eager"
+        class="absolute transition-all -z-10 inset-0 w-full h-full object-cover opacity-20 object-center"
+    />
+    <div>
+        <h1
+            class="text-4xl md:text-5xl font-bold text-center mx-auto mt-8 mb-1"
+        >
+            Gillot Computer Services
+        </h1>
+        <h2 class="text-2xl md:text-3xl text-center mx-auto">
+            - Computer &amp; Netzwerkdienst -
+        </h2>
+        <div class="mx-auto mt-10 md:mt-15">
+            <section>
+                <div
+                    class="flex flex-col md:flex-row items-center justify-center my-4 gap-6 md:gap-50 mb-8"
+                >
+                    <div class="mb-4 md:mb-0">
+                        <p class="text-lg font-semibold">
+                            Vor Ort und Werkstatt Service
+                        </p>
+                        <p class="text-base">
+                            Vom Einzelcomputer bis zum Firmennetzwerk
+                        </p>
+                        <p class="italic text-sm text-gray-200">
+                            Nutzen Sie die Vorteile unserer 20 jährigen
+                            Erfahrung
+                        </p>
+                    </div>
+                    <div class="flex flex-row items-center gap-4 md:gap-8">
+                        <div class="flex flex-col items-center">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="50"
+                                height="50"
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                                ><path
+                                    stroke="none"
+                                    d="M0 0h24v24H0z"
+                                    fill="none"></path><path
+                                    d="M9 3a1 1 0 0 1 .877 .519l.051 .11l2 5a1 1 0 0 1 -.313 1.16l-.1 .068l-1.674 1.004l.063 .103a10 10 0 0 0 3.132 3.132l.102 .062l1.005 -1.672a1 1 0 0 1 1.113 -.453l.115 .039l5 2a1 1 0 0 1 .622 .807l.007 .121v4c0 1.657 -1.343 3 -3.06 2.998c-8.579 -.521 -15.418 -7.36 -15.94 -15.998a3 3 0 0 1 2.824 -2.995l.176 -.005h4z"
+                                ></path></svg
+                            >
+                            <p class="text-center text-base md:text-lg">
+                                +43 66 44 54 32 44
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center text-base md:text-lg">
+                    Rotenkreuzgasse 10/21a 1020 Wien, Österreich
+                </p>
+            </section>
+            <section
+                class="drop-shadow-[0_-6px_10px_rgba(0,0,0,0.15)] shadow-lg  z-10 flex flex-col items-center mt-8 md:mt-15 pt-6 md:pt-10 pb-6 md:pb-10 space-y-4 bg-[#243156] px-2 md:px-0"
+            >
+                <div>
+                    <p class="text-center text-lg font-medium mb-2">
+                        <span class="text-[#4B98FF]">Beratung, Planung</span> und
+                        <span class="text-[#4B98FF]">Installation</span> von <span
+                            class="font-semibold"
+                            >Funk– und Kupfernetzwerken</span
+                        >.
+                    </p>
+                    <p class="text-center text-lg font-medium">
+                        <span class="text-[#4B98FF]">Verkauf</span> von <span
+                            class="font-semibold"
+                            >Computern, Software, Peripherie</span
+                        > und <span class="font-semibold">Zubehör</span>.
+                    </p>
+                </div>
+            </section>
+            <section class="bg-[#00204b] z-10 pt-10">
+                <h2 class="text-2xl md:text-3xl text-center font-semibold">
+                    Wir bieten
+                </h2>
+                <div class="flex justify-center mt-5">
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 text-center w-full max-w-4xl"
+                    >
+                        <div>
+                            <span class="font-semibold text-[#4B98FF]">
+                                Computer Reparatur
+                            </span>
+                            <span class="block text-sm">
+                                Schnelle und zuverlässige Fehlerbehebung
+                            </span>
+                        </div>
+                        <div>
+                            <span class="font-semibold text-[#4B98FF]">
+                                Virenbeseitigung
+                            </span>
+                            <span class="block text-sm">
+                                Effektiver Schutz und Entfernung von
+                                Schadsoftware
+                            </span>
+                        </div>
+                        <div>
+                            <span class="font-semibold text-[#4B98FF]">
+                                Sicherheitslösungen
+                            </span>
+                            <span class="block text-sm">
+                                Individuelle Konzepte für Ihre IT-Sicherheit
+                            </span>
+                        </div>
+                        <div>
+                            <span class="font-semibold text-[#4B98FF]">
+                                Störungsdienst
+                            </span>
+                            <span class="block text-sm">
+                                Schnelle Hilfe bei akuten Problemen
+                            </span>
+                        </div>
+                        <div>
+                            <span class="font-semibold text-[#4B98FF]">
+                                Anpassung &amp; Sicherung
+                            </span>
+                            <span class="block text-sm">
+                                Optimierung und Schutz Ihrer Daten
+                            </span>
+                        </div>
+                        <div>
+                            <span class="font-semibold text-[#4B98FF]">
+                                Rettung von Daten
+                            </span>
+                            <span class="block text-sm">
+                                Wiederherstellung verlorener Dateien
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
 </Layout>
