@@ -1,0 +1,51 @@
+---
+const submenuItems = [
+  { name: "Computer Notdienst", href: "/dienstleistungen/computer-notdienst" },
+  { name: "Verkauf", href: "/dienstleistungen/verkauf" },
+  { name: "Software", href: "/dienstleistungen/software" },
+  { name: "Internet", href: "/dienstleistungen/internet" },
+  { name: "Netzwerke", href: "/dienstleistungen/netzwerk" },
+  { name: "Branchenlösungen", href: "/dienstleistungen/branchenlosungen" },
+  { name: "Sicherheit & Datenschutz", href: "/dienstleistungen/sicherheit-datenschutz" },
+  { name: "Datensicherung & Rettung", href: "/dienstleistungen/datensicherung-rettung" },
+  { name: "Beratungsdienste", href: "/dienstleistungen/beratungsdienste" },
+  { name: "Schulungen", href: "/dienstleistungen/schulungen" },
+];
+---
+<li class="relative text-lg" x-data="{ submenuOpen: false }">
+  <button
+    @click="submenuOpen = !submenuOpen"
+    class="flex items-center w-full p-6 hover:bg-white/5 transition-colors duration-200"
+    type="button"
+  >
+    Dienstleistungen
+    <svg
+      class="ml-2 w-4 h-4 transition-transform duration-300"
+      :class="submenuOpen ? 'rotate-180' : ''"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+    >
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+    </svg>
+  </button>
+
+  <ul
+    class="absolute left-0 top-full mt-1 w-64 bg-[#001a3e] rounded-md shadow-lg z-50 py-2"
+    x-show="submenuOpen"
+    x-transition.origin.top.left.duration.300ms
+    @click.outside="submenuOpen = false"
+    style="display:none"
+  >
+    {submenuItems.map(subitem => (
+      <li>
+        <a
+          href={subitem.href}
+          class="block px-4 py-2 hover:bg-white/5 transition-colors duration-200"
+        >
+          {subitem.name}
+        </a>
+      </li>
+    ))}
+  </ul>
+</li>

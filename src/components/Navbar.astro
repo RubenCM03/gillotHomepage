@@ -1,7 +1,7 @@
 ---
+import Dienstleistungen from '@/components/Dienstleistungen-nav.astro';
 const navPages = [
     { name: "Home", href: "/" },
-    { name: "Dienstleistungen", href: "/" },
     { name: "Tarife", href: "/tarife" },
     { name: "Über uns", href: "/uber_uns" },
     { name: "Mitarbeiter", href: "/#" },
@@ -32,7 +32,7 @@ const navPages = [
                     navPages.map((item) => (
                         <li class="w-full md:w-auto relative text-lg">
                             <a
-                                class="block w-full md:w-auto text-left p-6 hover:bg-white/10 transition-colors duration-200"
+                                class="block w-full md:w-auto text-left p-6 hover:bg-white/5 transition-colors duration-200"
                                 aria-current="page"
                                 href={item.href}
                             >
@@ -41,6 +41,7 @@ const navPages = [
                         </li>
                     ))
                 }
+                <Dienstleistungen />
             </ul>
         </div>
     </div>
