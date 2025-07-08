@@ -9,57 +9,30 @@ const navPages = [
     { name: "Kontakt", href: "/kontakt" },
 ];
 ---
-
-<div class="bg-[#001a3e] shadow-xl border-b border-white/5 mb-10">
-    <div class="mx-auto">
-        <nav class="flex items-center justify-between relative">
-            <div class="flex items-center md:hidden p-6">
-                <button
-                    id="menu-toggle"
-                    type="button"
-                    class="text-white focus:outline-none"
-                    aria-label="Open menu"
-                >
-                    <svg
-                        class="w-7 h-7"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        viewBox="0 0 24 24"
-                    >
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
-                </button>
-                <span class="ml-3 text-white font-semibold text-lg"
+<nav class="bg-[#001a3e] shadow-xl border-b border-white/5 mb-10 mx-auto" x-data="{ open: false }">
+    <div class="flex flex-col md:flex-row items-start justify-between relative">
+        <div class="flex items-center p-6 md:hidden">
+            <button
+                @click="open = !open"
+                class="md:hidden flex items-center px-3 py-2 rounded focus:outline-none"
+                aria-label="Open menu">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+            </button>
+            <span class="md:hidden flex ml-3 text-white font-semibold text-lg"
                     >Gillot Consulting Services</span
                 >
-            </div>
-            <ul class="hidden md:flex flex-1 justify-center h-full">
+        </div>
+        <div 
+            class="w-full md:block md:w-full text-left"
+            :class="{ 'block': open, 'hidden': !open }">
+            <ul class="flex flex-col md:flex-row flex-1 items-start md:items-center md:justify-center px-4">
                 {
                     navPages.map((item) => (
-                        <li class="relative text-lg h-full flex items-stretch">
+                        <li class="w-full md:w-auto relative text-lg">
                             <a
-                                class="p-6 h-full flex items-center hover:bg-white/10 transition-colors duration-200"
-                                aria-current="page"
-                                href={item.href}
-                            >
-                                {item.name}
-                            </a>
-                        </li>
-                    ))
-                }
-            </ul>
-        </nav>
-        <div id="mobile-menu" class="md:hidden hidden mt-4">
-            <ul class="flex flex-col">
-                {
-                    navPages.map((item) => (
-                        <li class="hover:text-gray-300 text-lg">
-                            <a
-                                class="block p-3 hover:bg-white/10 transition-colors duration-200"
+                                class="block w-full md:w-auto text-left p-6 hover:bg-white/10 transition-colors duration-200"
                                 aria-current="page"
                                 href={item.href}
                             >
@@ -71,4 +44,5 @@ const navPages = [
             </ul>
         </div>
     </div>
-</div>
+</nav>
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
