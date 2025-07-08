@@ -1,8 +1,9 @@
 ---
 const navPages = [
     { name: "Home", href: "/" },
-    { name: "Über uns", href: "/uber_uns" },
+    { name: "Dienstleistungen", href: "/" },
     { name: "Tarife", href: "/tarife" },
+    { name: "Über uns", href: "/uber_uns" },
     { name: "Mitarbeiter", href: "/#" },
     { name: "Standort", href: "/standort" },
     { name: "Kontakt", href: "/kontakt" },
@@ -70,11 +71,4 @@ const navPages = [
             </ul>
         </div>
     </div>
-    <script type="module" data-astro-exec="">
-        const e = document.getElementById("menu-toggle"),
-            t = document.getElementById("mobile-menu");
-        e?.addEventListener("click", () => {
-            t?.classList.toggle("hidden");
-        });
-    </script>
 </div>
