@@ -2,7 +2,10 @@
 import Layout from "@/layouts/Layout.astro";
 ---
 
-<Layout title="Kontakt - Gillot Consulting" description="Kontaktieren Sie Gillot Consulting Services für Anfragen und Unterstützung. Wir sind hier, um Ihnen zu helfen.">
+<Layout
+    title="Kontakt - Gillot Consulting"
+    description="Kontaktieren Sie Gillot Consulting Services für Anfragen und Unterstützung. Wir sind hier, um Ihnen zu helfen."
+>
     <div class="container mx-auto my-auto px-5">
         <h1 class="text-4xl font-bold text-center mx-auto mt-8 mb-8">
             Kontakt
@@ -30,16 +33,11 @@ import Layout from "@/layouts/Layout.astro";
             <div
                 class="flex items-center justify-center md:justify-end md:h-full min-h-[200px]"
             >
-                <a
-                    href="mailto:office@gillotconsulting.com"
-                    class="transition-transform hover:scale-105 flex justify-center items-center"
-                >
-                    <img
-                        src="/img/mailGillot.svg"
-                        alt="E-Mail Gillot Consulting"
-                        class="w-[350px] max-w-full drop-shadow-lg mx-auto"
-                    />
-                </a>
+                <img
+                    src="/img/mailGillot.svg"
+                    alt="E-Mail Gillot Consulting"
+                    class="w-[350px] max-w-full drop-shadow-lg mx-auto transition-transform hover:scale-105 flex justify-center items-center"
+                />
             </div>
         </div>
     </div>
