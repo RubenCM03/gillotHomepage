@@ -1,0 +1,36 @@
+---
+import Layout from "@/layouts/Layout.astro";
+---
+
+<Layout
+    title="Cookies abgelehnt"
+    description="Sie haben die Verwendung von Cookies abgelehnt. Einige Funktionen der Website sind möglicherweise eingeschränkt."
+>
+    <div
+        class="flex flex-col items-center justify-center text-center px-4"
+    >
+        <h1 class="text-2xl font-bold text-red-600 mb-4">Zugang verweigert</h1>
+        <p class="mb-6 max-w-md">
+            Sie haben die Verwendung von Cookies abgelehnt. Um die Website zu
+            nutzen, akzeptieren Sie bitte die Cookies.
+        </p>
+
+        <button
+            id="acceptCookies"
+            class="px-5 py-2 rounded cursor-pointer bg-[#193366] hover:bg-[#001735] transition-all duration-300 font-bold"
+        >
+            Cookies akzeptieren
+        </button>
+
+        <script type="module">
+            import Cookies from "https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/+esm";
+
+            document
+                .getElementById("acceptCookies")
+                ?.addEventListener("click", () => {
+                    Cookies.set("cookies-accepted", "true", { expires: 365 });
+                    window.location.href = "/";
+                });
+        </script>
+    </div>
+</Layout>
