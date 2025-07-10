@@ -6,15 +6,30 @@ export default function CookieBanner() {
 
   useEffect(() => {
     const accepted = Cookies.get('cookies-accepted');
-    const isOnCookiesPage = window.location.pathname === '/cookies-denied';
+    const path = window.location.pathname;
 
-    // Si ya ha rechazado cookies y no está en /cookies-denied → redirigir
-    if (accepted === 'false' && !isOnCookiesPage) {
-      window.location.href = '/cookies-denied';
+    const isOnCookiesPage = path.startsWith('/cookies');
+    const isOnDeniedPage = path.startsWith('/cookies-denied');
+
+    // ✅ Nunca redirigir si ya estamos en las páginas de política
+    if (isOnCookiesPage || isOnDeniedPage) {
       return;
     }
 
-    // Solo mostrar si no ha decidido aún
+    // ✅ Redirigir solo si ha rechazado y estamos fuera de denied
+    if (
+      typeof accepted !== 'undefined' &&
+      accepted === 'false' &&
+      !isOnDeniedPage
+    ) {
+      // ✅ Esperar a que se monte correctamente y redirigir una sola vez
+      setTimeout(() => {
+        window.location.href = '/cookies-denied';
+      }, 50); // pequeño retraso para evitar loop
+      return;
+    }
+
+    // ✅ Mostrar banner solo si aún no ha aceptado ni rechazado
     if (accepted === undefined) {
       setVisible(true);
       document.body.style.overflow = 'hidden';
