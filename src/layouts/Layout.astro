@@ -2,7 +2,6 @@
 import "@/styles/global.css";
 import Navbar from "@/components/Navbar.astro";
 import Footer from "@/components/Footer.astro";
-import { ViewTransitions } from "astro:transitions";
 
 import CookieBanner from "@/components/CookieBanner.tsx";
 
@@ -32,7 +31,6 @@ const { title, description } = Astro.props;
 		>
 		<meta name="description" content={description} />
 		<title>{title}</title>
-		<ViewTransitions />
 	</head>
 	<body>
 		<CookieBanner client:load />
