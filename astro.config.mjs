@@ -13,5 +13,12 @@ export default defineConfig({
     plugins: [tailwindcss()]
   },
   site: 'https://gillot.rcmdomini.cat',
-  integrations: [sitemap(), react()]
+  integrations: [sitemap(), react()],
+  i18n: {
+    defaultLocale: 'de',
+    locales: ['de', 'en', 'fr'],
+    routing: {
+      prefixDefaultLocale: false
+    }
+  }
 });

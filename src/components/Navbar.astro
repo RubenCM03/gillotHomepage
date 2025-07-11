@@ -1,5 +1,5 @@
 ---
-import Dienstleistungen from '@/components/Dienstleistungen-nav.astro';
+import Dienstleistungen from "@/components/Dienstleistungen-nav.astro";
 const navPages = [
     { name: "Home", href: "/" },
     { name: "Tarife", href: "/tarife" },
@@ -8,25 +8,42 @@ const navPages = [
     { name: "Kontakt", href: "/kontakt" },
 ];
 ---
-<nav class="bg-[#001a3e] shadow-xl border-b border-white/5 mb-10 mx-auto" x-data="{ open: false }">
+
+<nav
+    class="bg-[#001a3e] shadow-xl border-b border-white/5 mb-10 mx-auto"
+    x-data="{ open: false }"
+>
     <div class="flex flex-col md:flex-row items-start justify-between relative">
         <div class="flex items-center p-6 md:hidden">
             <button
                 @click="open = !open"
                 class="md:hidden flex items-center px-3 py-2 rounded focus:outline-none"
-                aria-label="Open menu">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                aria-label="Open menu"
+            >
+                <svg
+                    class="w-6 h-6"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 6h16M4 12h16M4 18h16"></path>
                 </svg>
             </button>
             <span class="md:hidden flex ml-3 text-white font-semibold text-lg"
-                    >Gillot Consulting Services</span
-                >
+                >Gillot Consulting Services</span
+            >
         </div>
-        <div 
+        <div
             class="w-full md:block md:w-full text-left"
-            :class="{ 'block': open, 'hidden': !open }">
-            <ul class="flex flex-col md:flex-row flex-1 items-start md:items-center md:justify-center px-4">
+            :class="{ 'block': open, 'hidden': !open }"
+        >
+            <ul
+                class="flex flex-col md:flex-row flex-1 items-start md:items-center md:justify-center px-4"
+            >
                 {
                     navPages.map((item) => (
                         <li class="w-full md:w-auto relative text-lg">
@@ -41,8 +58,83 @@ const navPages = [
                     ))
                 }
                 <Dienstleistungen />
+                <div
+                    class="absolute right-4 top-6 md:static md:ml-auto md:mr-6 text-white"
+                    x-data="{ openLang: false }"
+                >
+                    <button
+                        @click="openLang = !openLang"
+                        class="flex items-center gap-1 hover:text-gray-300 border p-3"
+                    >
+                        Sprache
+                        <svg
+                            class="w-4 h-4 transform transition-transform duration-200"
+                            :class="{ 'rotate-180': openLang }"
+                            fill="currentColor"
+                            viewBox="0 0 15 20"
+                        >
+                            <path
+                                fill-rule="evenodd"
+                                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                    <ul
+                        x-show="openLang"
+                        @click.away="openLang = false"
+                        x-transition
+                        class="absolute right-0 mt-2 w-32 bg-[#001a3e] rounded shadow-lg z-10"
+                    >
+                        <li>
+                            <a
+                                href="#"
+                                @click.prevent="changeLang('')"
+                                class="block px-4 py-2 hover:bg-white/5"
+                                >Deutsch</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="#"
+                                @click.prevent="changeLang('en')"
+                                class="block px-4 py-2 hover:bg-white/5"
+                                >English</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="#"
+                                @click.prevent="changeLang('fr')"
+                                class="block px-4 py-2 hover:bg-white/5"
+                                >Français</a
+                            >
+                        </li>
+                    </ul>
+                </div>
             </ul>
         </div>
     </div>
 </nav>
-<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer
+></script>
+<script>
+    function changeLang(lang: string) {
+        const supportedLangs = ["en", "fr"];
+        const path = window.location.pathname;
+        const pathParts = path.split("/").filter(Boolean);
+
+        if (supportedLangs.includes(pathParts[0])) {
+            if (lang) {
+                pathParts[0] = lang;
+            } else {
+                pathParts.shift();
+            }
+        } else if (lang) {
+            pathParts.unshift(lang);
+        }
+
+        const newPath = "/" + pathParts.join("/");
+        window.location.href = newPath;
+    }
+    (window as any).changeLang = changeLang;
+</script>
