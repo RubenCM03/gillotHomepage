@@ -1,0 +1,16 @@
+{
+    "nav": {
+        "HOME": "Home",
+        "TARIFE": "Tariffs",
+        "UBER_UNS": "About Us",
+        "STANDORT": "Location",
+        "KONTAKT": "Contact",
+        "DIENSTLEISTUNGEN": "Services"
+    },
+    "SEO_TITLE": "Home - Gillot Consulting",
+    "SEO_DESCRIPTION": "Welcome to Gillot Consulting, your partner for computer and network services.",
+    "SUBTITLE_INDEX": "- Computer & Network Service -",
+    "HEADER_INDEX_1": "On-site and workshop service",
+    "HEADER_INDEX_2": "From single computers to business networks",
+    "HEADER_INDEX_3": "Benefit from our 20 years of experience"
+}
