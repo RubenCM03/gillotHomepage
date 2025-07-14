@@ -1,5 +1,9 @@
 ---
 import Layout from "@/layouts/Layout.astro";
+import { getI18N } from "@/i18n/index.ts";
+
+const currentLocale = Astro.url.pathname.split("/")[1] || "de";
+const i18n = getI18N({ currentLocale });
 ---
 
 <Layout title="Partner - Gillot Consulting" description="Entdecken Sie unsere Partner für Buchhaltung, Sicherheitslösungen und Backup-Lösungen.">

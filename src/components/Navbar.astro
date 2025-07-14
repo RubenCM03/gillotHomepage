@@ -9,10 +9,6 @@ const currentLocale = supportedLocales.includes(localeFromPath) ? localeFromPath
 
 const i18n = getI18N({ currentLocale });
 
-function withLocale(path: string) {
-  return currentLocale === "de" ? path : `/${currentLocale}${path}`;
-}
-
 const navPages = [
   { name: i18n.nav.HOME, href: "/" },
   { name: i18n.nav.TARIFE, href: "/tarife" },
@@ -21,7 +17,9 @@ const navPages = [
   { name: i18n.nav.KONTAKT, href: "/kontakt" },
 ];
 
-
+function withLocale(path: string) {
+  return currentLocale === "de" ? path : `/${currentLocale}${path}`;
+}
 ---
 
 <nav

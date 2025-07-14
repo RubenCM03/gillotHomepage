@@ -1,5 +1,9 @@
 ---
 import Layout from "@/layouts/Layout.astro";
+import { getI18N } from "@/i18n/index.ts";
+
+const currentLocale = Astro.url.pathname.split("/")[1] || "de";
+const i18n = getI18N({ currentLocale });
 ---
 
 <Layout title="Tarife - Gillot Consulting" description="Entdecken Sie unsere transparenten Tarife für IT-Support und Dienstleistungen. Kontaktieren Sie uns für individuelle Angebote.">
