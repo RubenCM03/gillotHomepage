@@ -5,12 +5,51 @@
         "UBER_UNS": "Über uns",
         "STANDORT": "Standort",
         "KONTAKT": "Kontakt",
-        "DIENSTLEISTUNGEN": "Dienstleistungen"
+        "DIENSTLEISTUNGEN": "Dienstleistungen",
+        "SPRACHE": "Sprache"
     },
-    "SEO_TITLE": "Home - Gillot Consulting",
-    "SEO_DESCRIPTION": "Willkommen bei Gillot Consulting, Ihrem Partner für Computer- und Netzwerkdienstleistungen.",
-    "SUBTITLE_INDEX": "- Computer & Netzwerkdienst -",
-    "HEADER_INDEX_1": "Vor Ort und Werkstatt Service",
-    "HEADER_INDEX_2": "Vom Einzelcomputer bis zum Firmennetzwerk",
-    "HEADER_INDEX_3": "Nutzen Sie die Vorteile unserer 20 jährigen Erfahrung"
+
+    "footer": {
+        "COPYRIGHT": "Alle Rechte vorbehalten.",
+        "IMPRESSUM": "Impressum",
+        "PARTNER": "Partner",
+        "AGB": "AGB",
+        "KONTAKT": "Kontakt"
+    },
+
+    "impressum": {
+        "SEO_TITLE": "Impressum - Gillot Consulting",
+        "SEO_DESCRIPTION": "Impressum und rechtliche Hinweise für Gillot Consulting Services. Erfahren Sie mehr über unsere Kontaktdaten und rechtlichen Informationen.",
+        "TITLE": "Impressum",
+        "SUBTITLE": "Gillot Consulting Services Computer & Netzwerkdienst",
+        "TELEFON": "Telefon",
+        "SUBTITLE_2": "Öffnungszeiten",
+        "OFFNUNGSZEITEN": "Montag bis Freitag: ",
+        "OFFNUNGSZEITEN_2": "9:00–18:00 Uhr",
+        "OFFNUNGSZEITEN_3": "außerhalb dieser Zeiten nach telefonischer Vereinbarung"
+    },
+
+    "index": {
+        "SEO_TITLE": "Home - Gillot Consulting",
+        "SEO_DESCRIPTION": "Willkommen bei Gillot Consulting, Ihrem Partner für Computer- und Netzwerkdienstleistungen.",
+        "SUBTITLE": "- Computer & Netzwerkdienst -",
+        "HEADER_1": "Vor Ort und Werkstatt Service",
+        "HEADER_2": "Vom Einzelcomputer bis zum Firmennetzwerk",
+        "HEADER_3": "Nutzen Sie die Vorteile unserer 20 jährigen Erfahrung",
+        "TEXT_1": "Beratung, Planung und Installation von Funk– und Kupfernetzwerken.",  
+        "TEXT_2": "Verkauf von Computern, Software, Peripherie und Zubehör.",
+        "WIR_BIETEN": "WIR BIETEN",
+        "WIR_BIETEN_SUBTITLE_1": "Computer Reparatur",
+        "WIR_BIETEN_SUBTITLE_2": "Virenbeseitigung",
+        "WIR_BIETEN_SUBTITLE_3": "Sicherheitslösungen",
+        "WIR_BIETEN_SUBTITLE_4": "Störungsdienst",
+        "WIR_BIETEN_SUBTITLE_5": "Anpassung & Sicherung",
+        "WIR_BIETEN_SUBTITLE_6": "Rettung von Daten",
+        "WIR_BIETEN_TEXT_1": "Schnelle und zuverlässige Fehlerbehebung",
+        "WIR_BIETEN_TEXT_2": "Effektiver Schutz und Entfernung von Schadsoftware",
+        "WIR_BIETEN_TEXT_3": "Individuelle Konzepte für Ihre IT-Sicherheit",
+        "WIR_BIETEN_TEXT_4": "Schnelle Hilfe bei akuten Problemen",
+        "WIR_BIETEN_TEXT_5": "Optimierung und Schutz Ihrer Daten",
+        "WIR_BIETEN_TEXT_6": "Wiederherstellung verlorener Dateien"
+    }
 }

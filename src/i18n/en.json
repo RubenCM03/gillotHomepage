@@ -5,12 +5,52 @@
         "UBER_UNS": "About Us",
         "STANDORT": "Location",
         "KONTAKT": "Contact",
-        "DIENSTLEISTUNGEN": "Services"
+        "DIENSTLEISTUNGEN": "Services",
+        "SPRACHE": "Language"
     },
-    "SEO_TITLE": "Home - Gillot Consulting",
-    "SEO_DESCRIPTION": "Welcome to Gillot Consulting, your partner for computer and network services.",
-    "SUBTITLE_INDEX": "- Computer & Network Service -",
-    "HEADER_INDEX_1": "On-site and workshop service",
-    "HEADER_INDEX_2": "From single computers to business networks",
-    "HEADER_INDEX_3": "Benefit from our 20 years of experience"
+
+    "footer": {
+        "COPYRIGHT": "All rights reserved.",
+        "IMPRESSUM": "Legal Notice",
+        "PARTNER": "Partner",
+        "AGB": "T&C",
+        "KONTAKT": "Contact"
+    },
+
+    "impressum": {
+        "SEO_TITLE": "Legal Notice - Gillot Consulting",
+        "SEO_DESCRIPTION": "Legal notice and information for Gillot Consulting Services. Learn more about our contact details and legal information.",
+        "TITLE": "Legal Notice",
+        "SUBTITLE": "Gillot Consulting Services Computer & Network Service",
+        "TELEFON": "Phone",
+        "SUBTITLE_2": "Opening Hours",
+        "OFFNUNGSZEITEN": "Monday to Friday: ",
+        "OFFNUNGSZEITEN_2": "9:00–18:00 Hours",
+        "OFFNUNGSZEITEN_3": "Outside these hours by phone appointment"
+    },
+
+    "index": {
+        "SEO_TITLE": "Home - Gillot Consulting",
+        "SEO_DESCRIPTION": "Welcome to Gillot Consulting, your partner for computer and network services.",
+        "SUBTITLE": "- Computer & Network Service -",
+        "HEADER_1": "On-site and workshop service",
+        "HEADER_2": "From single computers to business networks",
+        "HEADER_3": "Benefit from our 20 years of experience",
+        "TEXT_1": "Consulting, planning, and installation of wireless and copper networks.",
+        "TEXT_2": "Sales of computers, software, peripherals, and accessories.",
+        "WIR_BIETEN": "WE OFFER",
+        "WIR_BIETEN_SUBTITLE_1": "Computer Repair",
+        "WIR_BIETEN_SUBTITLE_2": "Virus Removal",
+        "WIR_BIETEN_SUBTITLE_3": "Security Solutions",
+        "WIR_BIETEN_SUBTITLE_4": "Troubleshooting Service",
+        "WIR_BIETEN_SUBTITLE_5": "Customization & Backup",
+        "WIR_BIETEN_SUBTITLE_6": "Data Recovery",
+        "WIR_BIETEN_TEXT_1": "Fast and reliable troubleshooting",
+        "WIR_BIETEN_TEXT_2": "Effective protection and removal of malware",
+        "WIR_BIETEN_TEXT_3": "Individual concepts for your IT security",
+        "WIR_BIETEN_TEXT_4": "Quick assistance with acute problems",
+        "WIR_BIETEN_TEXT_5": "Optimization and protection of your data",
+        "WIR_BIETEN_TEXT_6": "Recovery of lost files"
+    }
+    
 }

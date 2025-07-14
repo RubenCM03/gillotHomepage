@@ -12,6 +12,15 @@ const submenuItems = [
   { name: "Beratungsdienste", href: "/dienstleistungen/beratungsdienste" },
   { name: "Schulungen", href: "/dienstleistungen/schulungen" },
 ];
+
+const pathname = Astro.url.pathname;
+const localeFromPath = pathname.split("/")[1];
+const supportedLocales = ["de", "en", "fr"];
+const currentLocale = supportedLocales.includes(localeFromPath) ? localeFromPath : "de";
+
+function withLocale(path: string) {
+  return currentLocale === "de" ? path : `/${currentLocale}${path}`;
+}
 ---
 <li class="relative text-lg" x-data="{ submenuOpen: false }">
   <button
@@ -41,7 +50,7 @@ const submenuItems = [
     {submenuItems.map(subitem => (
       <li>
         <a
-          href={subitem.href}
+          href={withLocale(subitem.href)}
           class="block px-4 py-2 hover:bg-white/5 transition-colors duration-200"
         >
           {subitem.name}

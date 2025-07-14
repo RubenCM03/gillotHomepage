@@ -1,17 +1,24 @@
 ---
 import Dienstleistungen from "@/components/Dienstleistungen-nav.astro";
-
 import { getI18N } from "@/i18n/index.ts";
 
-const { currentLocale = "de" } = Astro;
+const pathname = Astro.url.pathname;
+const localeFromPath = pathname.split("/")[1];
+const supportedLocales = ["de", "en", "fr"];
+const currentLocale = supportedLocales.includes(localeFromPath) ? localeFromPath : "de";
+
 const i18n = getI18N({ currentLocale });
 
+function withLocale(path: string) {
+  return currentLocale === "de" ? path : `/${currentLocale}${path}`;
+}
+
 const navPages = [
-    { name: i18n.nav.HOME, href: "/" },
-    { name: i18n.nav.TARIFE, href: "/tarife" },
-    { name:i18n.nav.UBER_UNS, href: "/uber_uns" },
-    { name: i18n.nav.STANDORT, href: "/standort" },
-    { name: i18n.nav.KONTAKT, href: "/kontakt" },
+  { name: i18n.nav.HOME, href: "/" },
+  { name: i18n.nav.TARIFE, href: "/tarife" },
+  { name: i18n.nav.UBER_UNS, href: "/uber_uns" },
+  { name: i18n.nav.STANDORT, href: "/standort" },
+  { name: i18n.nav.KONTAKT, href: "/kontakt" },
 ];
 
 
@@ -41,8 +48,8 @@ const navPages = [
                         d="M4 6h16M4 12h16M4 18h16"></path>
                 </svg>
             </button>
-            <span class="md:hidden flex ml-3 text-white font-semibold text-lg"
-                >Gillot Consulting Services</span
+            <a class="md:hidden flex ml-3 text-white font-semibold text-lg" href="/"
+                >Gillot Consulting Services</a
             >
         </div>
         <div
@@ -58,7 +65,7 @@ const navPages = [
                             <a
                                 class="block w-full md:w-auto text-left p-6 hover:bg-white/5 transition-colors duration-200"
                                 aria-current="page"
-                                href={item.href}
+                                href={withLocale(item.href)}
                             >
                                 {item.name}
                             </a>
@@ -74,7 +81,7 @@ const navPages = [
                         @click="openLang = !openLang"
                         class="flex items-center gap-1 hover:text-gray-300 border p-3"
                     >
-                        Sprache
+                        {i18n.nav.SPRACHE}
                         <svg
                             class="w-4 h-4 transform transition-transform duration-200"
                             :class="{ 'rotate-180': openLang }"

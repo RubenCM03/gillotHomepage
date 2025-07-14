@@ -1,11 +1,25 @@
+---
+import { getI18N } from "@/i18n/index.ts";
+
+const pathname = Astro.url.pathname;
+const localeFromPath = pathname.split("/")[1];
+const supportedLocales = ["de", "en", "fr"];
+const currentLocale = supportedLocales.includes(localeFromPath) ? localeFromPath : "de";
+
+function withLocale(path: string) {
+  return currentLocale === "de" ? path : `/${currentLocale}${path}`;
+}
+
+const i18n = getI18N({ currentLocale });
+---
 <footer class="bg-[#001a3e] rounded-lg shadow-sm m-4 bottom-0 left-0 right-0">
     <div
         class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between"
     >
         <span class="text-sm text-white sm:text-center"
-            >© 2025 <a href="/" class="hover:underline font-bold"
-                >Gillot Computer Services</a
-            >. All Rights Reserved.
+            >© 2025 <a href={withLocale("/")} class="hover:underline font-bold"
+                >Gillot Computer Services. </a
+            >{i18n.footer.COPYRIGHT}
         </span>
         <ul
             class="flex flex-wrap items-center mt-3 text-sm font-medium text-white sm:mt-0"
@@ -18,16 +32,16 @@
                 >
             </li>
             <li class="me-4 md:me-6">
-                <a href="/impressum" class="hover:underline">Impressum</a
+                <a href={withLocale("/impressum")} class="hover:underline">{i18n.footer.IMPRESSUM}</a
                 >
             </li>
             <li class="me-4 md:me-6">
-                <a href="/partner" class="hover:underline">Partner</a>
+                <a href={withLocale("/partner")} class="hover:underline">{i18n.footer.PARTNER}</a>
             </li>
             <li class="me-4 md:me-6">
-                <a href="/agb" class="hover:underline">AGB</a>
+                <a href={withLocale("/agb")} class="hover:underline">{i18n.footer.AGB}</a>
             </li>
-            <li><a href="/kontakt" class="hover:underline">Contact</a></li>
+            <li><a href={withLocale("/kontakt")} class="hover:underline">{i18n.footer.KONTAKT}</a></li>
         </ul>
     </div>
 </footer>

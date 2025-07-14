@@ -5,12 +5,52 @@
         "UBER_UNS": "À propos",
         "STANDORT": "Emplacement",
         "KONTAKT": "Contact",
-        "DIENSTLEISTUNGEN": "Services"
+        "DIENSTLEISTUNGEN": "Services",
+        "SPRACHE": "Langue"
     },
-    "SEO_TITLE": "Home - Gillot Consulting",
-    "SEO_DESCRIPTION": "",
-    "SUBTITLE_INDEX": "- Computer & Network Service -",
-    "HEADER_INDEX_1": "",
-    "HEADER_INDEX_2": "",
-    "HEADER_INDEX_3": ""
+
+    "footer": {
+        "COPYRIGHT": "Tous droits réservés.",
+        "IMPRESSUM": "Mentions légales",
+        "PARTNER": "Partenaire",
+        "AGB": "CGV",
+        "KONTAKT": "Contact"
+    },
+
+    "impressum": {
+        "SEO_TITLE": "Mentions légales - Gillot Consulting",
+        "SEO_DESCRIPTION": "Mentions légales et informations pour Gillot Consulting Services. En savoir plus sur nos coordonnées et informations légales.",
+        "TITLE": "Mentions Légales",
+        "SUBTITLE": "Gillot Consulting Services Informatique & Service Réseau",
+        "TELEFON": "Téléphone",
+        "SUBTITLE_2": "Heures d'ouverture",
+        "OFFNUNGSZEITEN": "Du lundi au vendredi:",
+        "OFFNUNGSZEITEN_2": "9:00–18:00 h",
+        "OFFNUNGSZEITEN_3": "En dehors de ces horaires sur rendez-vous téléphonique"
+    },
+
+    "index": {
+        "SEO_TITLE": "Home - Gillot Consulting",
+        "SEO_DESCRIPTION": "Bienvenue chez Gillot Consulting, votre partenaire pour les services informatiques et de réseau.",
+        "SUBTITLE": "- Computer & Network Service -",
+        "HEADER_1": "Service sur site et en atelier",
+        "HEADER_2": "Des ordinateurs individuels aux réseaux d'entreprise",
+        "HEADER_3": "Bénéficiez de nos 20 ans d'expérience",
+        "TEXT_1": "Conseil, planification et installation de réseaux sans fil et cuivre.",
+        "TEXT_2": "Vente d'ordinateurs, de logiciels, de périphériques et d'accessoires.",
+        "WIR_BIETEN": "NOUS OFFRONS",
+        "WIR_BIETEN_SUBTITLE_1": "Réparation d'ordinateurs",
+        "WIR_BIETEN_SUBTITLE_2": "Suppression de virus",
+        "WIR_BIETEN_SUBTITLE_3": "Solutions de sécurité",
+        "WIR_BIETEN_SUBTITLE_4": "Service de dépannage",
+        "WIR_BIETEN_SUBTITLE_5": "Personnalisation & Sauvegarde",
+        "WIR_BIETEN_SUBTITLE_6": "Récupération de données",
+        "WIR_BIETEN_TEXT_1": "Dépannage rapide et fiable",
+        "WIR_BIETEN_TEXT_2": "Protection efficace et suppression des logiciels malveillants",
+        "WIR_BIETEN_TEXT_3": "Concepts individuels pour votre sécurité informatique",
+        "WIR_BIETEN_TEXT_4": "Assistance rapide en cas de problèmes aigus",
+        "WIR_BIETEN_TEXT_5": "Optimisation et protection de vos données",
+        "WIR_BIETEN_TEXT_6": "Récupération de fichiers perdus"
+
+    }
 }

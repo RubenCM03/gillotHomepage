@@ -10,10 +10,16 @@ interface Props {
 	description: string;
 }
 const { title, description } = Astro.props;
+
+const pathname = Astro.url.pathname;
+const localeFromPath = pathname.split("/")[1];
+const supportedLocales = ["de", "en", "fr"];
+
+const currentLocale = supportedLocales.includes(localeFromPath) ? localeFromPath : "de";
 ---
 
 <!doctype html>
-<html lang="de">
+<html lang={currentLocale}>
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />

@@ -1,18 +1,22 @@
 ---
+import { getI18N } from "@/i18n/index.ts";
 import Layout from "@/layouts/Layout.astro";
+
+const currentLocale = Astro.url.pathname.split("/")[1] || "de";
+const i18n = getI18N({ currentLocale });
 ---
 
 <Layout
-    title="Impressum - Gillot Consulting"
-    description="Impressum und rechtliche Hinweise für Gillot Consulting Services. Erfahren Sie mehr über unsere Kontaktdaten und rechtlichen Informationen."
+    title={i18n.impressum.SEO_TITLE}
+    description={i18n.impressum.SEO_DESCRIPTION}
 >
     <div class="px-5">
-        <h1 class="text-4xl font-bold text-center mb-3">Impressum</h1>
+        <h1 class="text-4xl font-bold text-center mb-3">{i18n.impressum.TITLE}</h1>
 
         <div class="p-8 max-w-3xl mx-auto space-y-6">
             <div>
                 <h2 class="text-2xl font-bold mb-2">
-                    Gillot Consulting Services Computer & Netzwerkdienst
+                    {i18n.impressum.SUBTITLE}
                 </h2>
                 <address class="not-italic">
                     <p>Rotenkreuzgasse 10/21a</p>
@@ -22,7 +26,7 @@ import Layout from "@/layouts/Layout.astro";
             </div>
 
             <div class="space-y-1">
-                <p><strong>Telefon:</strong> +43 66 44 54 32 44</p>
+                <p><strong>{i18n.impressum.TELEFON}</strong> +43 66 44 54 32 44</p>
                 <p><strong>Fax:</strong> 0664 77 45 43 244</p>
                 <p>
                     <strong>E-Mail:</strong>
@@ -31,9 +35,9 @@ import Layout from "@/layouts/Layout.astro";
             </div>
 
             <div>
-                <h3 class="text-xl font-semibold mb-1">Öffnungszeiten</h3>
-                <p>Montag bis Freitag: <strong>9:00–18:00 Uhr</strong></p>
-                <p>außerhalb dieser Zeiten nach telefonischer Vereinbarung</p>
+                <h3 class="text-xl font-semibold mb-1">{i18n.impressum.SUBTITLE_2}</h3>
+                <p>{i18n.impressum.OFFNUNGSZEITEN}<strong>9:00–18:00 Uhr</strong></p>
+                <p>{i18n.impressum.OFFNUNGSZEITEN_3}</p>
             </div>
 
             <div>

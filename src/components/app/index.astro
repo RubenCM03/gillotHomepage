@@ -3,12 +3,12 @@ import Layout from "@/layouts/Layout.astro";
 
 import { getI18N } from "@/i18n/index.ts";
 
-const { currentLocale = "de" } = Astro;
+const currentLocale = Astro.url.pathname.split("/")[1] || "de";
 const i18n = getI18N({ currentLocale });
 ---
 
 <Layout
-    title={i18n.SEO_TITLE}
+    title={i18n.index.SEO_TITLE}
     description="Welcome to Gillot Consulting, your partner in digital transformation and business growth."
 >
     <link slot="preload" rel="preload" as="image" href="/img/content/ItConsultory.webp" />
@@ -25,7 +25,7 @@ const i18n = getI18N({ currentLocale });
             Gillot Computer Services
         </h1>
         <h2 class="text-2xl md:text-3xl text-center mx-auto">
-            {i18n.SUBTITLE_INDEX}
+            {i18n.index.SUBTITLE}
         </h2>
         <div class="mx-auto mt-10 md:mt-15">
             <section>
@@ -34,13 +34,13 @@ const i18n = getI18N({ currentLocale });
                 >
                     <div class="mb-4 md:mb-0">
                         <p class="text-lg font-semibold">
-                            {i18n.HEADER_INDEX_1}
+                            {i18n.index.HEADER_1}
                         </p>
                         <p class="text-base">
-                            {i18n.HEADER_INDEX_2}
+                            {i18n.index.HEADER_2}
                         </p>
                         <p class="italic text-sm text-gray-200">
-                            {i18n.HEADER_INDEX_3}
+                            {i18n.index.HEADER_3}
                         </p>
                     </div>
                     <div class="flex flex-row items-center gap-4 md:gap-8">
@@ -73,23 +73,16 @@ const i18n = getI18N({ currentLocale });
             >
                 <div>
                     <p class="text-center text-lg font-medium mb-2">
-                        <span class="text-[#4B98FF]">Beratung, Planung</span> und
-                        <span class="text-[#4B98FF]">Installation</span> von <span
-                            class="font-semibold"
-                            >Funk– und Kupfernetzwerken</span
-                        >.
+                        {i18n.index.TEXT_1}
                     </p>
                     <p class="text-center text-lg font-medium">
-                        <span class="text-[#4B98FF]">Verkauf</span> von <span
-                            class="font-semibold"
-                            >Computern, Software, Peripherie</span
-                        > und <span class="font-semibold">Zubehör</span>.
+                        {i18n.index.TEXT_2}
                     </p>
                 </div>
             </section>
             <section class="bg-[#00204b] z-10 pt-10">
-                <h2 class="text-2xl md:text-3xl text-center font-semibold">
-                    Wir bieten
+                <h2 class="text-2xl md:text-3xl text-center font-bold">
+                    {i18n.index.WIR_BIETEN}
                 </h2>
                 <div class="flex justify-center mt-5">
                     <div
@@ -97,51 +90,50 @@ const i18n = getI18N({ currentLocale });
                     >
                         <div>
                             <span class="font-semibold text-[#4B98FF]">
-                                Computer Reparatur
+                                {i18n.index.WIR_BIETEN_SUBTITLE_1}
                             </span>
                             <span class="block text-sm">
-                                Schnelle und zuverlässige Fehlerbehebung
+                                {i18n.index.WIR_BIETEN_TEXT_1}
                             </span>
                         </div>
                         <div>
                             <span class="font-semibold text-[#4B98FF]">
-                                Virenbeseitigung
+                                {i18n.index.WIR_BIETEN_SUBTITLE_2}
                             </span>
                             <span class="block text-sm">
-                                Effektiver Schutz und Entfernung von
-                                Schadsoftware
+                                {i18n.index.WIR_BIETEN_TEXT_2}
                             </span>
                         </div>
                         <div>
                             <span class="font-semibold text-[#4B98FF]">
-                                Sicherheitslösungen
+                                {i18n.index.WIR_BIETEN_SUBTITLE_3}
                             </span>
                             <span class="block text-sm">
-                                Individuelle Konzepte für Ihre IT-Sicherheit
+                                {i18n.index.WIR_BIETEN_TEXT_3}
                             </span>
                         </div>
                         <div>
                             <span class="font-semibold text-[#4B98FF]">
-                                Störungsdienst
+                                {i18n.index.WIR_BIETEN_SUBTITLE_4}
                             </span>
                             <span class="block text-sm">
-                                Schnelle Hilfe bei akuten Problemen
+                                {i18n.index.WIR_BIETEN_TEXT_4}
                             </span>
                         </div>
                         <div>
                             <span class="font-semibold text-[#4B98FF]">
-                                Anpassung &amp; Sicherung
+                                {i18n.index.WIR_BIETEN_SUBTITLE_5}
                             </span>
                             <span class="block text-sm">
-                                Optimierung und Schutz Ihrer Daten
+                                {i18n.index.WIR_BIETEN_TEXT_5}
                             </span>
                         </div>
                         <div>
                             <span class="font-semibold text-[#4B98FF]">
-                                Rettung von Daten
+                                {i18n.index.WIR_BIETEN_SUBTITLE_6}
                             </span>
                             <span class="block text-sm">
-                                Wiederherstellung verlorener Dateien
+                                {i18n.index.WIR_BIETEN_TEXT_6}
                             </span>
                         </div>
                     </div>
