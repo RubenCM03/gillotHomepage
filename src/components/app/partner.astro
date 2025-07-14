@@ -6,12 +6,12 @@ const currentLocale = Astro.url.pathname.split("/")[1] || "de";
 const i18n = getI18N({ currentLocale });
 ---
 
-<Layout title="Partner - Gillot Consulting" description="Entdecken Sie unsere Partner für Buchhaltung, Sicherheitslösungen und Backup-Lösungen.">
+<Layout title={i18n.partner.SEO_TITLE} description={i18n.partner.SEO_DESCRIPTION}>
     <div class="max-w-4xl mx-auto px-2 sm:px-4">
         <h1
             class="text-3xl sm:text-4xl font-bold text-center mx-auto mt-6 sm:mt-8 mb-6 sm:mb-8"
         >
-            Partner
+            {i18n.partner.TITLE}
         </h1>
         <div
             class="px-2 sm:px-4 py-6 sm:py-10 sm:ps-20 sm:pe-20 bg-[#243156] rounded-lg"
@@ -24,9 +24,9 @@ const i18n = getI18N({ currentLocale });
                         class="flex flex-col justify-center text-center md:text-left w-full md:w-2/3"
                     >
                         <h2 class="text-xl sm:text-2xl font-semibold pb-2">
-                            Buchhaltung
+                            {i18n.partner.SUBTITLE_1}
                         </h2>
-                        <p>Partner für effiziente Buchhaltungs</p>
+                        <p>{i18n.partner.TEXT_1}</p>
                         <p>Buchhaltung Wien G.BH EU</p>
                     </div>
                     <div
@@ -54,9 +54,9 @@ const i18n = getI18N({ currentLocale });
                         class="flex flex-col justify-center text-center md:text-left w-full md:w-2/3"
                     >
                         <h2 class="text-xl sm:text-2xl font-semibold pb-2">
-                            Sicherheitslösungen für Firmennetzwerke
+                            {i18n.partner.SUBTITLE_2}
                         </h2>
-                        <p>Viren- und Hackerschutz in Netzwerk</p>
+                        <p>{i18n.partner.TEXT_2}</p>
                     </div>
                     <div
                         class="flex items-center justify-center w-full md:w-1/3 mt-4 md:mt-0"
@@ -80,15 +80,10 @@ const i18n = getI18N({ currentLocale });
                         class="flex flex-col justify-center text-center md:text-left w-full md:w-2/3"
                     >
                         <h2 class="text-xl sm:text-2xl font-semibold pb-2">
-                            Viren- und Hackerschutz für Einzelcomputer
+                            {i18n.partner.SUBTITLE_3}
                         </h2>
                         <p>
-                            Der Sicherheitspartner wenn es um den Schutz Ihres
-                            Internetzugangs,
-                        </p>
-                        <p>
-                            Ihrer E-Mails vor Viren, Hacker und Ransomware und
-                            Spyware geht
+                            {i18n.partner.TEXT_3}
                         </p>
                     </div>
                     <div
@@ -113,11 +108,10 @@ const i18n = getI18N({ currentLocale });
                         class="flex flex-col justify-center text-center md:text-left w-full md:w-2/3"
                     >
                         <h2 class="text-xl sm:text-2xl font-semibold pb-2">
-                            Backup für Firmennetzwerke und Einzelcomputer
+                            {i18n.partner.SUBTITLE_4}
                         </h2>
                         <p>
-                            Acronis, die umfassende Backup und Security Lösung
-                            für Firmennetzwerke und Einzelcomputer
+                            {i18n.partner.TEXT_4}
                         </p>
                     </div>
                     <div

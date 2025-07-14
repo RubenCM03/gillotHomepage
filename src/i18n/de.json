@@ -29,6 +29,25 @@
         "OFFNUNGSZEITEN_3": "außerhalb dieser Zeiten nach telefonischer Vereinbarung"
     },
 
+    "partner":{
+        "SEO_TITLE": "Partner - Gillot Consulting",
+        "SEO_DESCRIPTION": "Entdecken Sie unsere Partner für Buchhaltung, Sicherheitslösungen und Backup-Lösungen.",
+        "TITLE": "Partner",
+        "SUBTITLE_1": "Buchhaltung",
+        "SUBTITLE_2": "Sicherheitslösungen für Firmennetzwerke",
+        "SUBTITLE_3": "Viren- und Hackerschutz für Einzelcomputer",
+        "SUBTITLE_4": "Backup für Firmennetzwerke und Einzelcomputer",
+        "TEXT_1": "Partner für effiziente Buchhaltungs",
+        "TEXT_2": "Viren- und Hackerschutz in Netzwerk",
+        "TEXT_3": "Der Sicherheitspartner wenn es um den Schutz Ihres Internetzugangs Ihrer E-Mails vor Viren, Hacker und Ransomware und Spyware geht",
+        "TEXT_4": "Acronis, die umfassende Backup und Security Lösung für Firmennetzwerke und Einzelcomputer"
+    },
+
+    "agb":{
+        "SEO_TITLE": "AGB - Gillot Consulting",
+        "SEO_DESCRIPTION": ""
+    },
+
     "index": {
         "SEO_TITLE": "Home - Gillot Consulting",
         "SEO_DESCRIPTION": "Willkommen bei Gillot Consulting, Ihrem Partner für Computer- und Netzwerkdienstleistungen.",

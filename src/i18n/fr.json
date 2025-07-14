@@ -24,11 +24,25 @@
         "SUBTITLE": "Gillot Consulting Services Informatique & Service Réseau",
         "TELEFON": "Téléphone",
         "SUBTITLE_2": "Heures d'ouverture",
-        "OFFNUNGSZEITEN": "Du lundi au vendredi:",
+        "OFFNUNGSZEITEN": "Du lundi au vendredi: ",
         "OFFNUNGSZEITEN_2": "9:00–18:00 h",
         "OFFNUNGSZEITEN_3": "En dehors de ces horaires sur rendez-vous téléphonique"
     },
 
+    "partner": {
+        "SEO_TITLE": "Partenaire - Gillot Consulting",
+        "SEO_DESCRIPTION": "Découvrez nos partenaires pour la comptabilité, les solutions de sécurité et les solutions de sauvegarde.",
+        "TITLE": "Partenaire",
+        "SUBTITLE_1": "Comptabilité",
+        "SUBTITLE_2": "Solutions de sécurité pour les réseaux d'entreprise",
+        "SUBTITLE_3": "Protection contre les virus et le piratage pour les ordinateurs individuels",
+        "SUBTITLE_4": "Sauvegarde pour les réseaux d'entreprise et les ordinateurs individuels",
+        "TEXT_1": "Partenaire pour une comptabilité efficace",
+        "TEXT_2": "Protection antivirus et anti-piratage en réseau",
+        "TEXT_3": "Le partenaire de sécurité pour la protection de votre accès Internet, de vos e-mails contre les virus, les pirates, les ransomwares et les spywares",
+        "TEXT_4": "Acronis, la solution complète de sauvegarde et de sécurité pour les réseaux d'entreprise et les ordinateurs individuels"
+    },
+    
     "index": {
         "SEO_TITLE": "Home - Gillot Consulting",
         "SEO_DESCRIPTION": "Bienvenue chez Gillot Consulting, votre partenaire pour les services informatiques et de réseau.",

@@ -29,6 +29,20 @@
         "OFFNUNGSZEITEN_3": "Outside these hours by phone appointment"
     },
 
+    "partner": {
+        "SEO_TITLE": "Partner - Gillot Consulting",
+        "SEO_DESCRIPTION": "Discover our partners for accounting, security solutions and backup solutions.",
+        "TITLE": "Partner",
+        "SUBTITLE_1": "Accounting",
+        "SUBTITLE_2": "Security solutions for corporate networks",
+        "SUBTITLE_3": "Virus and hacker protection for individual computers",
+        "SUBTITLE_4": "Backup for company networks and individual computers",
+        "TEXT_1": "Partner for efficient accounting",
+        "TEXT_2": "Virus and hacker protection in the network",
+        "TEXT_3": "The security partner when it comes to protecting your Internet access, your e-mails against viruses, hackers, ransomware and spyware",
+        "TEXT_4": "Acronis, the comprehensive backup and security solution for corporate networks and individual computers"
+    },
+
     "index": {
         "SEO_TITLE": "Home - Gillot Consulting",
         "SEO_DESCRIPTION": "Welcome to Gillot Consulting, your partner for computer and network services.",
