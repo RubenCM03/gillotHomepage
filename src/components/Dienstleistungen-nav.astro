@@ -5,7 +5,7 @@ const submenuItems = [
   { name: "Software", href: "/dienstleistungen/software" },
   { name: "Internet", href: "/dienstleistungen/internet" },
   { name: "Netzwerke", href: "/dienstleistungen/netzwerk" },
-  { name: "Digitale Amtswege leicht gemacht", href: "/dienstleistungen/digitales-amt-hilfe-senioren-wien" },
+  { name: "Senioren Digitale Amtswege leicht gemacht", href: "/dienstleistungen/digitales-amt-hilfe-senioren-wien" },
   { name: "Branchenlösungen", href: "/dienstleistungen/branchenlosungen" },
   { name: "Sicherheit & Datenschutz", href: "/dienstleistungen/sicherheit-datenschutz" },
   { name: "Datensicherung & Rettung", href: "/dienstleistungen/datensicherung-rettung" },
@@ -41,7 +41,7 @@ function withLocale(path: string) {
   </button>
 
   <ul
-    class="absolute left-0 top-full mt-1 w-80 bg-[#125683] rounded-md shadow-lg z-50 py-2"
+    class="absolute left-0 top-full mt-1 w-100 bg-[#125683] rounded-md shadow-lg z-50 py-2"
     x-show="submenuOpen"
     x-transition.origin.top.left.duration.300ms
     @click.outside="submenuOpen = false"
