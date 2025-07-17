@@ -9,13 +9,21 @@ const i18n = getI18N({ currentLocale });
 
 <Layout title="Standort - Gillot Consulting" description="Standort von Gillot Consulting Services in Wien. Besuchen Sie uns für persönliche Beratung und Unterstützung.">
     <div class="container mx-auto px-4">
-        <h1 class="text-4xl font-bold text-center mx-auto mt-8 mb-8">
+        <h1 class="text-4xl font-bold text-center mx-auto mt-8 mb-5">
             Standort
         </h1>
-        <p class="text-center text-lg max-w-2xl mx-auto mb-8 text-white/80">
+        <p class="text-center text-lg max-w-2xl mx-auto text-white/80 mb-6">
             Entdecken Sie unseren Standort im Herzen von Wien - besuchen Sie uns
             und lassen Sie sich von unserem Expertenteam beraten!
         </p>
+        <!-- Delete this next div when the addres is changed (change the addres text and map below) -->
+        <div class="mt-2 text-center mb-8 flex flex-col items-center space-y-2">
+            <p class="text-center text-lg font-medium bg-[#DB1F32] px-6 py-2 rounded-xl shadow-inner backdrop-blur-sm">
+                <span class="text-xl font-bold text-[#82121E]">Achtung! Neue Adresse ab dem 1. November 2025: </span>
+                <span class="text-base md:text-lg"><br> GILLOT CONSULTING SERVICES c/o Regus Messecarree</span>
+                <span class="text-base md:text-lg"><br> Ausstellungsstrasse 50/C/2.Stock, 1020 Wien, U-Bahn U2 Messe Prater</span>
+            </p>
+        </div>
         <div class="flex justify-center items-center mb-10">
             <div class="relative">
                 
@@ -55,5 +63,6 @@ const i18n = getI18N({ currentLocale });
                 +43 66 44 54 32 44
             </p>
         </div>
+        
     </div>
 </Layout>

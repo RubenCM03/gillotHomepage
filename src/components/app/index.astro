@@ -67,14 +67,17 @@ const i18n = getI18N({ currentLocale });
                 <p class="text-center text-base md:text-lg">
                     Rotenkreuzgasse 10/21a 1020 Wien, Österreich
                 </p>
-                <div class="mt-2 text-center">
-                    <p class="text-xl font-bold text-[#82121E]">Achtung! Neue Adresse ab dem 1. November 2025:</p>
-                    <p class="text-base md:text-lg">GILLOT CONSULTING SERVICES c/o Regus Messecarree</p>
-                    <p class="text-base md:text-lg">Ausstellungsstrasse 50/C/2.Stock, 1020 Wien, U-Bahn U2 Messe Prater</p>
+                <!-- Delete this next div when the addres is changed (change the addres text above) -->
+                <div class="mt-5 text-center flex flex-col items-center space-y-2">
+                    <p class="text-center text-lg font-medium bg-[#DB1F32] px-6 py-2 rounded-xl shadow-inner backdrop-blur-sm">
+                        <span class="text-xl font-bold text-[#82121E]">{i18n.index.ACHTUNG}</span>
+                        <span class="text-base md:text-lg"><br> GILLOT CONSULTING SERVICES c/o Regus Messecarree</span>
+                        <span class="text-base md:text-lg"><br> Ausstellungsstrasse 50/C/2.Stock, 1020 Wien, U-Bahn U2 Messe Prater</span>
+                    </p>
                 </div>
             </section>
             <section
-                class="drop-shadow-[0_-6px_10px_rgba(0,0,0,0.15)] shadow-lg  z-10 flex flex-col items-center mt-8 md:mt-15 pt-6 md:pt-10 pb-6 md:pb-10 space-y-4 bg-[#125683] px-2 md:px-0"
+                class="drop-shadow-[0_-6px_10px_rgba(0,0,0,0.15)] shadow-lg  z-10 flex flex-col items-center mt-8 md:mt-10 pt-6 md:pt-10 pb-6 md:pb-10 space-y-4 bg-[#125683] px-2 md:px-0"
             >
                 <div>
                     <p class="text-center text-lg font-medium mb-2">
