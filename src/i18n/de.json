@@ -45,7 +45,58 @@
 
     "agb":{
         "SEO_TITLE": "AGB - Gillot Consulting",
-        "SEO_DESCRIPTION": ""
+        "SEO_DESCRIPTION": "Allgemeine Geschäftsbedingungen von GILLOT CONSULTING SERVICES.",
+        "TITLE": "Allgemeine Geschäftsbedingungen",
+        "SUBTITLE": "von GILLOT CONSULTING SERVICES",
+        "TITLE_1": "1. Geltungsbereich",
+        "TITLE_2": "2. Lieferungen und Leistungen",
+        "TITLE_3": "3. Prüfung und Gefahrübergang",
+        "TITLE_4": "4. Preise und Zahlungsbedingungen",
+        "TITLE_5": "5. EURO",
+        "TITLE_6": "6. Eigentumsvorbehalt",
+        "TITLE_7": "7. Gewährleistung",
+        "TITLE_8": "8. Gewerbliche Schutzrechte und Urheberrechte Dritter",
+        "TITLE_9": "9. Haftung und weitergehende Gewährleistung",
+        "TITLE_10": "10. Export- und Importgenehmigungen",
+        "TITLE_11": "11. EG-Einfuhrumsatzsteuer",
+        "TITLE_12": "12. Allgemeine Bestimmungen",
+        "TEXT_1_1": "Die Lieferungen und Leistungen von GILLOT CONSULTING SERVICES erfolgen ausschließlich zu den nachstehenden Allgemeinen Geschäftsbedingungen, soweit nicht schriftlich etwas anderes vereinbart wurde. Auf die den Vertragsprodukten beiliegenden Lizenzbedingungen der Hersteller wird ergänzend Bezug genommen.",
+        "TEXT_1_2": "Entgegenstehende oder von den Allgemeinen Geschäftsbedingungen von GILLOT CONSULTING SERVICES abweichende Bedingungen des Kunden erkennt von GILLOT CONSULTING SERVICES nicht an, es sei denn, von GILLOT CONSULTING SERVICES hätte ausdrücklich schriftlich ihrer Geltung zugestimmt. Änderungen und Ergänzungen des Vertrages bedürfen der Schriftform. Die Allgemeinen Geschäftsbedingungen von GILLOT CONSULTING SERVICES gelten auch dann, wenn von GILLOT CONSULTING SERVICES in Kenntnis entgegenstehender oder abweichender Bedingungen des Kunden die Lieferungen an den Kunden vorbehaltlos ausführt. Zusagen und Nebenabsprachen bedürfen der schriftlichen Bestätigung von GILLOT CONSULTING SERVICES.",
+        "TEXT_2_1": "Die Angebote GILLOT CONSULTING SERVICES sind freibleibend und unverbindlich. Ein Vertrag kommt erst mit der schriftlichen Auftragsbestätigung von GILLOT CONSULTING SERVICES, spätestens jedoch durch Annahme der Lieferung durch den Kunden zustande.",
+        "TEXT_2_2": "Dem Kunden zumutbare technische und gestalterische Abweichungen von Angaben in Prospekten, Katalogen und schriftlichen Unterlagen sowie Modell-, Konstruktion, und Materialänderungen im Zuge des technischen Fortschritts und der weiteren Entwicklung bleiben vorbehalten, ohne dass hieraus Rechte gegen GILLOT CONSULTING SERVICES hergeleitet werden können.",
+        "TEXT_2_3": "Das Recht zu zumutbaren Teillieferungen und deren Fakturierung bleibt GILLOT CONSULTING SERVICES ausdrücklich vorbehalten.",
+        "TEXT_2_4": "Vereinbarte Liefertermine gelten als eingehalten, wenn das Vertragsprodukt zum vereinbarten Liefertermin dem Frachtführer übergeben wurde, soweit keine anderweitige ausdrückliche schriftliche Vereinbarung getroffen wurde. Verzögert sich die Versendung versandbereiter Ware aus Gründen, die nicht von GILLOT CONSULTING SERVICES zu vertreten sind, so können die Vertragsprodukte auf Kosten und Gefahr des Kunden eingelagert werden.",
+        "TEXT_2_5": "Der Liefertermin wird nach dem voraussichtlichen Leistungsvermögen von GILLOT CONSULTING SERVICES vereinbart und versteht sich unverbindlich und vorbehaltlich rechtzeitiger Selbstbelieferung und unvorhergesehener Umstände und Hindernisse, unabhängig davon, ob diese bei GILLOT CONSULTING SERVICES oder beim Hersteller eintreten, insbesondere höhere Gewalt, staatliche Maßnahmen, Nichterteilung behördlicher Genehmigungen, Arbeitskämpfe jeder Art, Sabotage, Rohstoffmangel, unverschuldete verspätete Materialanlieferungen. Derartige Ereignisse verlängern den Liefertermin entsprechend und zwar auch dann, wenn sie während eines bereits eingetretenen Verzuges auftreten. Verlängert wird auch eine in diesem Falle evtl. vom Kunden gesetzte Nachfrist um die Dauer des unvorhergesehenen Ereignisses. Sollte GILLOT CONSULTING SERVICES mit einer Lieferung mehr als vier Wochen in Verzug geraten, kann der Kunde nach einer schriftlich gesetzten, angemessenen Nachfrist unter Ausschluß weiterer Ansprüche vom Vertrag zurücktreten. Ein Anspruch des Kunden auf Schadenersatz wegen Lieferverzug ist im Fall gewöhnlicher Fahrlässigkeit ausgeschlossen, im übrigen ist die Haftung auf die Höhe des vorhersehbaren Schadens, maximal jedoch 5% des Lieferwerts, begrenzt. GILLOT CONSULTING SERVICES behält sich das Recht vor, vom Vertrag zurückzutreten, wenn die durch eines der o.g. Ereignisse hervorgerufene Lieferverzögerung länger als sechs Wochen andauert und dies nicht von GILLOT CONSULTING SERVICES zu vertreten ist.",
+        "TEXT_3_1": "Der Kunde hat die Ware unverzüglich nach Erhalt auf Vollständigkeit und Übereinstimmung laut Lieferschein und Rechnung zu überprüfen. Unterbleibt eine Rüge innerhalb von drei Tagen so gilt die Ware als ordnungsgemäß und vollständig geliefert, es sei denn, dass es sich um einen Mangel handelt, der bei der Untersuchung nicht erkennbar war.",
+        "TEXT_3_2": "Unwesentliche Mängel, welche die Funktionstüchtigkeit des Liefergegenstandes nicht beeinträchtigen, berechtigen den Kunden nicht zu einer Verweigerung der Abnahme.",
+        "TEXT_3_3": "Die Gefahr geht mit Übergabe des Vertragsproduktes an den Frachtführer, dessen Beauftragten oder andere Personen, die von GILLOT CONSULTING SERVICES benannt sind, auf den Kunden über. Soweit sich der Versand ohne Verschulden GILLOT CONSULTING SERVICES verzögert oder unmöglich wird, geht die Gefahr mit Meldung der Versandbereitschaft auf den Kunden über. Die Bestimmungen aus 3.3 gelten auch bei Rücksendungen nach Mängelbeseitigung bzw. entgeltlicher Serviceleistung an den Kunden.",
+        "TEXT_4_1": "Die sich aus der jeweils gültigen Preisliste ergebenden Preise verstehen sich ab Auslieferungslager WIEN oder ab Auslieferungslager unserer Unterlieferanten. Mehrwertsteuer und andere gesetzliche Abgaben im Lieferland sowie Verpackung, Transportkosten, Transportversicherung, Umwelt- und Abwicklungspauschale werden dem Kunden entsprechend der jeweils geltenden Preisliste berechnet.",
+        "TEXT_4_2": "GILLOT CONSULTING SERVICES behält sich das Recht vor, den Preis angemessen zu erhöhen, wenn nach Abschluß des Vertrages Kostenerhöhungen - insbesondere auf Grund von Preiserhöhungen von seiten der Lieferanten oder von Wechselkursschwankungen - bei GILLOT CONSULTING SERVICES eintreten. Diese wird GILLOT CONSULTING SERVICES dem Kunden auf Verlangen nachweisen.",
+        "TEXT_4_3": "Zahlungen sind 10 Werktage nach Rechnungsstellung ohne jeden Abzug fällig. Rechnungsstellung erfolgt mit Warenausgang. Bei Überschreitung der Zahlungstermine steht GILLOT CONSULTING SERVICES ohne weitere Mahnung ein Anspruch auf Verzugszinsen in Höhe von 10% über dem jeweils gültigen Basiszinssatz der Europäischen Zentralbank zu. Das Recht zur Geltendmachung eines darüber hinausgehenden Schadens bleibt unberührt.",
+        "TEXT_4_4": "GILLOT CONSULTING SERVICES ist berechtigt, trotz anderslautender Bestimmungen des Kunden, Zahlungen zunächst auf dessen ältere Schulden anzurechnen. Sind bereits Kosten und Zinsen durch Verzug entstanden, so ist GILLOT CONSULTING SERVICES berechtigt, die Zahlung zunächst auf die Kosten, dann auf die Zinsen und zuletzt auf die Hauptleistungen anzurechnen.",
+        "TEXT_4_5": "Eine Aufrechnung oder die Geltendmachung eines Zurückbehaltungsrechtes wegen von uns nicht anerkannter oder nicht rechtskräftig festgestellter Gegenansprüche ist ausgeschlossen.",
+        "TEXT_4_6": "Soweit von den obenstehenden Zahlungsbedingungen ohne rechtfertigenden Grund abgewichen wird, kann GILLOT CONSULTING SERVICES jederzeit wahlweise Lieferung Zug um Zug gegen Barzahlung, Vorleistung oder Sicherheitsleistung verlangen.",
+        "TEXT_5_1": "Alle sich aus der Geschäftsbeziehung ergebenden Zahlungsverpflichtungen und im Zusammenhang damit stehenden sonstigen finanziellen Verpflichtungen gelten als in € (EURO) vereinbart.",
+        "TEXT_5_2": "Alle Bestimmungen, die eine Bezugnahme auf den Diskontsatz der Österreichischen Nationalbank beinhalten, werden in eine Bezugnahme auf den gültigen Referenzzinssatz/Basiszinssatz der Europäischen Zentralbank geändert.",
+        "TEXT_6_1": "Das Vertragsprodukt bleibt Eigentum von GILLOT CONSULTING SERVICES bis zur Erfüllung aller, auch zukünftiger Forderungen aus diesem Vertrag und darüber hinaus aus der gesamten Geschäftsbeziehung mit dem Kunden.",
+        "TEXT_6_2": "Der Kunde ist widerruflich zur Weitergabe der Vorbehaltsware im ordnungsgemäßen Geschäftsverkehr unter Eigentumsvorbehalt berechtigt, soweit er seinerseits unter eigenem Eigentumsvorbehalt weiterverkauft, nicht aber zur Verpfändung oder Sicherheitsübereignung in irgendeiner Form. Bei Zugriffen Dritter auf die Vorbehaltsware hat der Kunde auf das Eigentum GILLOT CONSULTING SERVICES hinzuweisen und GILLOT CONSULTING SERVICES unverzüglich zu unterrichten.",
+        "TEXT_6_3": "Bei Verbindung, Verarbeitung oder Vermischung der Vorbehaltsware mit GILLOT CONSULTING SERVICES nicht gehörenden Waren erwirbt GILLOT CONSULTING SERVICES Miteigentum anteilig im Verhältnis des Rechnungswertes der Vorbehaltsware zur übrigen Ware.",
+        "TEXT_6_4": "Bei Zahlungsverzug, auch aus anderen und zukünftigen Lieferungen oder Leistungen von GILLOT CONSULTING SERVICES an Kunden, oder bei Vermögensverfall des Kunden darf GILLOT CONSULTING SERVICES zur Geltendmachung des Eigentumsvorbehaltes an der Vorbehaltsware die Geschäftsräume des Kunden betreten und die Vorbehaltsware an sich nehmen.",
+        "TEXT_6_5": "Die Geltendmachung des Eigentumsvorbehaltes oder die Pfändung des Liefergegenstandes durch GILLOT CONSULTING SERVICES gelten nicht als Vertragsrücktritt, sofern der Kunde Kaufmann ist.",
+        "TEXT_6_6": "Der Kunde tritt seine Forderungen aus der Weitergabe der Vorbehaltsware im jeweiligen Rechnungswert der Vorbehaltsware bereits zum Zeitpunkt der Bestellung im voraus an GILLOT CONSULTING SERVICES ab. Der Kunde bleibt zur Einziehung auch nach der Abtretung berechtigt. GILLOT CONSULTING SERVICES ist dessenungeachtet im Rahmen des ordnungsgemäßen Geschäftsganges einziehungsberechtigt, wird von diesem Recht aber nur Gebrauch machen im Falle des Zahlungsverzugs oder bei einem Antrag auf Eröffnung des Konkurs- oder Vergleichsverfahrens durch den Kunden. Auf Verlangen von GILLOT CONSULTING SERVICES wird der Kunde die abgetretenen Forderungen benennen, erforderliche Angaben machen, Unterlagen aushändigen und den Schuldnern die Abtretung mitteilen. GILLOT CONSULTING SERVICES darf zur Sicherung seiner Zahlungsansprüche jederzeit diese Abtretung offenlegen.",
+        "TEXT_6_7": "Die Auswahl der freizugebenden Sicherheiten obliegt GILLOT CONSULTING SERVICES. Für die Bewertung der Sicherheiten ist bei der Vorbehaltsware der zur Zeit des Freigabeverlangens geltende Nettolistenpreis GILLOT CONSULTING SERVICES maßgeblich, bei abgetretenen Forderungen ist vom Nettorechnungsbetrag abzüglich eines Sicherheitsabschlags von 30 % auszugehen. Handelt es sich um Forderungen, bei welchen der Abnehmer des Kunden bereits in Zahlungsverzug ist oder Tatsachen bekannt sind, die berechtigten Grund zu der Annahme geben, dass ein Ausfall zu befürchten ist, so beträgt der Abschlag 50%. Bei wegen Verbindung, Vermischung oder Verarbeitung nur in Form von Miteigentum bestehenden Sicherheiten ist vom Nettolistenpreis der von GILLOT CONSULTING SERVICES gelieferten Ware abzüglich eines Abschlags von 30% auszugehen.",
+        "TEXT_6_8": "Für Test- und Vorführzwecke gelieferte Gegenstände bleiben im Eigentum von GILLOT CONSULTING SERVICES. Sie dürfen vom Kunden nur aufgrund gesonderter Vereinbarung mit GILLOT CONSULTING SERVICES über den Test- und Vorführzweck hinaus benutzt werden.",
+        "TEXT_7_1": "",
+        "TEXT_7_2": "",
+        "TEXT_7_3": "",
+        "TEXT_7_4": "",
+        "TEXT_7_5": "",
+        "TEXT_7_6": "",
+        "TEXT_7_7": "",
+        "TEXT_7_8": "",
+        "TEXT_7_9": "",
+        "TEXT_7_10": "",
+        "TEXT_8_1": ""
     },
 
     "index": {
@@ -72,5 +123,15 @@
         "WIR_BIETEN_TEXT_4": "Schnelle Hilfe bei akuten Problemen",
         "WIR_BIETEN_TEXT_5": "Optimierung und Schutz Ihrer Daten",
         "WIR_BIETEN_TEXT_6": "Wiederherstellung verlorener Dateien"
+    },
+
+    "tarife": {
+
+    },
+
+    "uber-uns": {
+        "SEO_TITLE": "",
+        "SEO_DESCRIPTION": "",
+        "TITLE": ""
     }
 }

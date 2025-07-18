@@ -42,6 +42,61 @@
         "TEXT_3": "Le partenaire de sécurité pour la protection de votre accès Internet, de vos e-mails contre les virus, les pirates, les ransomwares et les spywares",
         "TEXT_4": "Acronis, la solution complète de sauvegarde et de sécurité pour les réseaux d'entreprise et les ordinateurs individuels"
     },
+
+    "agb":{
+        "SEO_TITLE": "CGV - Gillot Consulting",
+        "SEO_DESCRIPTION": "Conditions générales de vente de GILLOT CONSULTING SERVICES.",
+        "TITLE": "Conditions générales de vente",
+        "SUBTITLE": "de GILLOT CONSULTING SERVICES",
+        "TITLE_1": "1. Champ d'application",
+        "TITLE_2": "2. Livraisons et prestations",
+        "TITLE_3": "3. Examen et transfert des risques",
+        "TITLE_4": "4. Prix et conditions de paiement",
+        "TITLE_5": "5. EURO",
+        "TITLE_6": "6. Réserve de propriété",
+        "TITLE_7": "7. Garantie",
+        "TITLE_8": "8. Droits de propriété industrielle et droits d'auteur de tiers",
+        "TITLE_9": "9. Responsabilité et garantie supplémentaire",
+        "TITLE_10": "10. Permis d'exportation et d'importation",
+        "TITLE_11": "11. Taxe sur le chiffre d'affaires à l'importation CE",
+        "TITLE_12": "12. Dispositions générales",
+        "TEXT_1_1": "Les livraisons et prestations de GILLOT CONSULTING SERVICES sont exclusivement soumises aux conditions générales de vente suivantes, sauf accord écrit contraire. Il est fait référence en complément aux conditions de licence des fabricants qui accompagnent les produits contractuels.",
+        "TEXT_1_2": "Les conditions du client contraires ou divergentes des conditions générales de vente de GILLOT CONSULTING SERVICES ne sont pas reconnues par von GILLOT CONSULTING SERVICES, à moins que von GILLOT CONSULTING SERVICES n'ait expressément accepté leur validité par écrit. Les modifications et compléments du contrat doivent être faits par écrit. Les conditions générales de vente de GILLOT CONSULTING SERVICES s'appliquent également lorsque von GILLOT CONSULTING SERVICES effectue sans réserve les livraisons au client en ayant connaissance de conditions contraires ou différentes du client. Les promesses et les accords annexes requièrent la confirmation écrite de GILLOT CONSULTING SERVICES.",
+        "TEXT_2_1": "Les offres de GILLOT CONSULTING SERVICES sont sans engagement et non contractuelles. Un contrat n'est conclu qu'avec la confirmation de commande écrite de GILLOT CONSULTING SERVICES, mais au plus tard avec l'acceptation de la livraison par le client.",
+        "TEXT_2_2": "Le client se réserve le droit de procéder à des écarts techniques et conceptuels raisonnables par rapport aux indications figurant dans les prospectus, les catalogues et les documents écrits, ainsi qu'à des modifications de modèles, de construction et de matériaux dans le cadre du progrès technique et de l'évolution ultérieure, sans qu'il puisse en découler des droits à l'encontre de GILLOT CONSULTING SERVICES.",
+        "TEXT_2_3": "GILLOT CONSULTING SERVICES se réserve expressément le droit d'effectuer des livraisons partielles raisonnables et de les facturer.",
+        "TEXT_2_4": "Les délais de livraison convenus sont considérés comme respectés lorsque le produit contractuel a été remis au transporteur à la date de livraison convenue, sauf convention contraire expresse et écrite. Si l'envoi de la marchandise prête à être expédiée est retardé pour des raisons qui ne sont pas imputables à GILLOT CONSULTING SERVICES, les produits contractuels peuvent être stockés aux frais et aux risques du client.",
+        "TEXT_2_5": "La date de livraison est convenue en fonction des capacités prévisibles de GILLOT CONSULTING SERVICES et s'entend sans engagement et sous réserve d'un approvisionnement en temps utile par GILLOT CONSULTING SERVICES et de circonstances et d'obstacles imprévus, que ceux-ci surviennent chez GILLOT CONSULTING SERVICES ou chez le fabricant, notamment en cas de force majeure, de mesures gouvernementales, de non-octroi d'autorisations administratives, de conflits sociaux de toute nature, de sabotage, de pénurie de matières premières, de retards de livraison de matériel non imputables à GILLOT CONSULTING SERVICES. De tels événements prolongent d'autant le délai de livraison, même s'ils surviennent alors qu'un retard a déjà été enregistré. Le délai de livraison éventuellement prévu dans ce cas est également prolongé. délai supplémentaire fixé par le client de la durée de l'événement imprévu. Si GILLOT CONSULTING SERVICES accuse un retard de livraison de plus de quatre semaines, le client peut résilier le contrat après un délai supplémentaire raisonnable fixé par écrit, à l'exclusion de toute autre prétention. Le droit du client à des dommages et intérêts pour retard de livraison est exclu en cas de négligence ordinaire, la responsabilité est par ailleurs limitée au montant du dommage prévisible, mais au maximum à 5% de la valeur de la livraison. GILLOT CONSULTING SERVICES se réserve le droit de résilier le contrat si le retard de livraison causé par l'un des événements susmentionnés se prolonge au-delà de six semaines et si GILLOT CONSULTING SERVICES n'en est pas responsable.",
+        "TEXT_3_1": "Le client doit vérifier immédiatement après réception si la marchandise est complète et conforme au bon de livraison et à la facture. En l'absence de réclamation dans les trois jours, la marchandise est considérée comme livrée en bonne et due forme et complète, sauf s'il s'agit d'un défaut qui n'était pas visible lors de l'examen.",
+        "TEXT_3_2": "Les défauts mineurs qui n'affectent pas le bon fonctionnement de l'objet de la livraison n'autorisent pas le client à refuser la réception.",
+        "TEXT_3_3": "Le risque est transféré au client au moment de la remise du produit contractuel au transporteur, à son mandataire ou à toute autre personne désignée par GILLOT CONSULTING SERVICES. Si l'expédition est retardée ou rendue impossible pour des raisons qui ne sont pas imputables à GILLOT CONSULTING SERVICES, le risque est transféré au client au moment où celui-ci est informé que le produit est prêt à être expédié. Les dispositions du point 3.3 s'appliquent également aux retours après élimination des défauts ou prestation de service payante au client.",
+        "TEXT_4_1": "Les prix indiqués dans la liste de prix en vigueur s'entendent au départ de l'entrepôt de livraison de VIENNE ou de l'entrepôt de livraison de nos sous-traitants. La taxe sur la valeur ajoutée et les autres taxes légales dans le pays de livraison ainsi que l'emballage, les frais de transport, l'assurance transport, l'environnement et le forfait de traitement sont facturés au client conformément à la liste de prix en vigueur.",
+        "TEXT_4_2": "GILLOT CONSULTING SERVICES se réserve le droit d'augmenter le prix de manière appropriée si, après la conclusion du contrat, GILLOT CONSULTING SERVICES subit des augmentations de coûts - notamment en raison d'augmentations de prix de la part des fournisseurs ou de fluctuations des taux de change. Sur demande, GILLOT CONSULTING SERVICES en fournira la preuve au client.",
+        "TEXT_4_3": "Les paiements sont dus 10 jours ouvrables après l'établissement de la facture, sans aucune déduction. La facturation a lieu à la sortie des marchandises. En cas de dépassement des délais de paiement, GILLOT CONSULTING SERVICES a droit, sans autre mise en demeure, à des intérêts de retard à hauteur de 10% au-dessus du taux d'intérêt de base de la Banque centrale européenne en vigueur. Il n'est pas dérogé au droit de faire valoir un dommage dépassant ce montant.",
+        "TEXT_4_4": "GILLOT CONSULTING SERVICES est en droit, malgré des dispositions contraires du client, d'imputer les paiements d'abord sur les dettes antérieures du client. Si des frais et des intérêts ont déjà été occasionnés par un retard, GILLOT CONSULTING SERVICES est en droit d'imputer le paiement d'abord sur les frais, ensuite sur les intérêts et enfin sur les prestations principales.",
+        "TEXT_4_5": "Une compensation ou l'exercice d'un droit de rétention en raison de contre-prétentions que nous n'avons pas reconnues ou qui n'ont pas été constatées judiciairement par décision ayant acquis force de chose jugée est exclue.",
+        "TEXT_4_6": "Dans la mesure où il est dérogé aux conditions de paiement ci-dessus sans motif justifié, GILLOT CONSULTING SERVICES peut à tout moment exiger, au choix, une livraison contre paiement comptant, une avance ou une garantie.",
+        "TEXT_5_1": "Toutes les obligations de paiement découlant de la relation d'affaires et les autres obligations financières y afférentes sont considérées comme convenues en € (EURO).",
+        "TEXT_5_2": "Alle Bestimmungen, die eine Bezugnahme auf den Diskontsatz der Österreichischen Nationalbank beinhalten, werden in eine Bezugnahme auf den gültigen Referenzzinssatz/Basiszinssatz der Europäischen Zentralbank geändert.",
+        "TEXT_6_1": "Das Vertragsprodukt bleibt Eigentum von GILLOT CONSULTING SERVICES bis zur Erfüllung aller, auch zukünftiger Forderungen aus diesem Vertrag und darüber hinaus aus der gesamten Geschäftsbeziehung mit dem Kunden.",
+        "TEXT_6_2": "Der Kunde ist widerruflich zur Weitergabe der Vorbehaltsware im ordnungsgemäßen Geschäftsverkehr unter Eigentumsvorbehalt berechtigt, soweit er seinerseits unter eigenem Eigentumsvorbehalt weiterverkauft, nicht aber zur Verpfändung oder Sicherheitsübereignung in irgendeiner Form. Bei Zugriffen Dritter auf die Vorbehaltsware hat der Kunde auf das Eigentum GILLOT CONSULTING SERVICES hinzuweisen und GILLOT CONSULTING SERVICES unverzüglich zu unterrichten.",
+        "TEXT_6_3": "Bei Verbindung, Verarbeitung oder Vermischung der Vorbehaltsware mit GILLOT CONSULTING SERVICES nicht gehörenden Waren erwirbt GILLOT CONSULTING SERVICES Miteigentum anteilig im Verhältnis des Rechnungswertes der Vorbehaltsware zur übrigen Ware.",
+        "TEXT_6_4": "Bei Zahlungsverzug, auch aus anderen und zukünftigen Lieferungen oder Leistungen von GILLOT CONSULTING SERVICES an Kunden, oder bei Vermögensverfall des Kunden darf GILLOT CONSULTING SERVICES zur Geltendmachung des Eigentumsvorbehaltes an der Vorbehaltsware die Geschäftsräume des Kunden betreten und die Vorbehaltsware an sich nehmen.",
+        "TEXT_6_5": "Die Geltendmachung des Eigentumsvorbehaltes oder die Pfändung des Liefergegenstandes durch GILLOT CONSULTING SERVICES gelten nicht als Vertragsrücktritt, sofern der Kunde Kaufmann ist.",
+        "TEXT_6_6": "Der Kunde tritt seine Forderungen aus der Weitergabe der Vorbehaltsware im jeweiligen Rechnungswert der Vorbehaltsware bereits zum Zeitpunkt der Bestellung im voraus an GILLOT CONSULTING SERVICES ab. Der Kunde bleibt zur Einziehung auch nach der Abtretung berechtigt. GILLOT CONSULTING SERVICES ist dessenungeachtet im Rahmen des ordnungsgemäßen Geschäftsganges einziehungsberechtigt, wird von diesem Recht aber nur Gebrauch machen im Falle des Zahlungsverzugs oder bei einem Antrag auf Eröffnung des Konkurs- oder Vergleichsverfahrens durch den Kunden. Auf Verlangen von GILLOT CONSULTING SERVICES wird der Kunde die abgetretenen Forderungen benennen, erforderliche Angaben machen, Unterlagen aushändigen und den Schuldnern die Abtretung mitteilen. GILLOT CONSULTING SERVICES darf zur Sicherung seiner Zahlungsansprüche jederzeit diese Abtretung offenlegen.",
+        "TEXT_6_7": "Die Auswahl der freizugebenden Sicherheiten obliegt GILLOT CONSULTING SERVICES. Für die Bewertung der Sicherheiten ist bei der Vorbehaltsware der zur Zeit des Freigabeverlangens geltende Nettolistenpreis GILLOT CONSULTING SERVICES maßgeblich, bei abgetretenen Forderungen ist vom Nettorechnungsbetrag abzüglich eines Sicherheitsabschlags von 30 % auszugehen. Handelt es sich um Forderungen, bei welchen der Abnehmer des Kunden bereits in Zahlungsverzug ist oder Tatsachen bekannt sind, die berechtigten Grund zu der Annahme geben, dass ein Ausfall zu befürchten ist, so beträgt der Abschlag 50%. Bei wegen Verbindung, Vermischung oder Verarbeitung nur in Form von Miteigentum bestehenden Sicherheiten ist vom Nettolistenpreis der von GILLOT CONSULTING SERVICES gelieferten Ware abzüglich eines Abschlags von 30% auszugehen.",
+        "TEXT_6_8": "Für Test- und Vorführzwecke gelieferte Gegenstände bleiben im Eigentum von GILLOT CONSULTING SERVICES. Sie dürfen vom Kunden nur aufgrund gesonderter Vereinbarung mit GILLOT CONSULTING SERVICES über den Test- und Vorführzweck hinaus benutzt werden.",
+        "TEXT_7_1": "",
+        "TEXT_7_2": "",
+        "TEXT_7_3": "",
+        "TEXT_7_4": "",
+        "TEXT_7_5": "",
+        "TEXT_7_6": "",
+        "TEXT_7_7": "",
+        "TEXT_7_8": "",
+        "TEXT_7_9": "",
+        "TEXT_7_10": ""
+    },
     
     "index": {
         "SEO_TITLE": "Home - Gillot Consulting",
@@ -68,5 +123,15 @@
         "WIR_BIETEN_TEXT_5": "Optimisation et protection de vos données",
         "WIR_BIETEN_TEXT_6": "Récupération de fichiers perdus"
 
+    },
+
+    "tarife": {
+
+    },
+
+    "uber-uns": {
+        "SEO_TITLE": "",
+        "SEO_DESCRIPTION": "",
+        "TITLE": ""
     }
 }
