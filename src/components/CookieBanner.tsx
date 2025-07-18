@@ -4,51 +4,50 @@ import Cookies from 'js-cookie';
 export default function CookieBanner() {
   const [visible, setVisible] = useState(false);
 
+  const path = typeof window !== 'undefined' ? window.location.pathname : '/';
+  const supportedLangs = ['de', 'en', 'fr'];
+  const pathParts = path.split('/').filter(Boolean);
+  const currentLang = supportedLangs.includes(pathParts[0]) ? pathParts[0] : 'de';
+
+  const cookiesPage = currentLang === 'de' ? '/cookies' : `/${currentLang}/cookies`;
+  const deniedPage = currentLang === 'de' ? '/cookies-denied' : `/${currentLang}/cookies-denied`;
+
   useEffect(() => {
     const accepted = Cookies.get('cookies-accepted');
-    const path = window.location.pathname;
 
-    const isOnCookiesPage = path.startsWith('/cookies');
-    const isOnDeniedPage = path.startsWith('/cookies-denied');
+    const isOnCookiesPage = path.startsWith(cookiesPage);
+    const isOnDeniedPage = path.startsWith(deniedPage);
 
-    // ✅ Nunca redirigir si ya estamos en las páginas de política
     if (isOnCookiesPage || isOnDeniedPage) {
       return;
     }
 
-    // ✅ Redirigir solo si ha rechazado y estamos fuera de denied
-    if (
-      typeof accepted !== 'undefined' &&
-      accepted === 'false' &&
-      !isOnDeniedPage
-    ) {
-      // ✅ Esperar a que se monte correctamente y redirigir una sola vez
+    if (typeof accepted !== 'undefined' && accepted === 'false' && !isOnDeniedPage) {
       setTimeout(() => {
-        window.location.href = '/cookies-denied';
-      }, 50); // pequeño retraso para evitar loop
+        window.location.href = deniedPage;
+      }, 50);
       return;
     }
 
-    // ✅ Mostrar banner solo si aún no ha aceptado ni rechazado
     if (accepted === undefined) {
       setVisible(true);
       document.body.style.overflow = 'hidden';
     }
-  }, []);
+  }, [path, cookiesPage, deniedPage]);
 
   const acceptCookies = () => {
     Cookies.set('cookies-accepted', 'true', { expires: 365 });
     setVisible(false);
     document.body.style.overflow = '';
-    if (window.location.pathname === '/cookies-denied') {
-      window.location.href = '/';
+    if (window.location.pathname === deniedPage) {
+      window.location.href = currentLang === 'de' ? '/' : `/${currentLang}`;
     }
   };
 
   const rejectCookies = () => {
     Cookies.set('cookies-accepted', 'false', { expires: 365 });
-    if (window.location.pathname !== '/cookies-denied') {
-      window.location.href = '/cookies-denied';
+    if (window.location.pathname !== deniedPage) {
+      window.location.href = deniedPage;
     }
     setVisible(false);
     document.body.style.overflow = '';
@@ -63,7 +62,9 @@ export default function CookieBanner() {
         <p className="text-sm mb-2">
           Wir verwenden Cookies, um sicherzustellen, dass Sie die beste Erfahrung auf unserer Website machen.
         </p>
-        <p className="text-sm mb-6">Lesen Sie unsere <a href="/cookies" className='text-blue-700 hover:text-blue-800 underline'>Datenschutz-Bestimmungen</a></p>
+        <p className="text-sm mb-6">
+          Lesen Sie unsere <a href={cookiesPage} className='text-blue-700 hover:text-blue-800 underline'>Datenschutz-Bestimmungen</a>
+        </p>
         <div className="flex justify-center gap-4">
           <button
             onClick={acceptCookies}
