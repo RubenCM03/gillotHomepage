@@ -61,7 +61,7 @@ function withLocale(path: string) {
                     navPages.map((item) => (
                         <li class="w-full md:w-auto relative text-lg">
                             <a
-                                class="block w-full md:w-auto text-left p-6 hover:bg-white/5 transition-colors duration-200"
+                                class="block w-full md:w-auto text-left p-6 hover:bg-black/15 transition-colors duration-200"
                                 aria-current="page"
                                 href={withLocale(item.href)}
                             >
@@ -102,7 +102,7 @@ function withLocale(path: string) {
                             <a
                                 href="#"
                                 @click.prevent="changeLang('')"
-                                class="block px-4 py-2 hover:bg-white/5"
+                                class="block px-4 py-2 hover:bg-black/15"
                                 >Deutsch</a
                             >
                         </li>
@@ -110,7 +110,7 @@ function withLocale(path: string) {
                             <a
                                 href="#"
                                 @click.prevent="changeLang('en')"
-                                class="block px-4 py-2 hover:bg-white/5"
+                                class="block px-4 py-2 hover:bg-black/15"
                                 >English</a
                             >
                         </li>
@@ -118,7 +118,7 @@ function withLocale(path: string) {
                             <a
                                 href="#"
                                 @click.prevent="changeLang('fr')"
-                                class="block px-4 py-2 hover:bg-white/5"
+                                class="block px-4 py-2 hover:bg-black/15"
                                 >Français</a
                             >
                         </li>
