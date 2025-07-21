@@ -142,7 +142,22 @@
     },
 
     "tarife": {
-
+        "SEO_TITLE": "Tarifs - Gillot Consulting",
+        "SEO_DESCRIPTION": "Découvrez nos tarifs transparents pour l'assistance et les services informatiques. Contactez-nous pour des offres personnalisées.",
+        "TITLE": "Tarifs",
+        "TABLE_HEADER_1": "Niveau de SUPPORT : Tarifs par heure",
+        "TABLE_HEADER_2": "Prix (Euro) hors TVA",
+        "TABLE_HEADER_3": "Prix (Euro) TVA incluse",
+        "TABLE_TEXT_1": "Tarif 1 : ordinateur individuel (privé)",
+        "TABLE_TEXT_2": "Tarif 2 : ordinateur individuel (entreprise)",
+        "TABLE_TEXT_3": "Tarif 3 : ordinateurs en réseau & serveurs (entreprise)",
+        "TABLE_TEXT_4": "Devis pour ordinateur individuel",
+        "TABLE_TEXT_5": "Taxe de déplacement",
+        "TABLE_END_1": "Prix forfaitaires possibles sur demande",
+        "TABLE_END_2": "VALEUR : 11 janv. 2024",
+        "KONTAKT": "Contact",
+        "KONTAKT_TEXT": "Vous avez des questions ? Nous nous ferons un plaisir de vous conseiller personnellement :",
+        "KONTAKT_BUTTON": "Prendre contact"
     },
 
     "uber-uns": {

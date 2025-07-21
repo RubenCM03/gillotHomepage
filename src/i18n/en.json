@@ -142,7 +142,22 @@
     },
 
     "tarife": {
-
+        "SEO_TITLE": "Tariffs - Gillot Consulting",
+        "SEO_DESCRIPTION": "Discover our transparent rates for IT support and services. Contact us for individual offers.",
+        "TITLE": "Tariffs",
+        "TABLE_HEADER_1": "SUPPORT Level: Charges per hour",
+        "TABLE_HEADER_2": "Price (Euro) excl. tax",
+        "TABLE_HEADER_3": "Price (Euro) incl. tax",
+        "TABLE_TEXT_1": "Tariff 1: Single computer (private)",
+        "TABLE_TEXT_2": "Tariff 2: Single computer (company)",
+        "TABLE_TEXT_3": "Tariff 3: Computers in the network & server (company)",
+        "TABLE_TEXT_4": "Cost estimate for individual computers",
+        "TABLE_TEXT_5": "Travelling time charge",
+        "TABLE_END_1": "Package prices available on request",
+        "TABLE_END_2": "STATUS: Jan 11, 2024",
+        "KONTAKT": "Contact",
+        "KONTAKT_TEXT": "Do you have any questions? We will be happy to advise you personally:",
+        "KONTAKT_BUTTON": "Contact us"
     },
 
     "uber-uns": {

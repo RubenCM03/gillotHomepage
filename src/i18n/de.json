@@ -141,7 +141,22 @@
     },
 
     "tarife": {
-
+        "SEO_TITLE": "Tarife - Gillot Consulting",
+        "SEO_DESCRIPTION": "Entdecken Sie unsere transparenten Tarife für IT-Support und Dienstleistungen. Kontaktieren Sie uns für individuelle Angebote.",
+        "TITLE": "Tarife",
+        "TABLE_HEADER_1": "SUPPORT Level: Gebühren Pro Stunde",
+        "TABLE_HEADER_2": "Preis (Euro) exkl. MwSt",
+        "TABLE_HEADER_3": "Preis (Euro) inkl. MwSt",
+        "TABLE_TEXT_1": "Tarif 1: Einzelcomputer (Privat)",
+        "TABLE_TEXT_2": "Tarif 2: Einzelcomputer (Firma)",
+        "TABLE_TEXT_3": "Tarif 3: Computer im Netzwerk & Server (Firma)",
+        "TABLE_TEXT_4": "Kostenvoranschlag für Einzelcomputer",
+        "TABLE_TEXT_5": "Wegzeitgebühr",
+        "TABLE_END_1": "Pauschalpreise auf Anfrage möglich",
+        "TABLE_END_2": "STAND: 11. Jan 2024",
+        "KONTAKT": "Kontakt",
+        "KONTAKT_TEXT": "Sie haben Fragen? Wir beraten Sie gerne persönlich:",
+        "KONTAKT_BUTTON": "Kontakt aufnehmen"
     },
 
     "uber-uns": {

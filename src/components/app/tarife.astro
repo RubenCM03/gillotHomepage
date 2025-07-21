@@ -6,9 +6,9 @@ const currentLocale = Astro.url.pathname.split("/")[1] || "de";
 const i18n = getI18N({ currentLocale });
 ---
 
-<Layout title="Tarife - Gillot Consulting" description="Entdecken Sie unsere transparenten Tarife für IT-Support und Dienstleistungen. Kontaktieren Sie uns für individuelle Angebote.">
-    <div class="container mx-auto ">
-        <h1 class="text-4xl font-bold text-center mx-auto mt-8 mb-8">Tarife</h1>
+<Layout title={i18n.tarife.SEO_TITLE} description={i18n.tarife.SEO_DESCRIPTION}>
+    <div class="container mx-auto">
+        <h1 class="text-4xl font-bold text-center mx-auto mt-8 mb-8">{i18n.tarife.TITLE}</h1>
         <div class="flex flex-col md:flex-row gap-8 items-start">
             <div class="w-full md:w-2/3">
                 <table
@@ -17,50 +17,49 @@ const i18n = getI18N({ currentLocale });
                     <thead>
                         <tr class="bg-[#0C3956]">
                             <th class="py-3 px-4 text-left font-semibold w-2/3"
-                                >SUPPORT Level: Gebühren Pro Stunde</th
+                                >{i18n.tarife.TABLE_HEADER_1}</th
                             >
                             <th
                                 class="py-3 px-4 text-center font-semibold w-1/6"
-                                >Preis(Euro) exkl. MwSt</th
+                                >{i18n.tarife.TABLE_HEADER_2}</th
                             >
                             <th
                                 class="py-3 px-4 text-center font-semibold w-1/6"
-                                >Preis(Euro) inkl. MwSt</th
+                                >{i18n.tarife.TABLE_HEADER_3}</th
                             >
                         </tr>
                     </thead>
                     <tbody>
                         <tr class="border-b border-blue-900">
                             <td class="py-3 px-4"
-                                >Tarif 1: Einzelcomputer (Privat)</td
+                                >{i18n.tarife.TABLE_TEXT_1}</td
                             >
                             <td class="py-3 px-4 text-center">66,66 €</td>
                             <td class="py-3 px-4 text-center">80 €</td>
                         </tr>
                         <tr class="border-b border-blue-900 bg-[#125683]">
                             <td class="py-3 px-4"
-                                >Tarif 2: Einzelcomputer (Firma)</td
+                                >{i18n.tarife.TABLE_TEXT_2}</td
                             >
                             <td class="py-3 px-4 text-center">75 €</td>
                             <td class="py-3 px-4 text-center">90 €</td>
                         </tr>
                         <tr class="border-b border-blue-900">
                             <td class="py-3 px-4"
-                                >Tarif 3: Computer im Netzwerk &amp; Server
-                                (Firma)</td
+                                >{i18n.tarife.TABLE_TEXT_3}</td
                             >
                             <td class="py-3 px-4 text-center">91,66 €</td>
                             <td class="py-3 px-4 text-center">110 €</td>
                         </tr>
                         <tr class="border-b border-blue-900 bg-[#125683]">
                             <td class="py-3 px-4"
-                                >Kostenvoranschlag für Einzelcomputer</td
+                                >{i18n.tarife.TABLE_TEXT_4}</td
                             >
                             <td class="py-3 px-4 text-center">33,33 €</td>
                             <td class="py-3 px-4 text-center">40 €</td>
                         </tr>
                         <tr class="border-b border-blue-900">
-                            <td class="py-3 px-4">Wegzeitgebühr</td>
+                            <td class="py-3 px-4">{i18n.tarife.TABLE_TEXT_5}</td>
                             <td class="py-3 px-4 text-center">25 €</td>
                             <td class="py-3 px-4 text-center">30 €</td>
                         </tr>
@@ -68,7 +67,7 @@ const i18n = getI18N({ currentLocale });
                             <td
                                 colspan="3"
                                 class="py-3 px-4 bg-[#0C3956] font-medium text-center"
-                                >Pauschalpreise auf Anfrage möglich</td
+                                >{i18n.tarife.TABLE_END_1}</td
                             >
                         </tr>
                         <tr>
@@ -99,15 +98,15 @@ const i18n = getI18N({ currentLocale });
                                 d="M2 4h20c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H2c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zm0 2v.01L12 13 22 6.01V6H2zm0 2.25V18h20V8.25l-10 7L2 8.25z"
                             ></path>
                         </svg>
-                        Kontakt
+                        {i18n.tarife.KONTAKT}
                     </h2>
                     <p class="text-blue-100 mb-2">
-                        Sie haben Fragen? Wir beraten Sie gerne persönlich:
+                        {i18n.tarife.KONTAKT_TEXT}
                     </p>
                     <a
                         href="/kontakt"
                         class="inline-block mt-2 bg-[#0C3956] hover:bg-[#001735] font-bold py-2 px-4 rounded transition-colors duration-200 shadow"
-                        >Kontakt aufnehmen</a
+                        >{i18n.tarife.KONTAKT_BUTTON}</a
                     >
                 </div>
             </aside>
