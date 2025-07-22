@@ -7,21 +7,19 @@ const i18n = getI18N({ currentLocale });
 ---
 
 <Layout
-    title="Cookies abgelehnt"
-    description="Sie haben die Verwendung von Cookies abgelehnt. Einige Funktionen der Website sind möglicherweise eingeschränkt."
+    title={i18n.cookies_denied.SEO_TITLE}
+    description={i18n.cookies_denied.SEO_DESCRIPTION}
 >
-    <div class="flex flex-col items-center justify-center text-center px-4">
-        <h1 class="text-2xl font-bold text-red-600 mb-4">Zugang verweigert</h1>
-        <p class="mb-6 max-w-md">
-            Sie haben die Verwendung von Cookies abgelehnt. Um die Website zu
-            nutzen, akzeptieren Sie bitte die Cookies.
+    <div class="flex flex-col mt-20 items-center justify-center text-center space-y-2 px-6 py-4 bg-[#DB1F32] rounded-xl shadow-inner backdrop-blur-sm max-w-md mx-auto">        <h1 class="text-2xl font-bold text-[#82121E] mb-4">{i18n.cookies_denied.TITLE}</h1>
+        <p class="mb-6">
+            {i18n.cookies_denied.TEXT}
         </p>
 
         <button
             id="acceptCookies"
-            class="px-5 py-3 text-lg rounded cursor-pointer bg-[#125683] hover:bg-black/40 transition-all duration-300 font-bold text-white shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2"
+            class="px-5 py-3 text-lg rounded cursor-pointer text-[#82121E] hover:text-white bg-white hover:bg-black/40 transition-all duration-300 font-bold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2"
         >
-            Cookies akzeptieren
+            {i18n.cookies_denied.BUTTON}
         </button>
 
         <script type="module">
@@ -31,7 +29,7 @@ const i18n = getI18N({ currentLocale });
                 .getElementById("acceptCookies")
                 ?.addEventListener("click", () => {
                     Cookies.set("cookies-accepted", "true", { expires: 365 });
-                    document.body.style.overflow = ""; // <-- aquí desbloqueamos scroll/touch
+                    document.body.style.overflow = "";
                     window.location.href = "/";
                 });
         </script>

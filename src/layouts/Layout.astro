@@ -39,7 +39,7 @@ const currentLocale = supportedLocales.includes(localeFromPath) ? localeFromPath
 		<title>{title}</title>
 	</head>
 	<body>
-		<CookieBanner client:load />
+		<CookieBanner client:load currentLocale={currentLocale} />
 		<Navbar />
 		<main class="pb-15">
 			<slot />

@@ -17,6 +17,32 @@
         "KONTAKT": "Kontakt"
     },
 
+    "cookies_denied": {
+        "SEO_TITLE": "Cookies abgelehnt - Gillot Consulting",
+        "SEO_DESCRIPTION": "Sie haben die Verwendung von Cookies abgelehnt. Einige Funktionen der Website sind möglicherweise eingeschränkt.",
+        "TITLE": "Zugang verweigert",
+        "TEXT": "Sie haben die Verwendung von Cookies abgelehnt. Um die Website zu nutzen, akzeptieren Sie bitte die Cookies.",
+        "BUTTON": "Cookies akzeptieren"
+    },
+
+    "cookies": {
+        "SEO_TITLE": "Cookies - Gillot Consulting",
+        "SEO_DESCRIPTION": "Informationen zu Cookies auf der Website von Gillot Consulting. Erfahren Sie, wie wir Cookies verwenden und Ihre Privatsphäre schützen.",
+        "TITLE": "Diese Webseite verwendet Cookies!",
+        "TEXT_1": "Wir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für soziale Medien anbieten zu können und die Zugriffe auf unsere Website zu analysieren.",
+        "TEXT_2": "Sie geben Einwilligung zu unseren Cookies, wenn Sie unsere Webseite weiterhin nutzen.",
+        "TEXT_3": "Bitte beachten Sie, dass manche Zahlungsdienstleister nur nutzbar sind, wenn ihre Cookies akzeptiert werden. Sollte ein Zahlungsversuch fehlschlagen, passen Sie bitte Ihre Cookieeinstellungen an."
+    },
+
+    "cookieBanner": {
+        "TITLE": "Zustimmung zu Cookies",
+        "TEXT_1": "Wir verwenden Cookies, um sicherzustellen, dass Sie die beste Erfahrung auf unserer Website machen.",
+        "TEXT_2": "Lesen Sie unsere",
+        "TEXT_3": "Datenschutz-Bestimmungen",
+        "BUTTON_1": "Akzeptieren",
+        "BUTTON_2": "Ablehnen"
+    },
+
     "impressum": {
         "SEO_TITLE": "Impressum - Gillot Consulting",
         "SEO_DESCRIPTION": "Impressum und rechtliche Hinweise für Gillot Consulting Services. Erfahren Sie mehr über unsere Kontaktdaten und rechtlichen Informationen.",

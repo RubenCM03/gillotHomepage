@@ -17,6 +17,32 @@
         "KONTAKT": "Contact"
     },
 
+    "cookies_denied": {
+        "SEO_TITLE": "Cookies rejected - Gillot Consulting",
+        "SEO_DESCRIPTION": "You have declined the use of cookies. Some functions of the website may be restricted.",
+        "TITLE": "Access denied",
+        "TEXT": "You have declined the use of cookies. To use the website, please accept the cookies.",
+        "BUTTON": "Accept cookies"
+    },
+
+    "cookies": {
+        "SEO_TITLE": "Cookies - Gillot Consulting",
+        "SEO_DESCRIPTION": "Information about cookies on the Gillot Consulting website. Find out how we use cookies and protect your privacy.",
+        "TITLE": "This website uses cookies!",
+        "TEXT_1": "We use cookies to personalize content and advertisements, to offer functions for social media and to analyze access to our website.",
+        "TEXT_2": "You consent to our cookies if you continue to use our website.",
+        "TEXT_3": "Please note that some payment service providers can only be used if their cookies are accepted. If a payment attempt fails, please adjust your cookie settings."
+    },
+
+    "cookieBanner": {
+        "TITLE": "Consent to cookies",
+        "TEXT_1": "We use cookies to ensure that we give you the best experience on our website.",
+        "TEXT_2": "Read our",
+        "TEXT_3": "Privacy policy",
+        "BUTTON_1": "Accept",
+        "BUTTON_2": "Reject"
+    },
+
     "impressum": {
         "SEO_TITLE": "Legal Notice - Gillot Consulting",
         "SEO_DESCRIPTION": "Legal notice and information for Gillot Consulting Services. Learn more about our contact details and legal information.",
