@@ -1,4 +1,5 @@
 ---
+import KontaktButton from "@/components/kontaktButton.astro";
 import Layout from "@/layouts/Layout.astro";
 ---
 
@@ -18,20 +19,28 @@ import Layout from "@/layouts/Layout.astro";
     </section>
 
     <section
-        class="max-w-4xl mx-auto px-4 py-12 text-center space-y-6 text-lg leading-relaxed"
+        class="max-w-4xl mx-auto px-4 py-12 text-lg leading-relaxed flex flex-col md:flex-row items-center gap-8"
     >
-        <p>
-            Ob alleinstehende Computer und Peripherie im privaten Haushalt, oder
-            Firmennetzwerke und Server, wir sind täglich für Sie im Einsatz.
-        </p>
-        <p>
-            Kompetenz und freundliches Service mit höchsten Qualitätsansprüchen
-            sind unsere Maxime.
-        </p>
-        <p>
-            Wir bieten erste Hilfe bei Computerproblemen. Wir haben einen Vorort
-            Service oder Sie können Ihr Computer zu uns bringen
-        </p>
+        <div class="flex-1 space-y-6 text-center md:text-left">
+            <p>
+                Ob alleinstehende Computer und Peripherie im privaten Haushalt,
+                oder Firmennetzwerke und Server, wir sind täglich für Sie im
+                Einsatz.
+            </p>
+            <p class="text-[#f4d35e] font-bold">
+                Kompetenz und freundliches Service mit höchsten
+                Qualitätsansprüchen sind unsere Maxime.
+            </p>
+            <p>
+                Wir bieten erste Hilfe bei Computerproblemen. Wir haben einen
+                Vorort Service oder Sie können Ihr Computer zu uns bringen
+            </p>
+        </div>
+        <img
+            src="/img/content/computerNotdienst.webp"
+            alt=""
+            class="w-full max-w-sm md:w-1/2 md:max-w-xl rounded-lg shadow-md hover:shadow-xl transition-all"
+        />
     </section>
 
     <section class="bg-white/10 py-8 md:py-10">
@@ -123,20 +132,5 @@ import Layout from "@/layouts/Layout.astro";
             schwierigsten Fehler.
         </p>
     </section>
-
-    <section class="text-center mt-10 px-4">
-        <h2 class="text-2xl md:text-3xl font-bold mb-4">
-            Haben Sie Interesse?
-        </h2>
-        <p class="text-lg mb-6">
-            Gerne beraten wir Sie ausführlich und unterbreiten Ihnen ein auf Sie
-            abgestimmtes Angebot.
-        </p>
-        <a
-            href="/kontakt"
-            class="inline-block bg-[#f5a623] hover:bg-black/10 font-bold px-8 py-3 rounded-xl shadow-lg transition-all duration-300"
-        >
-            Jetzt Kontakt aufnehmen
-        </a>
-    </section>
+    <KontaktButton/>
 </Layout>
