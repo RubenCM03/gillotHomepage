@@ -185,9 +185,37 @@
         "KONTAKT_BUTTON": "Kontakt aufnehmen"
     },
 
-    "uber-uns": {
-        "SEO_TITLE": "",
-        "SEO_DESCRIPTION": "",
-        "TITLE": ""
+    "uber_uns": {
+        "SEO_TITLE": "Über Uns - Gillot Consulting",
+        "SEO_DESCRIPTION": "Erfahren Sie mehr über Gillot Consulting, unsere Philosophie und unser Team. Wir sind spezialisiert auf IT-Lösungen, Netzwerke und Webentwicklung.",
+        "TITLE": "Über uns",
+        "GILLOT": "Jean-Michel Gillot – MANAGER",
+        "GILLOT_TEXT_1": "Computer und Menschen miteinander zu vernetzen haben immer eine Faszination auf mich ausgeübt. Diese Begeisterung ist ansteckend, das wissen viele meiner Kunden und meiner Schüler. Ob Microsoft oder Novell Netzwerke, Mailsysteme, Sicherheitskonzepte, Branchenlösungen, Weblösungen oder Marketinginstrumente wie CRM Lösungen – alles was die Kommunikation fördert, unterstützen wir. Mehr als 20 Jahre Erfahrung im Dienste kleiner und großer Unternehmen haben einen tiefen Einblick für das Wesentliche vermittelt.",
+        "GILLOT_TEXT_2": "Kompetenz, Zuverlässigkeit und Freundlichkeit sind die drei Eckpfeiler unseres Handelns.",
+        "SUBTITLE": "Mitarbeiter",
+        "EMPLOYEE_1_TITLE": "Mag. Ing. Jean-Michel Gillot – IT-Consulting und Services",
+        "EMPLOYEE_2_TITLE": "Programmierung / Projektmangement",
+        "EMPLOYEE_3_TITLE": "Techniker - EDV-Dienste",
+        "EMPLOYEE_4_TITLE": "EDV-Dienste",
+        "EMPLOYEE_1_LIST_1": "Betriebssysteme: Alle Windows Versionen.",
+        "EMPLOYEE_1_LIST_2": "Hardware: Notebooks, Desktop PCs, Peripherie Geräte, Router, Firewalls, CRD-, LCD und TFT-Monitore.",
+        "EMPLOYEE_1_LIST_3": "Netzwerk-Server Einrichtung und Betreuung: WinNT, Win20XX, Exchange 20XX, Small Business Server, Verkabelung.",
+        "EMPLOYEE_1_LIST_4": "Datenbanken: MS-SQL.",
+        "EMPLOYEE_1_LIST_5": "Branchenlösungen auf Anfrage.",
+        "EMPLOYEE_1_LIST_6": "Voice over IP Anlagen, Planung von IT-Anlagen, VPN Anbindungen.",
+        "EMPLOYEE_1_LIST_7": "Fremdsprachen: Französisch, Englisch, Italienisch.",
+        "EMPLOYEE_2_LIST_1": "Programmiersprachen: VBA, VB6.",
+        "EMPLOYEE_2_LIST_2": "Schwerpunkt: objektorientierte Programmierung/Weiterentwicklung proprietärer Firmenlösungen in einer MS-Office-Umgebung.",
+        "EMPLOYEE_2_LIST_3": "Projektmanagement: Planung, Durchführung und Evaluierung von EDV-Projekten.",
+        "EMPLOYEE_2_LIST_4": "Datenbanken: Access, MS-SQL-Server (ab 2000), DBase, FoxPro.",
+        "EMPLOYEE_2_LIST_5": "Fremdsprachen: Englisch, Französisch.",
+        "EMPLOYEE_3_LIST_1": "Betriebssysteme: Alle Windows-Versionen.",
+        "EMPLOYEE_3_LIST_2": "Hardware: Notebooks, Desktop PC's, Server, Peripherie Geräte, Router, Firewalls, CRD-, LCD und TFT-Monitore.",
+        "EMPLOYEE_3_LIST_3": "Netzwerk-Server Einrichtung und Betreuung: WinX, Exchange 20XX, Small Business Server 20XX, Verkabelung.",
+        "EMPLOYEE_3_LIST_4": "Fremdsprachen: Englisch.",
+        "EMPLOYEE_4_LIST_1": "Betriebssysteme: Alle Windows-Versionen.",
+        "EMPLOYEE_4_LIST_2": "Hardware: Notebooks, Desktop PC's, Server, Peripherie Geräte, Router, Firewalls, CRD-, LCD und TFT-Monitore.",
+        "EMPLOYEE_4_LIST_3": "Netzwerk-Server Einrichtung und Betreuung: WinX, Exchange 20XX, Small Business Server 20XX, Verkabelung.",
+        "EMPLOYEE_4_LIST_4": "Fremdsprachen: Englisch."
     }
 }

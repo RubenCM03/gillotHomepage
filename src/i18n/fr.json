@@ -186,9 +186,37 @@
         "KONTAKT_BUTTON": "Prendre contact"
     },
 
-    "uber-uns": {
-        "SEO_TITLE": "",
-        "SEO_DESCRIPTION": "",
-        "TITLE": ""
+    "uber_uns": {
+        "SEO_TITLE": "À propos - Gillot Consulting",
+        "SEO_DESCRIPTION": "Apprenez-en plus sur Gillot Consulting, notre philosophie et notre équipe. Nous sommes spécialisés dans les solutions informatiques, les réseaux et le développement web.",
+        "TITLE": "À propos de nous",
+        "GILLOT": "Jean-Michel Gillot – MANAGER",
+        "GILLOT_TEXT_1": "La mise en réseau des ordinateurs et des personnes a toujours exercé une fascination sur moi. Cet enthousiasme est contagieux, beaucoup de mes clients et de mes élèves le savent. Qu'il s'agisse de réseaux Microsoft ou Novell, de systèmes de messagerie, de concepts de sécurité, de solutions sectorielles, de solutions web ou d'instruments de marketing comme les solutions CRM, nous soutenons tout ce qui favorise la communication. Plus de 20 ans d'expérience au service de petites et grandes entreprises nous ont permis d'acquérir une vision profonde de l'essentiel.",
+        "GILLOT_TEXT_2": "Compétence, fiabilité et amabilité sont les trois piliers de notre action.",
+        "SUBTITLE": "Collaborateurs",
+        "EMPLOYEE_1_TITLE": "Mag. Ing. Jean-Michel Gillot – Conseil et services en informatique",
+        "EMPLOYEE_2_TITLE": "Programmation / Gestion de projet",
+        "EMPLOYEE_3_TITLE": "Technicien - Services informatiques",
+        "EMPLOYEE_4_TITLE": "Services informatiques",
+        "EMPLOYEE_1_LIST_1": "Systèmes d'exploitation : Toutes les versions de Windows.",
+        "EMPLOYEE_1_LIST_2": "Matériel informatique : Ordinateurs portables, ordinateurs de bureau, périphériques, routeurs, pare-feu, moniteurs CRD, LCD et TFT.",
+        "EMPLOYEE_1_LIST_3": "Mise en place et suivi de serveurs réseau : WinNT, Win20XX, Exchange 20XX, Small Business Server, câblage.",
+        "EMPLOYEE_1_LIST_4": "Bases de données : MS-SQL.",
+        "EMPLOYEE_1_LIST_5": "Solutions sectorielles sur demande.",
+        "EMPLOYEE_1_LIST_6": "Installations Voice over IP, planification d'installations informatiques, connexions VPN.",
+        "EMPLOYEE_1_LIST_7": "Langues étrangères : français, anglais, italien.",
+        "EMPLOYEE_2_LIST_1": "Langages de programmation : VBA, VB6.",
+        "EMPLOYEE_2_LIST_2": "Spécialisation : programmation orientée objet/développement de solutions d'entreprise propriétaires dans un environnement MS-Office.",
+        "EMPLOYEE_2_LIST_3": "Gestion de projets : planification, réalisation et évaluation de projets informatiques.",
+        "EMPLOYEE_2_LIST_4": "Bases de données : Access, MS-SQL Server (à partir de 2000), DBase, FoxPro.",
+        "EMPLOYEE_2_LIST_5": "Langues étrangères : anglais, français.",
+        "EMPLOYEE_3_LIST_1": "Systèmes d'exploitation : Toutes les versions de Windows.",
+        "EMPLOYEE_3_LIST_2": "Matériel informatique : Ordinateurs portables, PC de bureau, serveurs, périphériques, routeurs, pare-feu, moniteurs CRD, LCD et TFT.",
+        "EMPLOYEE_3_LIST_3": "Mise en place et suivi du serveur réseau : WinX, Exchange 20XX, Small Business Server 20XX, câblage.",
+        "EMPLOYEE_3_LIST_4": "Langues étrangères : Anglais.",
+        "EMPLOYEE_4_LIST_1": "Systèmes d'exploitation : Toutes les versions de Windows.",
+        "EMPLOYEE_4_LIST_2": "Matériel informatique : Ordinateurs portables, PC de bureau, serveurs, périphériques, routeurs, pare-feu, moniteurs CRD, LCD et TFT.",
+        "EMPLOYEE_4_LIST_3": "Mise en place et suivi du serveur réseau : WinX, Exchange 20XX, Small Business Server 20XX, câblage.",
+        "EMPLOYEE_4_LIST_4": "Langues étrangères : Anglais."
     }
 }

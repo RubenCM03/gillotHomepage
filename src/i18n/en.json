@@ -186,10 +186,38 @@
         "KONTAKT_BUTTON": "Contact us"
     },
 
-    "uber-uns": {
-        "SEO_TITLE": "",
-        "SEO_DESCRIPTION": "",
-        "TITLE": ""
+    "uber_uns": {
+        "SEO_TITLE": "About us - Gillot Consulting",
+        "SEO_DESCRIPTION": "Find out more about Gillot Consulting, our philosophy and our team. We specialize in IT solutions, networks and web development.",
+        "TITLE": "About us",
+        "GILLOT": "Jean-Michel Gillot – MANAGER",
+        "GILLOT_TEXT_1": "Networking computers and people has always fascinated me. This enthusiasm is contagious, as many of my customers and students know. Whether Microsoft or Novell networks, mail systems, security concepts, industry solutions, web solutions or marketing tools such as CRM solutions - we support everything that promotes communication. More than 20 years of experience in the service of small and large companies have given me a deep insight into the essentials.",
+        "GILLOT_TEXT_2": "Competence, reliability and friendliness are the three cornerstones of our business.",
+        "SUBTITLE": "Employees",
+        "EMPLOYEE_1_TITLE": "Mag. Ing. Jean-Michel Gillot – IT consulting and services",
+        "EMPLOYEE_2_TITLE": "Programming / Project management",
+        "EMPLOYEE_3_TITLE": "Technician - IT services",
+        "EMPLOYEE_4_TITLE": "IT services",
+        "EMPLOYEE_1_LIST_1": "Operating systems: All Windows versions.",
+        "EMPLOYEE_1_LIST_2": "Hardware: Notebooks, desktop PCs, peripheral devices, routers, firewalls, CRD, LCD and TFT monitors.",
+        "EMPLOYEE_1_LIST_3": "Network server setup and support: WinNT, Win20XX, Exchange 20XX, Small Business Server, cabling.",
+        "EMPLOYEE_1_LIST_4": "Databases: MS-SQL.",
+        "EMPLOYEE_1_LIST_5": "Industry solutions on request.",
+        "EMPLOYEE_1_LIST_6": "Voice over IP systems, planning of IT systems, VPN connections.",
+        "EMPLOYEE_1_LIST_7": "Foreign languages: French, English, Italian.",
+        "EMPLOYEE_2_LIST_1": "Programming languages: VBA, VB6.",
+        "EMPLOYEE_2_LIST_2": "Focus: object-oriented programming/further development of proprietary company solutions in an MS Office environment.",
+        "EMPLOYEE_2_LIST_3": "Project management: planning, implementation and evaluation of IT projects.",
+        "EMPLOYEE_2_LIST_4": "Databases: Access, MS SQL Server (from 2000), DBase, FoxPro.",
+        "EMPLOYEE_2_LIST_5": "Foreign languages: English, French.",
+        "EMPLOYEE_3_LIST_1": "Operating systems: All Windows versions.",
+        "EMPLOYEE_3_LIST_2": "Hardware: Notebooks, desktop PCs, servers, peripheral devices, routers, firewalls, CRD, LCD and TFT monitors.",
+        "EMPLOYEE_3_LIST_3": "Network server setup and support: WinX, Exchange 20XX, Small Business Server 20XX, cabling.",
+        "EMPLOYEE_3_LIST_4": "Foreign languages: English.",
+        "EMPLOYEE_4_LIST_1": "Operating systems: All Windows versions.",
+        "EMPLOYEE_4_LIST_2": "Hardware: Notebooks, desktop PCs, servers, peripheral devices, routers, firewalls, CRD, LCD and TFT monitors.",
+        "EMPLOYEE_4_LIST_3": "Network server setup and support: WinX, Exchange 20XX, Small Business Server 20XX, cabling.",
+        "EMPLOYEE_4_LIST_4": "Foreign languages: English."
     }
     
 }
