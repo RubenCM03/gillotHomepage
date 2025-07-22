@@ -1,5 +1,6 @@
 ---
 import Dienstleistungen from "@/components/Dienstleistungen-nav.astro";
+import LanguageMenu from "@/components/LanguageMenu.astro";
 import { getI18N } from "@/i18n/index.ts";
 
 const pathname = Astro.url.pathname;
@@ -92,38 +93,7 @@ function withLocale(path: string) {
                                 clip-rule="evenodd"></path>
                         </svg>
                     </button>
-                    <ul
-                        x-show="openLang"
-                        x-cloak
-                        @click.away="openLang = false"
-                        x-transition
-                        class="absolute right-0 mt-2 w-32 bg-[#125683] rounded shadow-lg z-10"
-                    >
-                        <li>
-                            <a
-                                href="#"
-                                @click.prevent="changeLang('')"
-                                class="block px-4 py-2 hover:bg-black/15"
-                                >Deutsch</a
-                            >
-                        </li>
-                        <li>
-                            <a
-                                href="#"
-                                @click.prevent="changeLang('en')"
-                                class="block px-4 py-2 hover:bg-black/15"
-                                >English</a
-                            >
-                        </li>
-                        <li>
-                            <a
-                                href="#"
-                                @click.prevent="changeLang('fr')"
-                                class="block px-4 py-2 hover:bg-black/15"
-                                >Français</a
-                            >
-                        </li>
-                    </ul>
+                    <LanguageMenu/>
                 </div>
             </ul>
         </div>
