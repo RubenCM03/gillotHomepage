@@ -226,6 +226,18 @@
         "TITLE": "Location",
         "TEXT": "Discover our location in the heart of Vienna - visit us and let our team of experts advise you!",
         "ACHTUNG": "Attention! New address from November 1, 2025: "
+    },
+
+    "kontakt": {
+        "SEO_TITLE": "Contact - Gillot Consulting",
+        "SEO_DESCRIPTION": "Contact Gillot Consulting Services for inquiries and support. We are here to help you.",
+        "TITLE": "Contact",
+        "SUBTITLE": "Contact us",
+        "TEXT_1": "Dear customers and interested parties,",
+        "TEXT_2": "please send your message to this e-mail address with the subject:",  
+        "TEXT_3": "Request",  
+        "TEXT_4": "The online form has been deleted for data protection reasons.",
+        "PHONE": "Phone:"
     }
     
 }

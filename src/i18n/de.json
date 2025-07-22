@@ -225,5 +225,17 @@
         "TITLE": "Standort",
         "TEXT": "Entdecken Sie unseren Standort im Herzen von Wien - besuchen Sie uns und lassen Sie sich von unserem Expertenteam beraten!",
         "ACHTUNG": "Achtung! Neue Adresse ab dem 1. November 2025: "
+    },
+    
+    "kontakt": {
+        "SEO_TITLE": "Kontakt - Gillot Consulting",
+        "SEO_DESCRIPTION": "Kontaktieren Sie Gillot Consulting Services für Anfragen und Unterstützung. Wir sind hier, um Ihnen zu helfen.",
+        "TITLE": "Kontakt",
+        "SUBTITLE": "Kontaktieren Sie uns",
+        "TEXT_1": "Sehr geehrte Kunden und Interessenten,",
+        "TEXT_2": "bitte senden Sie Ihre Nachricht an diese E-Mail-Adresse mit dem Betreff:",  
+        "TEXT_3": "Anfrage",  
+        "TEXT_4": "Das Online-Formular wurde aus Datenschutzgründen gelöscht.",
+        "PHONE": "Telefon:"
     }
 }

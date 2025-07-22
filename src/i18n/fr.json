@@ -226,5 +226,17 @@
         "TITLE": "Emplacement",
         "TEXT": "Découvrez notre site au cœur de Vienne - venez nous rendre visite et laissez-vous conseiller par notre équipe d'experts !",
         "ACHTUNG": "Attention! Nouvelle adresse à partir du 1er novembre 2025 : "
+    },
+
+    "kontakt": {
+        "SEO_TITLE": "Contact - Gillot Consulting",
+        "SEO_DESCRIPTION": "Contactez Gillot Consulting Services pour toute demande ou assistance. Nous sommes là pour vous aider.",
+        "TITLE": "Contact",
+        "SUBTITLE": "Contactez-nous",
+        "TEXT_1": "Chers clients et prospects,",
+        "TEXT_2": "veuillez envoyer votre message à cette adresse e-mail avec l'objet :",  
+        "TEXT_3": "Demande",  
+        "TEXT_4": "Le formulaire en ligne a été supprimé pour des raisons de protection des données.",
+        "PHONE": "Téléphone:"
     }
 }
