@@ -218,5 +218,13 @@
         "EMPLOYEE_4_LIST_2": "Matériel informatique : Ordinateurs portables, PC de bureau, serveurs, périphériques, routeurs, pare-feu, moniteurs CRD, LCD et TFT.",
         "EMPLOYEE_4_LIST_3": "Mise en place et suivi du serveur réseau : WinX, Exchange 20XX, Small Business Server 20XX, câblage.",
         "EMPLOYEE_4_LIST_4": "Langues étrangères : Anglais."
+    },
+
+    "standort": {
+        "SEO_TITLE": "Emplacement - Gillot Consulting",
+        "SEO_DESCRIPTION": "Site de Gillot Consulting Services à Vienne. Venez nous rendre visite pour des conseils et un soutien personnalisés.",
+        "TITLE": "Emplacement",
+        "TEXT": "Découvrez notre site au cœur de Vienne - venez nous rendre visite et laissez-vous conseiller par notre équipe d'experts !",
+        "ACHTUNG": "Attention! Nouvelle adresse à partir du 1er novembre 2025 : "
     }
 }

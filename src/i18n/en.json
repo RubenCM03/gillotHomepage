@@ -218,6 +218,14 @@
         "EMPLOYEE_4_LIST_2": "Hardware: Notebooks, desktop PCs, servers, peripheral devices, routers, firewalls, CRD, LCD and TFT monitors.",
         "EMPLOYEE_4_LIST_3": "Network server setup and support: WinX, Exchange 20XX, Small Business Server 20XX, cabling.",
         "EMPLOYEE_4_LIST_4": "Foreign languages: English."
+    },
+
+    "standort": {
+        "SEO_TITLE": "Location - Gillot Consulting",
+        "SEO_DESCRIPTION": "Location of Gillot Consulting Services in Vienna. Visit us for personal advice and support.",
+        "TITLE": "Location",
+        "TEXT": "Discover our location in the heart of Vienna - visit us and let our team of experts advise you!",
+        "ACHTUNG": "Attention! New address from November 1, 2025: "
     }
     
 }

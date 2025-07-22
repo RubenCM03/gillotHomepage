@@ -217,5 +217,13 @@
         "EMPLOYEE_4_LIST_2": "Hardware: Notebooks, Desktop PC's, Server, Peripherie Geräte, Router, Firewalls, CRD-, LCD und TFT-Monitore.",
         "EMPLOYEE_4_LIST_3": "Netzwerk-Server Einrichtung und Betreuung: WinX, Exchange 20XX, Small Business Server 20XX, Verkabelung.",
         "EMPLOYEE_4_LIST_4": "Fremdsprachen: Englisch."
+    },
+
+    "standort": {
+        "SEO_TITLE": "Standort - Gillot Consulting",
+        "SEO_DESCRIPTION": "Standort von Gillot Consulting Services in Wien. Besuchen Sie uns für persönliche Beratung und Unterstützung.",
+        "TITLE": "Standort",
+        "TEXT": "Entdecken Sie unseren Standort im Herzen von Wien - besuchen Sie uns und lassen Sie sich von unserem Expertenteam beraten!",
+        "ACHTUNG": "Achtung! Neue Adresse ab dem 1. November 2025: "
     }
 }
