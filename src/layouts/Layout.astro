@@ -15,7 +15,9 @@ const pathname = Astro.url.pathname;
 const localeFromPath = pathname.split("/")[1];
 const supportedLocales = ["de", "en", "fr"];
 
-const currentLocale = supportedLocales.includes(localeFromPath) ? localeFromPath : "de";
+const currentLocale = supportedLocales.includes(localeFromPath)
+	? localeFromPath
+	: "de";
 ---
 
 <!doctype html>
@@ -50,12 +52,15 @@ const currentLocale = supportedLocales.includes(localeFromPath) ? localeFromPath
 
 <style is:global>
 	html {
-		background:#1974AF;
+		background: #1974af;
 		color: white;
 		color-scheme: dark light;
 		margin: 0;
 		padding: 0;
 		min-height: 100%;
+		[x-cloak] {
+			display: none !important;
+		}
 	}
 	body {
 		overflow-x: hidden;

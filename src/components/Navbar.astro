@@ -94,6 +94,7 @@ function withLocale(path: string) {
                     </button>
                     <ul
                         x-show="openLang"
+                        x-cloak
                         @click.away="openLang = false"
                         x-transition
                         class="absolute right-0 mt-2 w-32 bg-[#125683] rounded shadow-lg z-10"
