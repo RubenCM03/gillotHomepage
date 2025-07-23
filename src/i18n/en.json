@@ -1,4 +1,13 @@
 {
+    "notFound": {
+        "SEO_TITLE": "404 - Gillot Consulting",
+        "SEO_DESCRIPTION": "Page not found on Gillot Consulting page. Go back to the main page to see all the content.",
+        "TITLE": "404",
+        "SUBTITLE": "Page not found",
+        "TEXT": "Sorry, the page you are looking for does not exist or has been moved.",
+        "BUTTON": "Homepage"
+    },
+
     "nav": {
         "HOME": "Home",
         "TARIFE": "Tariffs",

@@ -1,4 +1,13 @@
 {
+    "notFound": {
+        "SEO_TITLE": "404 - Gillot Consulting",
+        "SEO_DESCRIPTION": "Page non trouvée sur le site de Gillot Consulting. Retournez à la page principale pour voir tout le contenu.",
+        "TITLE": "404",
+        "SUBTITLE": "Page non trouvée",
+        "TEXT": "Désolé, la page que vous recherchez n'existe pas ou a été déplacée.",
+        "BUTTON": "Page d'accueil"
+    },
+
     "nav": {
         "HOME": "Accueil",
         "TARIFE": "Tarifs",
