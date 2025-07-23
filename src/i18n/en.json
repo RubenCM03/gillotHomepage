@@ -239,6 +239,32 @@
         "TEXT_3": "Request",  
         "TEXT_4": "The online form has been deleted for data protection reasons.",
         "PHONE": "Phone:"
+    },
+
+    "dienstleistungen": {
+        "computerNotdienst": {
+
+        },
+        
+        "verkauf": {
+
+        },
+
+        "software": {
+            "SEO_TITLE": "Software - Gillot Consulting",
+            "SEO_DESCRIPTION": "Software installation and development by Gillot Consulting Services",
+            "TITLE": "Software",
+            "SUBTITLE": "Installation, adaptation and development of software",
+            "TEXT_1": "Install, configure and adapt operating systems and standard software go to our tälike business.",
+            "TEXT_2": "Developments of Internet solutions such as homepage, webshops and web databases are made according to customer requirements.",
+            "TEXT_3": "Migration of old Windows and Novell systems to the Windows 2003 platform software updates.",
+            "TEXT_4": "Software updates.",
+            "TEXT_5": "Installation and configuration of accounting software.",
+            "TEXT_6": "Termin management systems.",
+            "TEXT_7": "E-mail systems.",
+            "TEXT_8": "We advise and assist you in setting up or optimising COMPUTER-based work in your company.",
+            "TEXT_9": "Tailor-made new or further development of your own company."
+        }
     }
     
 }

@@ -239,5 +239,31 @@
         "TEXT_3": "Demande",  
         "TEXT_4": "Le formulaire en ligne a été supprimé pour des raisons de protection des données.",
         "PHONE": "Téléphone:"
+    },
+
+    "dienstleistungen": {
+        "computerNotdienst": {
+
+        },
+        
+        "verkauf": {
+
+        },
+
+        "software": {
+            "SEO_TITLE": "Logiciel - Gillot Consulting",
+            "SEO_DESCRIPTION": "Installation et développement du logiciel par Gillot Consulting Services",
+            "TITLE": "Logiciel",
+            "SUBTITLE": "Installation, adaptation et développement de logiciels",
+            "TEXT_1": "Installer, configurer et adapter les systèmes d'exploitation et les logiciels standard à notre activité tälike.",
+            "TEXT_2": "Les développements de solutions Internet telles que les pages d'accueil, les boutiques en ligne et les bases de données Web sont réalisés en fonction des besoins des clients.",
+            "TEXT_3": "Migration des anciens systèmes Windows et Novell vers les mises à jour logicielles de la plate-forme Windows 2003.",
+            "TEXT_4": "Mises à jour du logiciel.",
+            "TEXT_5": "Installation et configuration de logiciels de comptabilité.",
+            "TEXT_6": "Systèmes de gestion des terminaisons.",
+            "TEXT_7": "Systèmes de courrier électronique.",
+            "TEXT_8": "Nous vous conseillons et vous assistons dans la mise en place ou l'optimisation du travail sur ordinateur dans votre entreprise.",
+            "TEXT_9": "Développement sur mesure de votre propre entreprise."
+        }
     }
 }

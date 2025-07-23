@@ -1,6 +1,28 @@
 ---
+import KontaktButton from "@/components/kontaktButton.astro";
 import Layout from "@/layouts/Layout.astro";
----
-<Layout title="Software - Gillot Consulting" description=" Softwarelösungen von Gillot Consulting Services">
+import { getI18N } from "@/i18n/index.ts";
 
+const currentLocale = Astro.url.pathname.split("/")[1] || "de";
+const i18n = getI18N({ currentLocale });
+---
+
+<Layout
+    title={i18n.dienstleistungen.software.SEO_TITLE}
+    description={i18n.dienstleistungen.software.SEO_DESCRIPTION}
+>
+    <h1 class="text-4xl font-bold text-center mx-auto mt-8">{i18n.dienstleistungen.software.TITLE}</h1>
+    <h2 class="text-2xl text-center mx-auto text-white/70">{i18n.dienstleistungen.software.SUBTITLE}</h2>
+    <ul>
+        <li class="">{i18n.dienstleistungen.software.TEXT_1}</li>
+        <li>{i18n.dienstleistungen.software.TEXT_2}</li>
+        <li>{i18n.dienstleistungen.software.TEXT_3}</li>
+        <li>{i18n.dienstleistungen.software.TEXT_4}</li>
+        <li>{i18n.dienstleistungen.software.TEXT_5}</li>    
+        <li>{i18n.dienstleistungen.software.TEXT_6}</li>
+        <li>{i18n.dienstleistungen.software.TEXT_7}</li>
+        <li>{i18n.dienstleistungen.software.TEXT_8}</li>
+        <li>{i18n.dienstleistungen.software.TEXT_9}</li>
+    </ul>
+    <KontaktButton/>
 </Layout>
