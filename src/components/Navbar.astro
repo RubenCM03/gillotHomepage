@@ -6,20 +6,22 @@ import { getI18N } from "@/i18n/index.ts";
 const pathname = Astro.url.pathname;
 const localeFromPath = pathname.split("/")[1];
 const supportedLocales = ["de", "en", "fr"];
-const currentLocale = supportedLocales.includes(localeFromPath) ? localeFromPath : "de";
+const currentLocale = supportedLocales.includes(localeFromPath)
+    ? localeFromPath
+    : "de";
 
 const i18n = getI18N({ currentLocale });
 
 const navPages = [
-  { name: i18n.nav.HOME, href: "/" },
-  { name: i18n.nav.TARIFE, href: "/tarife" },
-  { name: i18n.nav.UBER_UNS, href: "/uber_uns" },
-  { name: i18n.nav.STANDORT, href: "/standort" },
-  { name: i18n.nav.KONTAKT, href: "/kontakt" },
+    { name: i18n.nav.HOME, href: "/" },
+    { name: i18n.nav.TARIFE, href: "/tarife" },
+    { name: i18n.nav.UBER_UNS, href: "/uber_uns" },
+    { name: i18n.nav.STANDORT, href: "/standort" },
+    { name: i18n.nav.KONTAKT, href: "/kontakt" },
 ];
 
 function withLocale(path: string) {
-  return currentLocale === "de" ? path : `/${currentLocale}${path}`;
+    return currentLocale === "de" ? path : `/${currentLocale}${path}`;
 }
 ---
 
@@ -27,78 +29,102 @@ function withLocale(path: string) {
     class="bg-[#125683] shadow-xl border-b border-white/5 mb-10 mx-auto"
     x-data="{ open: false }"
 >
-    <div class="flex flex-col md:flex-row items-start justify-between relative">
-        <div class="flex items-center p-6 md:hidden">
-            <button
-                @click="open = !open"
-                class="md:hidden flex items-center px-3 py-2 rounded focus:outline-none"
-                aria-label="Open menu"
+    <div class="flex items-center justify-between p-6 md:hidden relative">
+        <button
+            @click="open = !open"
+            class="flex items-center px-3 py-2 rounded focus:outline-none hover:cursor-pointer"
+            aria-label="Open menu"
+        >
+            <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
             >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </button>
+
+        <a class="text-white font-semibold text-lg" href="/">
+            Gillot Computer Services
+        </a>
+
+        <div x-data="{ openLang: false }" class="relative">
+            <button
+                @click="openLang = !openLang"
+                class="flex items-center gap-1 hover:text-gray-300 border p-2"
+            >
+                {i18n.nav.SPRACHE}
                 <svg
-                    class="w-6 h-6"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
+                    class="w-4 h-4 transform transition-transform duration-200"
+                    :class="{ 'rotate-180': openLang }"
+                    fill="currentColor"
+                    viewBox="0 0 15 20"
                 >
                     <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M4 6h16M4 12h16M4 18h16"></path>
+                        fill-rule="evenodd"
+                        d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                        clip-rule="evenodd"></path>
                 </svg>
             </button>
-            <a class="md:hidden flex ml-3 text-white font-semibold text-lg" href="/"
-                >Gillot Consulting Services</a
-            >
-        </div>
-        <div
-            class="w-full md:block md:w-full text-left"
-            :class="{ 'block': open, 'hidden': !open }"
-        >
-            <ul
-                class="flex flex-col md:flex-row flex-1 items-start md:items-center md:justify-center px-4"
-            >
-                {
-                    navPages.map((item) => (
-                        <li class="w-full md:w-auto relative text-lg">
-                            <a
-                                class="block w-full md:w-auto text-left p-6 hover:bg-black/15 transition-colors duration-200"
-                                aria-current="page"
-                                href={withLocale(item.href)}
-                            >
-                                {item.name}
-                            </a>
-                        </li>
-                    ))
-                }
-                <Dienstleistungen />
-                <div
-                    class="absolute right-4 top-6 md:static md:ml-auto md:mr-6 text-white"
-                    x-data="{ openLang: false }"
-                >
-                    <button
-                        @click="openLang = !openLang"
-                        class="flex items-center gap-1 hover:text-gray-300 border p-3"
-                    >
-                        {i18n.nav.SPRACHE}
-                        <svg
-                            class="w-4 h-4 transform transition-transform duration-200"
-                            :class="{ 'rotate-180': openLang }"
-                            fill="currentColor"
-                            viewBox="0 0 15 20"
-                        >
-                            <path
-                                fill-rule="evenodd"
-                                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-                                clip-rule="evenodd"></path>
-                        </svg>
-                    </button>
-                    <LanguageMenu/>
-                </div>
-            </ul>
+            <LanguageMenu />
         </div>
     </div>
+
+    <div
+        class="hidden w-full md:block md:w-full text-left"
+        :class="{ 'block': open, 'hidden': !open }"
+    >
+        <ul
+            class="flex flex-col md:flex-row flex-1 items-start md:items-center md:justify-center px-4"
+        >
+            {
+                navPages.map((item) => (
+                    <li class="w-full md:w-auto relative text-lg">
+                        <a
+                            class="block w-full md:w-auto text-left p-6 hover:bg-black/15 transition-colors duration-200"
+                            aria-current="page"
+                            href={withLocale(item.href)}
+                        >
+                            {item.name}
+                        </a>
+                    </li>
+                ))
+            }
+            <Dienstleistungen />
+
+            <!-- Menú idioma para escritorio -->
+            <div
+                class="hidden md:block md:ml-auto md:mr-6"
+                x-data="{ openLang: false }"
+            >
+                <button
+                    @click="openLang = !openLang"
+                    class="flex items-center gap-1 hover:text-gray-300 border p-3"
+                >
+                    {i18n.nav.SPRACHE}
+                    <svg
+                        class="w-4 h-4 transform transition-transform duration-200"
+                        :class="{ 'rotate-180': openLang }"
+                        fill="currentColor"
+                        viewBox="0 0 15 20"
+                    >
+                        <path
+                            fill-rule="evenodd"
+                            d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+                <LanguageMenu />
+            </div>
+        </ul>
+    </div>
 </nav>
+
 <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer
 ></script>
 <script>
