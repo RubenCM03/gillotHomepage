@@ -1,0 +1,29 @@
+---
+import Layout from "@/layouts/Layout.astro";
+
+import { getI18N } from "@/i18n/index.ts";
+
+const currentLocale = Astro.url.pathname.split("/")[1] || "de";
+const i18n = getI18N({ currentLocale });
+---
+
+<Layout
+  title="404 - Gillot Consulting"
+  description="Page not found on Gillot Consulting page. Go back to the main page to see all the content."
+>
+  <div
+    class="flex flex-col items-center justify-center min-h-[60vh] text-center px-4"
+  >
+    <h1 class="text-6xl font-extrabold mb-4 text-[#DB1F32]">404</h1>
+    <h2 class="text-3xl md:text-4xl font-bold mb-6">Seite nicht gefunden</h2>
+    <p class="max-w-xl mb-8 text-lg md:text-xl text-white/90">
+      Entschuldigung, die von Ihnen gesuchte Seite existiert nicht oder wurde
+      verschoben.
+    </p>
+    <a
+      href="/"
+      class="inline-block bg-[#DB1F32] text-white font-semibold px-6 py-3 rounded-lg shadow-lg hover:bg-[#a71724] transition-colors"
+      >Zur Startseite
+    </a>
+  </div>
+</Layout>

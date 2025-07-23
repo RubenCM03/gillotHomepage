@@ -11,18 +11,64 @@ const i18n = getI18N({ currentLocale });
     title={i18n.dienstleistungen.software.SEO_TITLE}
     description={i18n.dienstleistungen.software.SEO_DESCRIPTION}
 >
-    <h1 class="text-4xl md:text-5xl font-bold text-center mx-auto mt-8">{i18n.dienstleistungen.software.TITLE}</h1>
-    <h2 class="text-xl md:text-2xl text-center mx-auto text-white/70">{i18n.dienstleistungen.software.SUBTITLE}</h2>
-    <ul>
-        <li class="">{i18n.dienstleistungen.software.TEXT_1}</li>
-        <li>{i18n.dienstleistungen.software.TEXT_2}</li>
-        <li>{i18n.dienstleistungen.software.TEXT_3}</li>
-        <li>{i18n.dienstleistungen.software.TEXT_4}</li>
-        <li>{i18n.dienstleistungen.software.TEXT_5}</li>    
-        <li>{i18n.dienstleistungen.software.TEXT_6}</li>
-        <li>{i18n.dienstleistungen.software.TEXT_7}</li>
-        <li>{i18n.dienstleistungen.software.TEXT_8}</li>
-        <li>{i18n.dienstleistungen.software.TEXT_9}</li>
-    </ul>
-    <KontaktButton/>
+    <div class="px-5">
+        <section>
+            <h1 class="text-4xl md:text-5xl font-bold text-center mx-auto mt-8">
+                {i18n.dienstleistungen.software.TITLE}
+            </h1>
+            <h2 class="text-xl md:text-2xl text-center mx-auto text-white/70">
+                {i18n.dienstleistungen.software.SUBTITLE}
+            </h2>
+        </section>
+        <section class="mt-8">
+            <ul class="space-y-4 max-w-2xl mx-auto text-center">
+                <li
+                    class="bg-white/5 hover:bg-white/10 p-4 rounded-lg transition-colors border border-white/10 text-center"
+                >
+                    {i18n.dienstleistungen.software.TEXT_1}
+                </li>
+                <li
+                    class="bg-white/5 hover:bg-white/10 p-4 rounded-lg transition-colors border border-white/10 text-center"
+                >
+                    {i18n.dienstleistungen.software.TEXT_2}
+                </li>
+                <li
+                    class="bg-white/5 hover:bg-white/10 p-4 rounded-lg transition-colors border border-white/10 text-center"
+                >
+                    {i18n.dienstleistungen.software.TEXT_3}
+                </li>
+                <li
+                    class="bg-white/5 hover:bg-white/10 p-4 rounded-lg transition-colors border border-white/10 text-center"
+                >
+                    {i18n.dienstleistungen.software.TEXT_4}
+                </li>
+                <li
+                    class="bg-white/5 hover:bg-white/10 p-4 rounded-lg transition-colors border border-white/10 text-center"
+                >
+                    {i18n.dienstleistungen.software.TEXT_5}
+                </li>
+                <li
+                    class="bg-white/5 hover:bg-white/10 p-4 rounded-lg transition-colors border border-white/10 text-center"
+                >
+                    {i18n.dienstleistungen.software.TEXT_6}
+                </li>
+                <li
+                    class="bg-white/5 hover:bg-white/10 p-4 rounded-lg transition-colors border border-white/10 text-center"
+                >
+                    {i18n.dienstleistungen.software.TEXT_7}
+                </li>
+                <li
+                    class="bg-white/5 hover:bg-white/10 p-4 rounded-lg transition-colors border border-white/10 text-center"
+                >
+                    {i18n.dienstleistungen.software.TEXT_8}
+                </li>
+                <li
+                    class="bg-white/5 hover:bg-white/10 p-4 rounded-lg transition-colors border border-white/10 text-center"
+                >
+                    {i18n.dienstleistungen.software.TEXT_9}
+                </li>
+            </ul>
+        </section>
+    </div>
+    <KontaktButton />
 </Layout>
