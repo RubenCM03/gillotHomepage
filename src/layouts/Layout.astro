@@ -8,8 +8,9 @@ import CookieBanner from "@/components/CookieBanner.tsx";
 interface Props {
 	title: string;
 	description: string;
+	keywords: string;
 }
-const { title, description } = Astro.props;
+const { title, description, keywords } = Astro.props;
 
 const pathname = Astro.url.pathname;
 const localeFromPath = pathname.split("/")[1];
@@ -25,6 +26,7 @@ const currentLocale = supportedLocales.includes(localeFromPath)
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
+		<title>{title}</title>
 		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 		<slot name="preload" />
@@ -38,12 +40,50 @@ const currentLocale = supportedLocales.includes(localeFromPath)
 			><link rel="stylesheet" href="/_astro/agb.CzKZVwx4.css" /></noscript
 		>
 		<meta name="description" content={description} />
-		<meta property="og:url" content="https://www.gillotconsulting.com/">
-		<meta property="og:type" content="website">
-		<meta property="og:title" content={title}>
-		<meta property="og:description" content={description}>
-		<meta property="og:site_name" content="Gillot Consulting">
-		<title>{title}</title>
+		<meta name="keywords" content={keywords} />
+		<meta property="og:url" content="https://www.gillotconsulting.com/" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:site_name" content="Gillot Consulting" />
+		<script type="application/ld+json" data-astro-exec>
+			{
+				"@context": "https://schema.org",
+				"@type": "Organization",
+				"name": "Gillot Consulting",
+				"url": "https://www.gillotconsulting.com/",
+				"logo": "https://www.gillotconsulting.com/favicon.ico",
+				"address": {
+					"@type": "PostalAddress",
+					"streetAddress": "Ausstellungsstrasse 50/C/2.Stock",
+					"addressLocality": "Vienna",
+					"postalCode": "1020",
+					"addressCountry": "AT"
+				},
+				"contactPoint": {
+					"@type": "ContactPoint",
+					"telephone": "+43 66 44 54 32 44",
+					"contactType": "customer service",
+					"areaServed": "AT",
+					"availableLanguage": ["German", "English", "French"]
+				},
+				"openingHoursSpecification": [
+					{
+						"@type": "OpeningHoursSpecification",
+						"dayOfWeek": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Thursday",
+							"Friday"
+						],
+						"opens": "09:00",
+						"closes": "18:00"
+					}
+				],
+				"sameAs": ["https://www.facebook.com/gillot.cs/"]
+			}
+		</script>
 	</head>
 	<body>
 		<CookieBanner client:load currentLocale={currentLocale} />
