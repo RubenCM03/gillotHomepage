@@ -86,7 +86,7 @@ function withLocale(path: string) {
                 navPages.map((item) => (
                     <li class="w-full md:w-auto relative text-lg">
                         <a
-                            class="block w-full md:w-auto text-left p-6 hover:bg-black/15 transition-colors duration-200"
+                            class="block w-full md:w-auto text-left p-6 hover:drop-shadow-[0_0_8px_white] transition-all duration-300"
                             aria-current="page"
                             href={withLocale(item.href)}
                         >
@@ -97,14 +97,13 @@ function withLocale(path: string) {
             }
             <Dienstleistungen />
 
-            <!-- Menú idioma para escritorio -->
             <div
                 class="hidden md:block md:ml-auto md:mr-6"
                 x-data="{ openLang: false }"
             >
                 <button
                     @click="openLang = !openLang"
-                    class="flex items-center gap-1 hover:text-gray-300 border p-3"
+                    class="flex items-center gap-1 hover:text-gray-300 border p-3 cursor-pointer "
                 >
                     {i18n.nav.SPRACHE}
                     <svg
