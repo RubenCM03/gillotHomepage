@@ -1,4 +1,5 @@
 ---
+import KontaktButton from "@/components/KontaktButton.astro";
 import Layout from "@/layouts/Layout.astro";
 ---
 
@@ -7,56 +8,123 @@ import Layout from "@/layouts/Layout.astro";
     description="Sicherheits und Datenschutzlösungen von Gillot Consulting Services"
     keywords=""
 >
-    <div>
-        <h1 class="text-4xl md:text-5xl font-bold text-center mx-auto mt-8">
-            Sicherheit & Datenschutz
-        </h1>
-        <h2
-            class="text-xl md:text-2xl text-center mx-auto text-white/70 max-w-2xl"
+    <div class="absolute inset-0 -z-10 opacity-10 pointer-events-none">
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            class="w-[80vw] h-[80vh] mx-auto mt-80 lg:mt-50 text-[#f4d35e]"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
         >
-            Eu-Datenschutz-Gundverordnung (EU-DSGVO)
-        </h2>
-
-        <section>
-            <h3>Wir nehmen den Schutz der Daten unserer Kunden sehr ernst</h3>
-            <ul>
-                <li>
-                    es werden ausschließlich Kundendaten (Namen, Vornamen,
-                    Telefonnummer, postalische Adresse, gegebenenfalls
-                    Mailadresse) zum Zweck der Erfüllung von durch Kunden
-                    erteilten Aufträgen und für die Erfüllung von
-                    buchhalterischen Aufgaben, gespeichert.
-                </li>
-                <li>es werden keine Cookies benutzt bzw. ausgewertet</li>
-                <li>es werden keine Mailings für Werbezwecke durchgeführt</li>
-                <li>
-                    wir führen auch derzeit keine Werbekampagnen wie AdWords(TM)
-                    durch
-                </li>
-                <li>
-                    jeder Kunde hat das Recht zu wissen welche Daten und zu
-                    welchen Zwecken diese von uns erhoben wurden. Eine Anfrage
-                    mit dem Betreff: "Erteilung der Auskunft nach Art 15 DSGVO"
-                    an die oben im Banner der Homepage stehende Mailadresse wird
-                    zeitgerecht beantwortet.
-                </li>
-                <li>
-                    Es werden keine Kundendaten an Organisationen, Firmen,
-                    Institutionen weitergeleitet
-                </li>
-                <li>
-                    Kundendaten liegen auf unserem Firmenserver und unterliegen
-                    einem 2 stufigen Anmeldeprozess.
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h3>Besonderer Rechtshinweis:</h3>
-        </section>
-        <section>
-            <h3>
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M12 6m-8 0a8 3 0 1 0 16 0a8 3 0 1 0 -16 0"></path>
+            <path d="M4 6v6a8 3 0 0 0 16 0v-6"></path>
+            <path d="M4 12v6a8 3 0 0 0 16 0v-6"></path>
+        </svg>
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-[80vw] h-[80vh] mx-auto mt-60 lg:mt-10 text-[#f4d35e]"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="icon icon-tabler icons-tabler-outline icon-tabler-file-text-shield"
+            ><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path
+                d="M13 3v4a.997 .997 0 0 0 1 1h4"></path><path
+                d="M11 21h-5a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v3.5"
+            ></path><path d="M8 9h1"></path><path d="M8 12.994l3 0"></path><path
+                d="M8 16.997l2 0"></path><path
+                d="M21 15.994c0 4 -2.5 6 -3.5 6s-3.5 -2 -3.5 -6c1 0 2.5 -.5 3.5 -1.5c1 1 2.5 1.5 3.5 1.5"
+            ></path></svg
+        >
+    </div>
+    <div class="">
+        <div class="px-5">
+            <h1 class="text-4xl md:text-5xl font-bold text-center mx-auto mt-8">
+                Sicherheit & Datenschutz
+            </h1>
+            <h2
+                class="text-xl md:text-2xl text-center mx-auto text-white/70 max-w-2xl mb-8"
+            >
+                Eu-Datenschutz-Gundverordnung (EU-DSGVO)
+            </h2>
+            <section
+                class="bg-white/10 border border-white/10 rounded-xl max-w-5xl mx-auto p-6 shadow-md transition hover:shadow-lg"
+            >
+                <h3 class="font-bold text-2xl mb-2 text-center">
+                    Wir nehmen den Schutz der Daten unserer Kunden sehr ernst
+                </h3>
+                <ul class="list-disc list-inside">
+                    <li>
+                        Es werden ausschließlich Kundendaten (Namen, Vornamen,
+                        Telefonnummer, postalische Adresse, gegebenenfalls
+                        Mailadresse) zum Zweck der Erfüllung von durch Kunden
+                        erteilten Aufträgen und für die Erfüllung von
+                        buchhalterischen Aufgaben, gespeichert.
+                    </li>
+                    <li>Es werden keine Cookies benutzt bzw. ausgewertet</li>
+                    <li>
+                        Es werden keine Mailings für Werbezwecke durchgeführt
+                    </li>
+                    <li>
+                        Wir führen auch derzeit keine Werbekampagnen wie
+                        AdWords(TM) durch
+                    </li>
+                    <li>
+                        Jeder Kunde hat das Recht zu wissen welche Daten und zu
+                        welchen Zwecken diese von uns erhoben wurden. Eine
+                        Anfrage mit dem Betreff: "Erteilung der Auskunft nach
+                        Art 15 DSGVO" an die oben im Banner der Homepage
+                        stehende Mailadresse wird zeitgerecht beantwortet.
+                    </li>
+                    <li>
+                        Es werden keine Kundendaten an Organisationen, Firmen,
+                        Institutionen weitergeleitet
+                    </li>
+                    <li>
+                        Kundendaten liegen auf unserem Firmenserver und
+                        unterliegen einem 2 stufigen Anmeldeprozess.
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <section class="bg-black/10 mt-8 p-10">
+            <h3 class="font-bold text-2xl mb-2 text-[#f4d35e]">
+                Besonderer Rechtshinweis:
+            </h3>
+            <p class="leading-relaxed">
+                Keine Abmahnung ohne vorherigen Kontakt: Werden auf dieser
+                Internetpräsenz Rechte Dritter verletzt, so teilen Sie uns dies
+                bitte umgehend per eingeschriebenen Brief mit. Die beanstandeten
+                Daten / Passagen werden dann nach Prüfung gelöscht oder
+                abgeändert. Eine anwaltliche / behördliche Abmahnung zur
+                Beanstandung bzw. Durchsetzung der Schutzrechtsverletzung ist
+                nicht notwendig und die damit verbundenen Kosten werden vom
+                Medieninhaber auch nicht erstattet. Auf Grund der zuvor
+                gemachten Zusage zur Löschung/Abänderung beanstandeter Daten
+                oder Passagen, besteht keine Veranlassung, mit Hilfe eines
+                Anwalts oder einer Behörde die Verletzung fremder Rechte zu
+                rügen. Es fehlt an einem entsprechenden Rechtsschutzbedürfnis.
+                Erfolgt dennoch ohne vorherige Kontaktaufnahme eine anwaltliche
+                / behördliche Abmahnung, kommt der Medieninhaber für die damit
+                verbundenen Kosten nicht auf.
+            </p>
+            <h3 class="font-bold text-2xl mt-5 mb-2 text-[#f4d35e]">
                 Beim Schutz der Daten kommen folgende Technologien zum Einsatz:
             </h3>
+            <p class="leading-relaxed">
+                Zugriffsberechtigungen, Firewall, Intrusion Detection Systeme,
+                Verschlüsselung, Aufbau von virtuellen privaten Netzwerken (VPN)
+                für sichere Verbindungen und umfassende Antivirenlösungen für
+                ganze Netzwerke mit automatischer Aktualisierung von Antivirus
+                Software.
+            </p>
         </section>
     </div>
+    <KontaktButton />
 </Layout>
