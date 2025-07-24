@@ -2,17 +2,91 @@
 import KontaktButton from "@/components/KontaktButton.astro";
 import Layout from "@/layouts/Layout.astro";
 ---
-<Layout title="Netzwerk - Gillot Consulting" description="Netzwerklösungen von Gillot Consulting Services" keywords="">
+
+<Layout
+    title="Netzwerk - Gillot Consulting"
+    description="Netzwerklösungen von Gillot Consulting Services"
+    keywords=""
+>
     <div>
-        <h1 class="text-4xl md:text-5xl font-bold text-center mx-auto mt-8 mb-10">Netzwerk</h1>
-        <section>
-            <h2>Viele Unternehmen haben nicht die Mittel eine EDV-Abteilung aufzubauen.</h2>
-            <ul>
-                <li>Wir bauen das komplette Netzwerk für Sie auf</li>
-                <li>Wir stehen als Outsourcing Partner für Sie zur Verfügung</li>
-                <li>Sie brauchen nur gelegentliche Hilfe, wie bei Krankenständen oder sonstigen plötzlichen Ausfällen</li>
-            </ul>
+        <h1
+            class="text-4xl md:text-5xl font-bold text-center mx-auto mt-8 mb-2"
+        >
+            Netzwerk
+        </h1>
+        <section class="p-6 md:p-10 max-w-6xl mx-auto">
+            <div class="flex flex-col-reverse md:flex-row items-center gap-8">
+                <div class="flex-1">
+                    <img
+                        class="rounded-2xl w-full object-cover shadow-md hover:shadow-xl transition-all"
+                        src="/img/content/network.webp"
+                        alt="Bild eines Technikers bei der Konfiguration eines Unternehmensnetzwerks"
+                    />
+                </div>
+                <div class="flex-1">
+                    <h2
+                        class="text-2xl font-semibold mb-4 text-[#f4d35e] text-center md:text-left"
+                    >
+                        Viele Unternehmen haben nicht die Mittel eine
+                        EDV-Abteilung aufzubauen.
+                    </h2>
+                    <ul class="list-disc list-inside text-lg space-y-2 mb-6">
+                        <li>Wir bauen das komplette Netzwerk für Sie auf</li>
+                        <li>
+                            Wir stehen als Outsourcing Partner für Sie zur
+                            Verfügung
+                        </li>
+                        <li>
+                            Sie brauchen nur gelegentliche Hilfe, wie bei
+                            Krankenständen oder sonstigen plötzlichen Ausfällen
+                        </li>
+                    </ul>
+                    <p class="text-lg leading-relaxed">
+                        Sie wollen ein Netzwerk einrichten, Ihnen fehlt aber die
+                        Zeit sich mit den technischen Details zu beschäftigen?
+                        Ihre Technik soll sich am Bedarf orientieren und nicht
+                        umgekehrt? Wir analysieren zunächst Ihre konkreten
+                        Leistungsanforderungen an ein Firmennetzwerk und
+                        erstellen Ihnen dann ein individuelles Angebot.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-1 md:gap-8 max-w-6xl mx-auto">
+            <div class="p-6">
+                <h3
+                    class="text-xl font-semibold mb-3 text-[#f4d35e] text-center"
+                >
+                    Sicherheit
+                </h3>
+                <p class="text-lg leading-relaxed text-center">
+                    Internetzugang, Firewalls, Virenschutz,
+                    Datensicherungskonzepte, Ausfallssicherheit.
+                </p>
+            </div>
+
+            <div class="p-6">
+                <h3 class="text-xl font-bold mb-3 text-[#f4d35e] text-center">
+                    Planung und Aufbau
+                </h3>
+                <p class="text-lg leading-relaxed text-center">
+                    Wir bieten individuelle Lösungen und persönliches Service
+                    bei Beratung, Analyse, Planung, Beschaffung und Realisierung
+                    Ihres Netzwerkes.
+                </p>
+            </div>
+
+            <div class="p-6">
+                <h3
+                    class="text-xl font-semibold mb-3 text-[#f4d35e] text-center"
+                >
+                    Service
+                </h3>
+                <p class="text-lg leading-relaxed text-center">
+                    Wartung, Pflege, Notdienst.
+                </p>
+            </div>
         </section>
     </div>
-    <KontaktButton/>
+    <KontaktButton />
 </Layout>
