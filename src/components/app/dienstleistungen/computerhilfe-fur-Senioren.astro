@@ -1,11 +1,82 @@
 ---
+import KontaktButton from "@/components/KontaktButton.astro";
 import Layout from "@/layouts/Layout.astro";
 ---
 
 <Layout
-    title="Digitale Amtswege leicht gemacht - Gillot Consulting"
-    description="Digitale Amtswege leicht gemacht - Hilfe für Senioren in Wien"
-    keywords=""
+    title="Computerhilfe Für Senioren – IT-Hilfe für Senioren in Wien | Gillot Consulting"
+    description="Professionelle Computerhilfe für Senioren in Wien. Unterstützung bei digitalen Amtswegen, Onlinebanking, ELGA, Handy-Signatur & mehr."
+    keywords="digitale Hilfe Senioren Österreich, IT Unterstützung digitales Amt, ID Austria Hilfe Wien, Online Amtswege Seniorenhilfe, Technikhilfe ältere Menschen Wien, Computerhilfe für Senioren, Hilfe bei digitalen Amtswegen, Unterstützung bei E-Mail und Internet, Smartphone-Hilfe für ältere Menschen, Senioren und Digitalisierung, ELGA, FinanzOnline, Handy-Signatur, Geduldige PC-Hilfe, Fernwartung, Hilfe beim Online-Formular, Digitale Hilfe vor Ort, Technikhilfe für ältere Menschen"
 >
+    <h1 class="text-4xl md:text-5xl font-bold text-center mx-auto mt-8 mb-8">
+        Computerhilfe für Senioren
+    </h1>
+    <div class="max-w-4xl mx-auto px-5 space-y-12">
 
+        <section class="space-y-4">
+            <h2 class="text-2xl font-semibold text-[#f4d35e]">
+                Was wir für Sie tun
+            </h2>
+            <ul class="list-disc list-inside text-lg space-y-2">
+                <li>
+                    Registrierung und Nutzung des digitalen Amts
+                    (<a class="underline hover:text-white/70" href="https://www.oesterreich.gv.at" target="_blank">oesterreich.gv.at</a>)
+                </li>
+                <li>Einrichtung und Nutzung von ID Austria (digitale ID)</li>
+                <li>Unterstützung bei Smartphones, Tablets, Laptops und PCs</li>
+                <li>
+                    Ausfüllen von Online-Formularen und Umgang mit digitalen
+                    Amtswegen
+                </li>
+                <li>
+                    Sicherer Umgang mit Passwörtern, SMS-Codes und
+                    App-Installationen
+                </li>
+                <li>
+                    Persönliche Schulung – bei Ihnen zu Hause oder telefonisch
+                </li>
+            </ul>
+        </section>
+
+        <section class="flex flex-col md:flex-row items-center gap-8">
+            <img
+                src="/img/content/senioren.webp"
+                alt="Seniorin nutzt Tablet für digitalen Service in Wien"
+                class="rounded-xl shadow-md hover:shadow-lg transition-all w-full max-w-md mx-auto md:mx-0"
+            />
+            <div>
+                <h2 class="text-2xl font-semibold text-[#f4d35e] mb-3">
+                    Geduldige, persönliche Technikhilfe
+                </h2>
+                <p class="text-lg leading-relaxed">
+                    Wir wissen, dass der Umgang mit moderner Technik und
+                    digitalen Amtswegen für ältere Menschen oft eine
+                    Herausforderung ist. Deshalb bieten wir Ihnen verständliche,
+                    ruhige und persönliche Unterstützung.
+                </p>
+                <p class="text-lg leading-relaxed mt-3">
+                    Ob Onlinebanking, ELGA, FinanzOnline oder Handy-Signatur –
+                    wir helfen Ihnen Schritt für Schritt, damit Sie Ihre
+                    Angelegenheiten selbstständig erledigen können.
+                </p>
+            </div>
+        </section>
+
+        <section class="bg-white/10 p-5 rounded-2xl shadow-lg backdrop-blur-sm">
+            <h2 class="text-2xl font-semibold text-[#f4d35e] mb-4 text-center">
+                Digitale Hilfe vor Ort und per Fernwartung
+            </h2>
+            <p
+                class="text-lg leading-relaxed mb-4 text-center max-w-xl mx-auto"
+            >
+                Wir bieten persönliche Technikhilfe direkt bei Ihnen zu Hause in
+                Wien an – oder unkomplizierte Unterstützung per Fernwartung,
+                wenn Sie Hilfe am Computer oder Smartphone benötigen.
+            </p>
+            <p class="text-center text-lg font-semibold text-[#f4d35e]">
+                Kontaktieren Sie uns für eine individuelle Beratung!
+            </p>
+        </section>
+    </div>
+    <KontaktButton />
 </Layout>
