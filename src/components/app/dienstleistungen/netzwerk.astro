@@ -1,12 +1,18 @@
 ---
+import KontaktButton from "@/components/KontaktButton.astro";
 import Layout from "@/layouts/Layout.astro";
 ---
 <Layout title="Netzwerk - Gillot Consulting" description="Netzwerklösungen von Gillot Consulting Services" keywords="">
     <div>
-        <h1
-            class="text-4xl md:text-5xl font-bold text-center mx-auto mt-8 mb-10"
-        >
-            Netzwerk
-        </h1>
+        <h1 class="text-4xl md:text-5xl font-bold text-center mx-auto mt-8 mb-10">Netzwerk</h1>
+        <section>
+            <h2>Viele Unternehmen haben nicht die Mittel eine EDV-Abteilung aufzubauen.</h2>
+            <ul>
+                <li>Wir bauen das komplette Netzwerk für Sie auf</li>
+                <li>Wir stehen als Outsourcing Partner für Sie zur Verfügung</li>
+                <li>Sie brauchen nur gelegentliche Hilfe, wie bei Krankenständen oder sonstigen plötzlichen Ausfällen</li>
+            </ul>
+        </section>
     </div>
+    <KontaktButton/>
 </Layout>
