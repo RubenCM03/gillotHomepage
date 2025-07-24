@@ -1,6 +1,6 @@
 {   
     "notFound": {
-        "SEO_TITLE": "404 - Gillot Consulting",
+        "SEO_TITLE": "Seite nicht gefunden – IT-Dienstleister in Wien | Gillot Consulting",
         "SEO_DESCRIPTION": "Seite nicht gefunden auf Gillot Consulting Seite. Gehen Sie zurück zur Hauptseite, um den gesamten Inhalt zu sehen.",
         "TITLE": "404",
         "SUBTITLE": "Seite nicht gefunden",
@@ -27,7 +27,7 @@
     },
 
     "cookies_denied": {
-        "SEO_TITLE": "Cookies abgelehnt - Gillot Consulting",
+        "SEO_TITLE": "Cookie-Einstellungen abgelehnt – Datenschutz | Gillot Consulting",
         "SEO_DESCRIPTION": "Sie haben die Verwendung von Cookies abgelehnt. Einige Funktionen der Website sind möglicherweise eingeschränkt.",
         "TITLE": "Zugang verweigert",
         "TEXT": "Sie haben die Verwendung von Cookies abgelehnt. Um die Website zu nutzen, akzeptieren Sie bitte die Cookies.",
@@ -35,7 +35,7 @@
     },
 
     "cookies": {
-        "SEO_TITLE": "Cookies - Gillot Consulting",
+        "SEO_TITLE": "Cookie-Richtlinie – Datenschutz | Gillot Consulting",
         "SEO_DESCRIPTION": "Informationen zu Cookies auf der Website von Gillot Consulting. Erfahren Sie, wie wir Cookies verwenden und Ihre Privatsphäre schützen.",
         "TITLE": "Diese Webseite verwendet Cookies!",
         "TEXT_1": "Wir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für soziale Medien anbieten zu können und die Zugriffe auf unsere Website zu analysieren.",
@@ -53,7 +53,7 @@
     },
 
     "impressum": {
-        "SEO_TITLE": "Impressum - Gillot Consulting",
+        "SEO_TITLE": "Impressum – IT-Dienstleister in Wien | Gillot Consulting",
         "SEO_DESCRIPTION": "Impressum und rechtliche Hinweise für Gillot Consulting Services. Erfahren Sie mehr über unsere Kontaktdaten und rechtlichen Informationen.",
         "TITLE": "Impressum",
         "SUBTITLE": "Gillot Consulting Services Computer & Netzwerkdienst",
@@ -65,7 +65,7 @@
     },
 
     "partner":{
-        "SEO_TITLE": "Partner - Gillot Consulting",
+        "SEO_TITLE": "Unsere Partner – IT-Lösungen & Kooperationen in Wien | Gillot Consulting",
         "SEO_DESCRIPTION": "Entdecken Sie unsere Partner für Buchhaltung, Sicherheitslösungen und Backup-Lösungen.",
         "TITLE": "Partner",
         "SUBTITLE_1": "Buchhaltung",
@@ -79,7 +79,7 @@
     },
 
     "agb":{
-        "SEO_TITLE": "AGB - Gillot Consulting",
+        "SEO_TITLE": "Allgemeine Geschäftsbedingungen (AGB) – IT-Dienstleister Wien | Gillot Consulting",
         "SEO_DESCRIPTION": "Allgemeine Geschäftsbedingungen von GILLOT CONSULTING SERVICES.",
         "TITLE": "Allgemeine Geschäftsbedingungen",
         "SUBTITLE": "von GILLOT CONSULTING SERVICES",
@@ -150,7 +150,7 @@
     },
 
     "index": {
-        "SEO_TITLE": "Home - Gillot Consulting",
+        "SEO_TITLE": "IT Dienstleister & Computerhilfe in Wien – Beratung & Notdienst | Gillot Consulting",
         "SEO_DESCRIPTION": "Willkommen bei Gillot Consulting, Ihrem Partner für Computer- und Netzwerkdienstleistungen.",
         "SUBTITLE": "- Computer & Netzwerkdienst -",
         "HEADER_1": "Vor Ort und Werkstatt Service",
@@ -177,7 +177,7 @@
     },
 
     "tarife": {
-        "SEO_TITLE": "Tarife - Gillot Consulting",
+        "SEO_TITLE": "IT-Preise & Computerhilfe-Tarife in Wien | Gillot Consulting",
         "SEO_DESCRIPTION": "Entdecken Sie unsere transparenten Tarife für IT-Support und Dienstleistungen. Kontaktieren Sie uns für individuelle Angebote.",
         "TITLE": "Tarife",
         "TABLE_HEADER_1": "SUPPORT Level: Gebühren Pro Stunde",
@@ -196,7 +196,7 @@
     },
 
     "uber_uns": {
-        "SEO_TITLE": "Über Uns - Gillot Consulting",
+        "SEO_TITLE": "Über uns – IT Experten & Computerhilfe Wien | Gillot Consulting",
         "SEO_DESCRIPTION": "Erfahren Sie mehr über Gillot Consulting, unsere Philosophie und unser Team. Wir sind spezialisiert auf IT-Lösungen, Netzwerke und Webentwicklung.",
         "TITLE": "Über uns",
         "GILLOT": "Jean-Michel Gillot – MANAGER",
@@ -230,7 +230,7 @@
     },
 
     "standort": {
-        "SEO_TITLE": "Standort - Gillot Consulting",
+        "SEO_TITLE": "Unser Standort in Wien – EDV & IT Beratung vor Ort | Gillot Consulting",
         "SEO_DESCRIPTION": "Standort von Gillot Consulting Services in Wien. Besuchen Sie uns für persönliche Beratung und Unterstützung.",
         "TITLE": "Standort",
         "TEXT": "Entdecken Sie unseren Standort im Herzen von Wien - besuchen Sie uns und lassen Sie sich von unserem Expertenteam beraten!",
@@ -238,7 +238,7 @@
     },
     
     "kontakt": {
-        "SEO_TITLE": "Kontakt - Gillot Consulting",
+        "SEO_TITLE": "Kontakt – IT Beratung & Computerhilfe Wien | Gillot Consulting",
         "SEO_DESCRIPTION": "Kontaktieren Sie Gillot Consulting Services für Anfragen und Unterstützung. Wir sind hier, um Ihnen zu helfen.",
         "TITLE": "Kontakt",
         "SUBTITLE": "Kontaktieren Sie uns",
@@ -259,7 +259,7 @@
         },
 
         "software": {
-            "SEO_TITLE": "Software - Gillot Consulting",
+            "SEO_TITLE": "Software-Lösungen & IT-Beratung in Wien | Gillot Consulting",
             "SEO_DESCRIPTION": "Software-Installation und -Entwicklung von Gillot Consulting Services",
             "TITLE": "Software",
             "SUBTITLE": "Installation, Anpassung und Entwicklung von Software",
@@ -287,7 +287,7 @@
         },
 
         "branchenlosungen": {
-            "SEO_TITLE": "Branchenlösungen - Gillot Consulting",
+            "SEO_TITLE": "Branchenlösungen – IT Komplettlösungen für Unternehmen in Wien | Gillot Consulting",
             "SEO_DESCRIPTION": "Branchenlösungen von Gillot Consulting Services",
             "TITLE": "Branchenlosungen",
             "TEXT_1": "Warenwirtschaftssysteme",
