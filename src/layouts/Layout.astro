@@ -57,7 +57,6 @@ const currentLocale = supportedLocales.includes(localeFromPath)
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:title" content={title} />
 		<meta name="twitter:description" content={description} />
-
 		<script type="application/ld+json" data-astro-exec>
 			{
 				"@context": "https://schema.org",
@@ -96,6 +95,7 @@ const currentLocale = supportedLocales.includes(localeFromPath)
 				"sameAs": ["https://facebook.com/gillot.cs/"]
 			}
 		</script>
+		<slot name="schema"/>
 		
 	</head>
 	<body>

@@ -6,7 +6,16 @@ const currentLocale = Astro.url.pathname.split("/")[1] || "de";
 const i18n = getI18N({ currentLocale });
 ---
 
-<Layout title= {i18n.kontakt.SEO_TITLE} description= {i18n.kontakt.SEO_DESCRIPTION}>
+<Layout title= {i18n.kontakt.SEO_TITLE} description= {i18n.kontakt.SEO_DESCRIPTION} keywords="">
+    <script slot="schema" type="application/ld+json" data-astro-exec>
+        {
+            "@context": "https://schema.org",
+            "@type": "ContactPage",
+            "name": {i18n.kontakt.SEO_TITLE},
+            "url": "https://gillot.rcmdomini.cat/kontakt/",
+            "description": {i18n.kontakt.SEO_DESCRIPTION}
+        }
+    </script>
     <div class="container mx-auto my-auto px-5">
         <h1 class="text-4xl md:text-5xl font-bold text-center mx-auto mt-8 mb-8">
              {i18n.kontakt.TITLE}
