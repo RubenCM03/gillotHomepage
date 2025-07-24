@@ -261,18 +261,54 @@
 
         "software": {
             "SEO_TITLE": "Software - Gillot Consulting",
-            "SEO_DESCRIPTION": "Software installation and development by Gillot Consulting Services",
+            "SEO_DESCRIPTION": "Software-Installation und -Entwicklung von Gillot Consulting Services",
             "TITLE": "Software",
-            "SUBTITLE": "Installation, adaptation and development of software",
-            "TEXT_1": "Install, configure and adapt operating systems and standard software go to our tälike business.",
-            "TEXT_2": "Developments of Internet solutions such as homepage, webshops and web databases are made according to customer requirements.",
-            "TEXT_3": "Migration of old Windows and Novell systems to the Windows 2003 platform software updates.",
-            "TEXT_4": "Software updates.",
-            "TEXT_5": "Installation and configuration of accounting software.",
-            "TEXT_6": "Termin management systems.",
-            "TEXT_7": "E-mail systems.",
-            "TEXT_8": "We advise and assist you in setting up or optimising COMPUTER-based work in your company.",
-            "TEXT_9": "Tailor-made new or further development of your own company."
+            "SUBTITLE": "Installation, Anpassung und Entwicklung von Software",
+            "TEXT_1": "Installieren, Konfigurieren und Anpassen von Betriebssystemen und Standardsoftware gehören zu unserem tälike Geschäft.",
+            "TEXT_2": "Entwicklungen von Internetlösungen wie Homepage, Webshops und Webdatenbanken werden nach Kundenwünschen erstellt.",
+            "TEXT_3": "Migration alter Windows- und Novell-Systeme auf die Software-Updates der Windows 2003-Plattform.",
+            "TEXT_4": "Software-Aktualisierungen.",
+            "TEXT_5": "Installation und Konfiguration von Buchhaltungssoftware.",
+            "TEXT_6": "Terminverwaltungssysteme.",
+            "TEXT_7": "E-Mail-Systeme.",
+            "TEXT_8": "Wir beraten und unterstützen Sie bei der Einrichtung oder Optimierung der COMPUTER-gestützten Arbeit in Ihrem Unternehmen.",
+            "TEXT_9": "Maßgeschneiderte Neu- oder Weiterentwicklung Ihres eigenen Unternehmens."
+        },
+
+        "internet": {
+
+        },
+
+        "netzwerk": {
+            
+        },
+
+        "computerhilfeSenioren": {
+            
+        },
+
+        "branchenlosungen": {
+            "SEO_TITLE": "Industry solutions - Gillot Consulting",
+            "SEO_DESCRIPTION": "Industry solutions from Gillot Consulting Services",
+            "TITLE": "Industry Solutions",
+            "TEXT_1": "Merchandise management systems",
+            "TEXT_2": "Financial Accounting",
+            "TEXT_3": "Internet - Shops",
+            "TEXT_4": "Time recording systems",
+            "TEXT_5": "POS systems",
+            "TEXT_6": "Billing of structural distributors",
+            "TEXT_7": "Contract Management",
+            "TEXT_8": "Individual programming",
+            "TEXT_9": "Web Solutions",
+            "TEXT_DESCRIPTION_1": "Optimize the management and control of your inventories with our efficient systems.",
+            "TEXT_DESCRIPTION_2": "Comprehensive accounting software for the precise recording and evaluation of your financial data.",
+            "TEXT_DESCRIPTION_3": "Professional online store solutions for your products and services.",
+            "TEXT_DESCRIPTION_4": "Reliable systems for recording and evaluating working times and projects.",
+            "TEXT_DESCRIPTION_5": "Modern point-of-sale solutions to support your sales processes.",
+            "TEXT_DESCRIPTION_6": "Efficient billing solutions for complex sales structures and networks.",
+            "TEXT_DESCRIPTION_7": "Individually tailored contract management systems to optimize your business processes.",
+            "TEXT_DESCRIPTION_8": "Customized programming for individual software requirements.",
+            "TEXT_DESCRIPTION_9": "Innovative web solutions that are perfectly tailored to your needs and goals."
         }
     }
     

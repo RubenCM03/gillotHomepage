@@ -272,6 +272,42 @@
             "TEXT_7": "E-Mail-Systeme.",
             "TEXT_8": "Wir beraten und unterstützen Sie bei der Einrichtung oder Optimierung der COMPUTER-gestützten Arbeit in Ihrem Unternehmen.",
             "TEXT_9": "Maßgeschneiderte Neu- oder Weiterentwicklung Ihres eigenen Unternehmens."
+        },
+
+        "internet": {
+
+        },
+
+        "netzwerk": {
+            
+        },
+
+        "computerhilfeSenioren": {
+            
+        },
+
+        "branchenlosungen": {
+            "SEO_TITLE": "Branchenlösungen - Gillot Consulting",
+            "SEO_DESCRIPTION": "Branchenlösungen von Gillot Consulting Services",
+            "TITLE": "Branchenlosungen",
+            "TEXT_1": "Warenwirtschaftssysteme",
+            "TEXT_2": "Finanzbuchhaltung",
+            "TEXT_3": "Internet - Geschäfte",
+            "TEXT_4": "Zeiterfassungssysteme",
+            "TEXT_5": "POS-Systeme",
+            "TEXT_6": "Abrechnung der Strukturvertriebe",
+            "TEXT_7": "Vertragsmanagement",
+            "TEXT_8": "Individuelle Programmierung",
+            "TEXT_9": "Web-Lösungen",
+            "TEXT_DESCRIPTION_1": "Optimieren Sie die Verwaltung und Steuerung Ihrer Warenbestände mit unseren effizienten Systemen.",
+            "TEXT_DESCRIPTION_2": "Umfassende Buchhaltungssoftware zur präzisen Erfassung und Auswertung Ihrer Finanzdaten.",
+            "TEXT_DESCRIPTION_3": "Professionelle Onlineshop-Lösungen für Ihre Produkte und Dienstleistungen.",
+            "TEXT_DESCRIPTION_4": "Zuverlässige Systeme zur Erfassung und Auswertung von Arbeitszeiten und Projekten.",
+            "TEXT_DESCRIPTION_5": "Moderne Point-of-Sale-Lösungen zur Unterstützung Ihrer Verkaufsprozesse.",
+            "TEXT_DESCRIPTION_6": "Effiziente Abrechnungslösungen für komplexe Vertriebsstrukturen und Netzwerke.",
+            "TEXT_DESCRIPTION_7": "Individuell zugeschnittene Vertragsmanagement-Systeme zur Optimierung Ihrer Geschäftsprozesse.",
+            "TEXT_DESCRIPTION_8": "Maßgeschneiderte Programmierung für individuelle Softwareanforderungen.",
+            "TEXT_DESCRIPTION_9": "Innovative Weblösungen, die perfekt auf Ihre Bedürfnisse und Ziele abgestimmt sind."
         }
     }
 }

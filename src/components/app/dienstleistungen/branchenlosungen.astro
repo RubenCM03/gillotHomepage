@@ -1,6 +1,65 @@
 ---
+import KontaktButton from "@/components/KontaktButton.astro";
 import Layout from "@/layouts/Layout.astro";
----
-<Layout title="Branchenlösungen - Gillot Consulting" description="Branchenlösungen von Gillot Consulting Services">
+import { getI18N } from "@/i18n/index.ts";
 
+const currentLocale = Astro.url.pathname.split("/")[1] || "de";
+const i18n = getI18N({ currentLocale });
+const services = [
+    i18n.dienstleistungen.branchenlosungen.TEXT_1,
+    i18n.dienstleistungen.branchenlosungen.TEXT_2,
+    i18n.dienstleistungen.branchenlosungen.TEXT_3,
+    i18n.dienstleistungen.branchenlosungen.TEXT_4,
+    i18n.dienstleistungen.branchenlosungen.TEXT_5,
+    i18n.dienstleistungen.branchenlosungen.TEXT_6,
+    i18n.dienstleistungen.branchenlosungen.TEXT_7,
+    i18n.dienstleistungen.branchenlosungen.TEXT_8,
+    i18n.dienstleistungen.branchenlosungen.TEXT_9
+];
+
+const descriptions = [
+    i18n.dienstleistungen.branchenlosungen.TEXT_DESCRIPTION_1,
+    i18n.dienstleistungen.branchenlosungen.TEXT_DESCRIPTION_2,
+    i18n.dienstleistungen.branchenlosungen.TEXT_DESCRIPTION_3,
+    i18n.dienstleistungen.branchenlosungen.TEXT_DESCRIPTION_4,
+    i18n.dienstleistungen.branchenlosungen.TEXT_DESCRIPTION_5,
+    i18n.dienstleistungen.branchenlosungen.TEXT_DESCRIPTION_6,
+    i18n.dienstleistungen.branchenlosungen.TEXT_DESCRIPTION_7,
+    i18n.dienstleistungen.branchenlosungen.TEXT_DESCRIPTION_8,
+    i18n.dienstleistungen.branchenlosungen.TEXT_DESCRIPTION_9
+];
+---
+
+<Layout
+    title={i18n.dienstleistungen.branchenlosungen.SEO_TITLE}
+    description={i18n.dienstleistungen.branchenlosungen.SEO_DESCRIPTION}
+    keywords=""
+>
+    <h1 class="text-4xl md:text-5xl font-bold text-center">{i18n.dienstleistungen.branchenlosungen.TITLE}</h1>
+    <section class="max-w-2xl mx-auto px-6 py-12">
+        <div class="space-y-5">
+            {
+                services.map((service, index) => (
+                    <div
+                        class={`flex flex-col md:flex-row ${
+                            index % 2 === 1 ? "md:flex-row-reverse" : ""
+                        } items-center gap-8 bg-white/5 rounded-2xl p-6 shadow-md backdrop-blur-sm`}
+                    >
+                        <div class="text-6xl font-bold text-[#f4d35e] w-16 shrink-0 text-center">
+                            {index + 1}
+                        </div>
+                        <div class="flex-1">
+                            <h2 class="text-2xl font-semibold mb-2 text-white">
+                                {service}
+                            </h2>
+                            <p class="text-white/80">
+                                {descriptions[index]}
+                            </p>
+                        </div>
+                    </div>
+                ))
+            }
+        </div>
+    </section>
+    <KontaktButton />
 </Layout>
