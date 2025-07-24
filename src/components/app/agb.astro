@@ -6,7 +6,8 @@ const currentLocale = Astro.url.pathname.split("/")[1] || "de";
 const i18n = getI18N({ currentLocale });
 ---
 
-<Layout title={i18n.agb.SEO_TITLE} description={i18n.agb.SEO_DESCRIPTION}>
+<Layout title={i18n.agb.SEO_TITLE} description={i18n.agb.SEO_DESCRIPTION} keywords="">
+    <meta slot="noindex" name="robots" content="noindex">
     <div>
         <h1 class="text-4xl md:text-5xl font-bold text-center mx-auto mt-8 mb-1">
             {i18n.agb.TITLE}

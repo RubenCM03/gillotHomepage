@@ -29,6 +29,7 @@ const currentLocale = supportedLocales.includes(localeFromPath)
 		<title>{title}</title>
 		<link rel="icon" type="image/png" href="/favicon.png" />
 		<link rel="shortcut icon" type="image/png" href="/favicon.png" />
+		<slot name="noindex">
 		<slot name="preload" />
 		<link
 			rel="preload"
