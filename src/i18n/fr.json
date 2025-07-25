@@ -28,7 +28,7 @@
 
     "cookies_denied": {
         "SEO_TITLE": "Paramètres des cookies refusés - Confidentialité | Gillot Computer Services",
-        "SEO_DESCRIPTION": "Informations sur le refus des cookies sur le site web de Gillot Consulting Services. Découvrez comment ajuster vos paramètres de cookies et préserver votre vie privée.",
+        "SEO_DESCRIPTION": "Informations sur le refus des cookies sur le site web de Gillot Computer Services. Découvrez comment ajuster vos paramètres de cookies et préserver votre vie privée.",
         "TITLE": "Accès refusé",
         "TEXT": "Vous avez refusé l'utilisation de cookies. Pour utiliser le site, veuillez accepter les cookies.",
         "BUTTON": "Accepter les cookies"
@@ -36,7 +36,7 @@
 
     "cookies": {
         "SEO_TITLE": "Politique de cookies - Confidentialité | Gillot Computer Services",
-        "SEO_DESCRIPTION": "Informations sur l'utilisation des cookies sur le site web de Gillot Consulting Services. Protection des données et paramètres des cookies conformément au RGPD.",
+        "SEO_DESCRIPTION": "Informations sur l'utilisation des cookies sur le site web de Gillot Computer Services. Protection des données et paramètres des cookies conformément au RGPD.",
         "TITLE": "Ce site utilise des cookies !",
         "TEXT_1": "Nous utilisons des cookies pour personnaliser le contenu et les annonces, pour proposer des fonctionnalités de médias sociaux et pour analyser le trafic sur notre site.",
         "TEXT_2": "Vous donnez votre consentement à nos cookies si vous continuez à utiliser notre site web.",
@@ -54,8 +54,8 @@
 
     "impressum": {
         "SEO_TITLE": "Mentions légales - Informations légales & contact à Vienne | Gillot Computer Services",
-        "SEO_DESCRIPTION": "Page officielle des mentions légales de Gillot Consulting Services à Vienne. Adresse, contact, heures d'ouverture, numéro d'identification fiscale et informations légales conformément à la législation autrichienne.",
-        "KEYWORDS": "Mentions légales Gillot Vienne, Gillot Consulting mentions légales, informations légales Vienne, contact Gillot Consulting, numéro IDE Gillot, heures d'ouverture Gillot Vienne, Gillot Consulting Services Autriche",
+        "SEO_DESCRIPTION": "Page officielle des mentions légales de Gillot Computer Services à Vienne. Adresse, contact, heures d'ouverture, numéro d'identification fiscale et informations légales conformément à la législation autrichienne.",
+        "KEYWORDS": "Mentions légales Gillot Vienne, Gillot Computer Services mentions légales, informations légales Vienne, contact Gillot Computer Services, numéro IDE Gillot, heures d'ouverture Gillot Vienne, Gillot Computer Services Autriche",
         "TITLE": "Mentions Légales",
         "SUBTITLE": "Gillot Computer Services Informatique & Service Réseau",
         "TELEFON": "Téléphone",
@@ -67,8 +67,8 @@
 
     "partner": {
         "SEO_TITLE": "Nos partenaires - Solutions informatiques & coopérations à Vienne | Gillot Computer Services",
-        "SEO_DESCRIPTION": "Découvrez les partenaires de confiance de Gillot Consulting à Vienne. Ensemble, nous proposons des solutions de sécurité informatique, des services de comptabilité et des technologies logicielles innovantes pour votre réussite.",
-        "KEYWORDS": "Partenaires IT Vienne, Solutions de sécurité IT Vienne, Comptabilité Vienne, Partenaires logiciels Vienne, Trend Micro Vienne, Norton Security Vienne, Partenaires Acronis Vienne, Coopérations IT Vienne, Partenaires Gillot Consulting",
+        "SEO_DESCRIPTION": "Découvrez les partenaires de confiance de Gillot Computer Services à Vienne. Ensemble, nous proposons des solutions de sécurité informatique, des services de comptabilité et des technologies logicielles innovantes pour votre réussite.",
+        "KEYWORDS": "Partenaires IT Vienne, Solutions de sécurité IT Vienne, Comptabilité Vienne, Partenaires logiciels Vienne, Trend Micro Vienne, Norton Security Vienne, Partenaires Acronis Vienne, Coopérations IT Vienne, Partenaires Gillot Computer Services",
         "TITLE": "Partenaire",
         "SUBTITLE_1": "Comptabilité",
         "SUBTITLE_2": "Solutions de sécurité pour les réseaux d'entreprise",
@@ -82,8 +82,8 @@
 
     "agb":{
         "SEO_TITLE": "Conditions générales de vente (CGV) - Fournisseur de services informatiques Vienne | Gillot Computer Services",
-        "SEO_DESCRIPTION": "Conditions générales de vente de Gillot Consulting Services. Informez-vous sur nos conditions contractuelles, nos prestations et nos informations juridiques.",
-        "KEYWORDS": "CGV Vienne, conditions générales de vente Gillot Consulting, conditions contractuelles IT Services, CGV Gillot Consulting, prestataire IT Vienne, conditions d'utilisation Gillot Consulting, conditions générales IT",
+        "SEO_DESCRIPTION": "Conditions générales de vente de Gillot Computer Services. Informez-vous sur nos conditions contractuelles, nos prestations et nos informations juridiques.",
+        "KEYWORDS": "CGV Vienne, conditions générales de vente Gillot Computer Services, conditions contractuelles IT Services, CGV Gillot Computer Services, prestataire IT Vienne, conditions d'utilisation Gillot Computer Services, conditions générales IT",
         "TITLE": "Conditions générales de vente",
         "SUBTITLE": "de Gillot Computer Services",
         "TITLE_1": "1. Champ d'application",
@@ -203,7 +203,7 @@
 
     "uber_uns": {
         "SEO_TITLE": "A propos de nous - Experts IT & Assistance informatique Vienne | Computer Services",
-        "SEO_DESCRIPTION": "Faites connaissance avec Gillot Consulting - votre prestataire de services informatiques à Vienne avec une longue expérience. Des conseils personnalisés, des solutions informatiques individuelles et une équipe compétente sont à vos côtés.",
+        "SEO_DESCRIPTION": "Faites connaissance avec Gillot Computer Services - votre prestataire de services informatiques à Vienne avec une longue expérience. Des conseils personnalisés, des solutions informatiques individuelles et une équipe compétente sont à vos côtés.",
         "KEYWORDS": "IT prestataire de services Vienne, IT conseil Vienne, IT experts Vienne, à propos de nous société IT, IT équipe de support Vienne, spécialistes IT Autriche, société de services IT",
         "TITLE": "À propos de nous",
         "GILLOT": "Jean-Michel Gillot – MANAGER",
@@ -238,8 +238,8 @@
 
     "standort": {
         "SEO_TITLE": "Notre site à Vienne - Conseil informatique et IT sur place | Gillot Computer Services",
-        "SEO_DESCRIPTION": "Visitez Gillot Consulting Services à Vienne - directement près du Prater (U2 Messe-Prater, 1020 Vienne). Conseil informatique & service sur site pour les particuliers et les entreprises.",
-        "KEYWORDS": "IT Standort Wien, Computerhilfe Wien 1020, IT Dienstleister Nähe Prater, IT Firma Wien 2. Bezirk, Gillot Consulting Adresse, Vor-Ort IT Service Wien, Regus Messecarree Wien",
+        "SEO_DESCRIPTION": "Visitez Gillot Computer Services à Vienne - directement près du Prater (U2 Messe-Prater, 1020 Vienne). Conseil informatique & service sur site pour les particuliers et les entreprises.",
+        "KEYWORDS": "IT Standort Wien, Computerhilfe Wien 1020, IT Dienstleister Nähe Prater, IT Firma Wien 2. Bezirk, Gillot Computer Services Adresse, Vor-Ort IT Service Wien, Regus Messecarree Wien",
         "TITLE": "Emplacement",
         "TEXT": "Découvrez notre site au cœur de Vienne - venez nous rendre visite et laissez-vous conseiller par notre équipe d'experts !",
         "ACHTUNG": "Attention! Nouvelle adresse à partir du 1er novembre 2025 : "
@@ -270,7 +270,7 @@
         "software": {
             "SEO_TITLE": "Solutions logicielles & conseil en informatique à Vienne | Gillot Computer Services",
             "SEO_DESCRIPTION": "Services logiciels professionnels à Vienne : conseil, développement, implémentation et support pour des solutions informatiques individuelles.",
-            "KEYWORDS": "Services logiciels Vienne, Conseil informatique Vienne, Développement de logiciels, Support informatique Vienne, Solutions logicielles personnalisées, Gillot Consulting",
+            "KEYWORDS": "Services logiciels Vienne, Conseil informatique Vienne, Développement de logiciels, Support informatique Vienne, Solutions logicielles personnalisées, Gillot Computer Services",
             "TITLE": "Software",
             "SUBTITLE": "Installation, Anpassung und Entwicklung von Software",
             "TEXT_1": "Installieren, Konfigurieren und Anpassen von Betriebssystemen und Standardsoftware gehören zu unserem tälike Geschäft.",
@@ -299,7 +299,7 @@
         "branchenlosungen": {
             "SEO_TITLE": "Solutions sectorielles - Solutions informatiques complètes pour les entreprises à Vienne | Gillot Computer Services",
             "SEO_DESCRIPTION": "Solutions sectorielles pour les PME à Vienne - Services informatiques individuels pour le commerce de détail, les contrats, l'internet, le commerce et plus encore.",
-            "KEYWORDS": "Solutions IT pour les branches, IT prestataire de services Vienne, IT service commerce, IT artisanat, IT assistance PME, solutions par branches Vienne, Gillot Consulting",
+            "KEYWORDS": "Solutions IT pour les branches, IT prestataire de services Vienne, IT service commerce, IT artisanat, IT assistance PME, solutions par branches Vienne, Gillot Computer Services",
             "TITLE": "Solutions pour l'industrie",
             "TEXT_1": "Systèmes de gestion des marchandises",
             "TEXT_2": "Comptabilité financière",

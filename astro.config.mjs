@@ -12,7 +12,7 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()]
   },
-  site: 'https://gillot.rcmdomini.cat',
+  site: 'https://gillotconsulting.com',
   integrations: [sitemap(), react()],
   i18n: {
     defaultLocale: 'de',

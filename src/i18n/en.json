@@ -28,7 +28,7 @@
 
     "cookies_denied": {
         "SEO_TITLE": "Cookie settings rejected - Privacy | Gillot Computer Services",
-        "SEO_DESCRIPTION": "Information on rejecting cookies on the Gillot Consulting Services website. Find out how you can adjust your cookie settings and protect your privacy.",
+        "SEO_DESCRIPTION": "Information on rejecting cookies on the Gillot Computer Services website. Find out how you can adjust your cookie settings and protect your privacy.",
         "TITLE": "Access denied",
         "TEXT": "You have declined the use of cookies. To use the website, please accept the cookies.",
         "BUTTON": "Accept cookies"
@@ -36,7 +36,7 @@
 
     "cookies": {
         "SEO_TITLE": "Cookie Policy - Privacy Policy | Gillot Computer Services",
-        "SEO_DESCRIPTION": "Information on the use of cookies on the Gillot Consulting Services website. Data protection and cookie settings according to GDPR.",
+        "SEO_DESCRIPTION": "Information on the use of cookies on the Gillot Computer Services website. Data protection and cookie settings according to GDPR.",
         "TITLE": "This website uses cookies!",
         "TEXT_1": "We use cookies to personalize content and advertisements, to offer functions for social media and to analyze access to our website.",
         "TEXT_2": "You consent to our cookies if you continue to use our website.",
@@ -54,8 +54,8 @@
 
     "impressum": {
         "SEO_TITLE": "Imprint - Legal Information & Contact in Vienna | Gillot Computer Services",
-        "SEO_DESCRIPTION": "Official imprint page of Gillot Consulting Services in Vienna. Address, contact, opening hours, VAT number and legal information according to Austrian law.",
-        "KEYWORDS": "Imprint Gillot Vienna, Gillot Consulting Imprint, legal information Vienna, contact Gillot Consulting, UID number Gillot, opening hours Gillot Vienna, Gillot Consulting Services Austria",
+        "SEO_DESCRIPTION": "Official imprint page of Gillot Computer Services in Vienna. Address, contact, opening hours, VAT number and legal information according to Austrian law.",
+        "KEYWORDS": "Imprint Gillot Vienna, Gillot Computer Services Imprint, legal information Vienna, contact Gillot Computer Services, UID number Gillot, opening hours Gillot Vienna, Gillot Computer Services Austria",
         "TITLE": "Legal Notice",
         "SUBTITLE": "Gillot Computer Services Computer & Network Service",
         "TELEFON": "Phone",
@@ -67,8 +67,8 @@
 
     "partner": {
         "SEO_TITLE": "Our partners - IT solutions & cooperations in Vienna | Gillot Computer Services",
-        "SEO_DESCRIPTION": "Discover the trusted partners of Gillot Consulting in Vienna. Together we offer IT security solutions, accounting services and innovative software technologies for your success.",
-        "KEYWORDS": "IT Partner Vienna, IT Security Solutions Vienna, Accounting Vienna, Software Partner Vienna, Trend Micro Vienna, Norton Security Vienna, Acronis Partner Vienna, IT Cooperation Vienna, Gillot Consulting Partner",
+        "SEO_DESCRIPTION": "Discover the trusted partners of Gillot Computer Services in Vienna. Together we offer IT security solutions, accounting services and innovative software technologies for your success.",
+        "KEYWORDS": "IT Partner Vienna, IT Security Solutions Vienna, Accounting Vienna, Software Partner Vienna, Trend Micro Vienna, Norton Security Vienna, Acronis Partner Vienna, IT Cooperation Vienna, Gillot Computer Services Partner",
         "TITLE": "Partner",
         "SUBTITLE_1": "Accounting",
         "SUBTITLE_2": "Security solutions for corporate networks",
@@ -82,8 +82,8 @@
 
     "agb":{
         "SEO_TITLE": "General Terms and Conditions (GTC) - IT Service Provider Vienna | Gillot Computer Services",
-        "SEO_DESCRIPTION": "General Terms and Conditions of Gillot Consulting Services. Find out about our contractual conditions, services and legal information.",
-        "KEYWORDS": "General Terms and Conditions Vienna, Terms and Conditions Gillot Consulting, Contractual Terms and Conditions IT Services, Gillot Consulting General Terms and Conditions, IT Service Provider Vienna, Terms of Use Gillot Consulting, General Terms and Conditions IT",
+        "SEO_DESCRIPTION": "General Terms and Conditions of Gillot Computer Services. Find out about our contractual conditions, services and legal information.",
+        "KEYWORDS": "General Terms and Conditions Vienna, Terms and Conditions Gillot Computer Services, Contractual Terms and Conditions IT Services, Gillot Computer Services General Terms and Conditions, IT Service Provider Vienna, Terms of Use Gillot Computer Services, General Terms and Conditions IT",
         "TITLE": "Terms and Conditions",
         "SUBTITLE": "from Gillot Computer Services",
         "TITLE_1": "1. Scope of application",
@@ -203,7 +203,7 @@
 
     "uber_uns": {
         "SEO_TITLE": "About us - IT Experts & Computer Help Vienna | Computer Services",
-        "SEO_DESCRIPTION": "Meet Gillot Consulting - your IT service provider from Vienna with many years of experience. Personal advice, individual IT solutions and a competent team are at your side.",
+        "SEO_DESCRIPTION": "Meet Gillot Computer Services - your IT service provider from Vienna with many years of experience. Personal advice, individual IT solutions and a competent team are at your side.",
         "KEYWORDS": "IT service provider Vienna, IT consulting Vienna, IT experts Vienna, about us IT company, IT support team Vienna, IT specialists Austria, IT service company",
         "TITLE": "About us",
         "GILLOT": "Jean-Michel Gillot – MANAGER",
@@ -238,8 +238,8 @@
 
     "standort": {
         "SEO_TITLE": "Our location in Vienna - EDP & IT consulting on site | Gillot Computer Services",
-        "SEO_DESCRIPTION": "Visit Gillot Consulting Services in Vienna - right next to the Prater (U2 Messe-Prater, 1020 Vienna). IT consulting & on-site service for private and business customers.",
-        "KEYWORDS": "IT location Vienna, Computer help Vienna 1020, IT service provider near Prater, IT company Vienna 2nd district, Gillot Consulting address, On-site IT service Vienna, Regus Messecarree Vienna",
+        "SEO_DESCRIPTION": "Visit Gillot Computer Services in Vienna - right next to the Prater (U2 Messe-Prater, 1020 Vienna). IT consulting & on-site service for private and business customers.",
+        "KEYWORDS": "IT location Vienna, Computer help Vienna 1020, IT service provider near Prater, IT company Vienna 2nd district, Gillot Computer Services address, On-site IT service Vienna, Regus Messecarree Vienna",
         "TITLE": "Location",
         "TEXT": "Discover our location in the heart of Vienna - visit us and let our team of experts advise you!",
         "ACHTUNG": "Attention! New address from November 1, 2025: "
@@ -270,7 +270,7 @@
         "software": {
             "SEO_TITLE": "Software solutions & IT consulting in Vienna | Gillot Computer Services",
             "SEO_DESCRIPTION": "Professional software services in Vienna: consulting, development, implementation and support for individual IT solutions.",
-            "KEYWORDS": "Software services Vienna, IT consulting Vienna, software development, IT support Vienna, customized software solutions, Gillot Consulting",
+            "KEYWORDS": "Software services Vienna, IT consulting Vienna, software development, IT support Vienna, customized software solutions, Gillot Computer Services",
             "TITLE": "Software",
             "SUBTITLE": "Installation, Anpassung und Entwicklung von Software",
             "TEXT_1": "Installieren, Konfigurieren und Anpassen von Betriebssystemen und Standardsoftware gehören zu unserem tälike Geschäft.",
@@ -299,7 +299,7 @@
         "branchenlosungen": {
             "SEO_TITLE": "Industry solutions - Complete IT solutions for companies in Vienna | Gillot Computer Services",
             "SEO_DESCRIPTION": "Industry solutions for SMEs in Vienna - Individual IT services for retail, contract, internet, trade and more.",
-            "KEYWORDS": "IT solutions for industries, IT service provider Vienna, IT service trade, IT trade, IT support for SMEs, industry solutions Vienna, Gillot Consulting",
+            "KEYWORDS": "IT solutions for industries, IT service provider Vienna, IT service trade, IT trade, IT support for SMEs, industry solutions Vienna, Gillot Computer Services",
             "TITLE": "Industry Solutions",
             "TEXT_1": "Merchandise management systems",
             "TEXT_2": "Financial Accounting",
