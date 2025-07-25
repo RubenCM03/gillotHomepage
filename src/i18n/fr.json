@@ -401,15 +401,45 @@
         },
 
         "datensicherung": {
-
+            "SEO_TITLE": "Datensicherung & Datenrettung in Wien – Sichere IT Lösungen | Gillot Consulting",
+            "SEO_DESCRIPTION": "Professionelle Datensicherung & Datenrettung in Wien – Gillot Consulting schützt Ihre Daten mit zuverlässigen IT-Lösungen & erprobten Methoden.",
+            "KEYWORDS": "Datensicherung Wien, Datenrettung Wien, IT Sicherheit Wien, Backup Lösungen, Daten wiederherstellen Wien, Datenverlust Hilfe, IT Services Wien, Gillot Consulting",
+            "TITLE": "Datensicherung & Rettung",
+            "SUBTITLE_1": "Datenrettung",
+            "SUBTITLE_2": "Datensicherung",
+            "TEXT_1": "Wenn sich die Festplatte nicht mehr ansprechen lässt, dann sind wir die Richtigen um Sie aus der Not zu helfen. Wir können mit erprobten Methoden Daten wiederherstellen. Wenn es um physische Fehler geht, dann arbeiten wir mit renommierte Partner.",
+            "TEXT_2": "Datensicherung ist eine der wichtigsten Aufgaben um schnell im Fall eines Systemabsturzes oder Datenverlustes wieder arbeiten zu können. Ein Datensicherungskonzept kann nach Ihren Bedürfnissen und Anforderungen zusammengestellt werden."
         },
 
         "beratungsdienste": {
-
+            "SEO_TITLE": "IT Beratungsdienste in Wien – Strategische IT Lösungen | Gillot Consulting",
+            "SEO_DESCRIPTION": "Professionelle IT Beratungsdienste in Wien – Gillot Consulting bietet herstellerunabhängige Beratung zu EDV, IT-Sicherheit, Backup & Netzwerkinfrastruktur.",
+            "KEYWORDS": "IT Beratung Wien, IT Beratungsdienste Wien, EDV Beratung Wien, IT Consulting Wien, IT Strategie Wien, IT Infrastruktur Beratung, IT Sicherheitsberatung Wien, IT Analyse Wien, EDV Optimierung Wien, Backup Beratung Wien, IT Sicherheitskonzepte Wien",
+            "TITLE": "Beratungsdienste",
+            "SUBTITLE_1": "Beratung",
+            "SUBTITLE_2": "Wir bieten auch an:",
+            "TEXT": "Die Beratung ist ein zentraler Aspekt eines jeden Gillot Consulting Services Projektes. Ob Einzelplatz-, Netzwerk- oder Internetanwendung, bevor wir eine Lösung anbieten und implementieren, nehmen wir mit Ihnen Kontakt auf und beraten Sie anschließend ausführlich und herstellerunabhängig...",
+            "LIST_1": "Optimierung der EDV-Arbeit",
+            "LIST_2": "Erfassung und Analyse des Ist-Zustandes der EDV, der TK-Infrastruktur und der Kommunikationsströme.",
+            "LIST_3": "Optimierung der Infrastruktur.",
+            "LIST_4": "Sicherheitskonzepte (Infrastruktur, Backup, Virenschutz, Firewall, ...).",
+            "LIST_5": "Ausarbeitung und Analyse von Alternativlösungen."
         },
 
+
         "schulungen": {
-            
+            "SEO_TITLE": "IT Schulungen & Trainings in Wien – Praxisnahe Weiterbildung | Gillot Consulting",
+            "SEO_DESCRIPTION": "Praxisnahe IT-Schulungen in Wien für Computeranwender. Individuelle Trainings zu Office, Internet, Virenschutz & mehr.",
+            "KEYWORDS": "IT Schulung Wien, Computer Training Wien, Microsoft Office Schulung, Virenschutz Training, Gillot Consulting",
+            "TITLE": "Schulungen",
+            "SUBTITLE_1": "Schulungen nach Maß !",
+            "SUBTITLE_2": "Unser Schulungsangebot im Überblick",
+            "TEXT_1": "Wir haben uns auf das Training von Computeranwendern spezialisiert. Wir bieten Ihnen daher konkrete Schulungen für die tägliche Arbeit mit Ihrem Computer und zeigen Ihnen dabei die Funktionen die Sie wirklich brauchen.",
+            "LIST_1": "Allgemeine Einführung in die Benutzung und Bedienung eines Computers.",
+            "LIST_2": "Einführung Microsoft Office (u.a. Word, Excel, Powerpoint).",
+            "LIST_3": "Schulung Internet und E-Mail.",
+            "LIST_4": "Einführung Virenschutz und Firewall.",
+            "TEXT_2": "Bei uns orientiert sich eine Schulung an den tatsächlichen Wünschen und Anforderungen des Kunden. Alle unsere Kurse werden einzeln oder mit begrenzter Teilnehmerzahl durchgeführt, damit wir auf jeden Teilnehmer persönlich eingehen können. Die intensive und anwendernahe Betreuung während der Seminare garantiert eine effiziente Schulung der Teilnehmer."
         }
     }
 }

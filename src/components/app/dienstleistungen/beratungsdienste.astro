@@ -1,41 +1,47 @@
 ---
 import KontaktButton from "@/components/KontaktButton.astro";
 import Layout from "@/layouts/Layout.astro";
+import { getI18N } from "@/i18n/index.ts";
+
+const currentLocale = Astro.url.pathname.split("/")[1] || "de";
+const i18n = getI18N({ currentLocale });
 ---
 
 <Layout
-    title="IT Beratungsdienste in Wien – Strategische IT Lösungen | Gillot Consulting"
-    description="Professionelle IT Beratungsdienste in Wien – Gillot Consulting bietet herstellerunabhängige Beratung zu EDV, IT-Sicherheit, Backup & Netzwerkinfrastruktur."
-    keywords="IT Beratung Wien, IT Beratungsdienste Wien, EDV Beratung Wien, IT Consulting Wien, IT Strategie Wien, IT Infrastruktur Beratung, IT Sicherheitsberatung Wien, IT Analyse Wien, EDV Optimierung Wien, Backup Beratung Wien, IT Sicherheitskonzepte Wien"
+    title={i18n.dienstleistungen.beratungsdienste.SEO_TITLE}
+    description={i18n.dienstleistungen.beratungsdienste.SEO_DESCRIPTION}
+    keywords={i18n.dienstleistungen.beratungsdienste.KEYWORDS}
 >
     <div class="px-5">
-        <h1 class="text-4xl md:text-5xl font-bold text-center mx-auto mt-8 mb-8">
-            Beratungsdienste
+        <h1
+            class="text-4xl md:text-5xl font-bold text-center mx-auto mt-8 mb-8"
+        >
+            {i18n.dienstleistungen.beratungsdienste.TITLE}
         </h1>
         <section class="max-w-3xl mx-auto mb-8">
-            <h2 class="font-bold text-2xl mb-2 text-[#f4d35e]">Beratung</h2>
+            <h2 class="font-bold text-2xl mb-2 text-[#f4d35e]">
+                {i18n.dienstleistungen.beratungsdienste.SUBTITLE_1}
+            </h2>
             <p>
-                Die Beratung ist ein zentraler Aspekt eines jeden Gillot
-                Consulting Services Projektes. Ob Einzelplatz-, Netzwerk- oder
-                Internetanwendung, bevor wir eine Lösung anbieten und
-                implementieren, nehmen wir mit Ihnen Kontakt auf und beraten Sie
-                anschließend ausführlich und herstellerunabhängig...
+                {i18n.dienstleistungen.beratungsdienste.TEXT}
             </p>
         </section>
-        <section class="max-w-3xl mx-auto bg-white/10 p-6 rounded-xl shadow-lg backdrop-blur-sm border border-white/10 hover:bg-white/15 hover:shadow-xl transition-all duration-300">
-            <h2 class="font-bold text-2xl mb-2 text-[#f4d35e]">Wir bieten auch an:</h2>
+        <section
+            class="max-w-3xl mx-auto bg-white/10 p-6 rounded-xl shadow-lg backdrop-blur-sm border border-white/10 hover:bg-white/15 hover:shadow-xl transition-all duration-300"
+        >
+            <h2 class="font-bold text-2xl mb-2 text-[#f4d35e]">
+                {i18n.dienstleistungen.beratungsdienste.SUBTITLE_2}
+            </h2>
             <ul class="list-disc list-inside">
-                <li>Optimierung der EDV-Arbeit</li>
+                <li>{i18n.dienstleistungen.beratungsdienste.LIST_1}</li>
                 <li>
-                    Erfassung und Analyse des Ist-Zustandes der EDV, der
-                    TK-Infrastruktur und der Kommunikationsströme
+                    {i18n.dienstleistungen.beratungsdienste.LIST_2}
                 </li>
-                <li>Optimierung der Infrastruktur</li>
+                <li>{i18n.dienstleistungen.beratungsdienste.LIST_3}</li>
                 <li>
-                    Sicherheitskonzepte (Infrastruktur, Backup, Virenschutz,
-                    Firewall, ...)
+                    {i18n.dienstleistungen.beratungsdienste.LIST_4}
                 </li>
-                <li>Ausarbeitung und Analyse von Alternativlösungen</li>
+                <li>{i18n.dienstleistungen.beratungsdienste.LIST_5}</li>
             </ul>
         </section>
     </div>

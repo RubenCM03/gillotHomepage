@@ -7,40 +7,34 @@ const currentLocale = Astro.url.pathname.split("/")[1] || "de";
 const i18n = getI18N({ currentLocale });
 ---
 
-<Layout
-    title="Datensicherung & Datenrettung in Wien – Sichere IT Lösungen | Gillot Consulting"
-    description="Professionelle Datensicherung & Datenrettung in Wien – Gillot Consulting schützt Ihre Daten mit zuverlässigen IT-Lösungen & erprobten Methoden."
-    keywords="Datensicherung Wien, Datenrettung Wien, IT Sicherheit Wien, Backup Lösungen, Daten wiederherstellen Wien, Datenverlust Hilfe, IT Services Wien, Gillot Consulting"
->
+<Layout title={i18n.dienstleistungen.datensicherung.SEO_TITLE} description={i18n.dienstleistungen.datensicherung.SEO_DESCRIPTION} keywords={i18n.dienstleistungen.datensicherung.KEYWORDS}>
     <div class="px-5">
         <h1
             class="text-4xl md:text-5xl font-bold text-center mx-auto mt-8 mb-10"
         >
-            Datensicherung & Rettung
+            {i18n.dienstleistungen.datensicherung.TITLE}
         </h1>
-        <section class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto text-center">
-            <div class="bg-white/10 p-6 rounded-xl shadow-lg backdrop-blur-sm border border-white/10 hover:shadow-xl hover:bg-white/15 transition-all duration-300">
+        <section
+            class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto text-center"
+        >
+            <div
+                class="bg-white/10 p-6 rounded-xl shadow-lg backdrop-blur-sm border border-white/10 hover:shadow-xl hover:bg-white/15 transition-all duration-300"
+            >
                 <h2 class="font-bold text-2xl mb-2 text-[#f4d35e]">
-                    Datenrettung
+                    {i18n.dienstleistungen.datensicherung.SUBTITLE_1}
                 </h2>
                 <p>
-                    Wenn sich die Festplatte nicht mehr ansprechen lässt, dann
-                    sind wir die Richtigen um Sie aus der Not zu helfen. Wir
-                    können mit erprobten Methoden Daten wiederherstellen. Wenn
-                    es um physische Fehler geht, dann arbeiten wir mit
-                    renommierte Partner.
+                    {i18n.dienstleistungen.datensicherung.TEXT_1}
                 </p>
             </div>
-            <div class="bg-white/10 p-6 rounded-xl shadow-lg backdrop-blur-sm border border-white/10 hover:shadow-xl hover:bg-white/15 transition-all duration-300">
+            <div
+                class="bg-white/10 p-6 rounded-xl shadow-lg backdrop-blur-sm border border-white/10 hover:shadow-xl hover:bg-white/15 transition-all duration-300"
+            >
                 <h2 class="font-bold text-2xl mb-2 text-[#f4d35e]">
-                    Datensicherung
+                    {i18n.dienstleistungen.datensicherung.SUBTITLE_2}
                 </h2>
                 <p>
-                    Datensicherung ist eine der wichtigsten Aufgaben um schnell
-                    im Fall eines Systemabsturzes oder Datenverlustes wieder
-                    arbeiten zu können. Ein Datensicherungskonzept kann nach
-                    Ihren Bedürfnissen und Anforderungen zusammengestellt
-                    werden.
+                    {i18n.dienstleistungen.datensicherung.TEXT_2}
                 </p>
             </div>
         </section>
