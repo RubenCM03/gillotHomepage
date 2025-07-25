@@ -1,6 +1,45 @@
 ---
+import KontaktButton from "@/components/KontaktButton.astro";
 import Layout from "@/layouts/Layout.astro";
 ---
-<Layout title="Datensicherung & Datenrettung in Wien – Sichere IT Lösungen | Gillot Consulting" description=" Datensicherung und Datenrettung von Gillot Consulting Services" keywords="">
 
+<Layout
+    title="Datensicherung & Datenrettung in Wien – Sichere IT Lösungen | Gillot Consulting"
+    description=" Datensicherung und Datenrettung von Gillot Consulting Services"
+    keywords=""
+>
+    <div class="px-5">
+        <h1
+            class="text-4xl md:text-5xl font-bold text-center mx-auto mt-8 mb-10"
+        >
+            Datensicherung & Rettung
+        </h1>
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto text-center">
+            <div class="bg-white/10 p-6 rounded-xl shadow-lg backdrop-blur-sm border border-white/10 hover:shadow-xl hover:bg-white/15 transition-all duration-300">
+                <h2 class="font-bold text-2xl mb-2 text-[#f4d35e]">
+                    Datenrettung
+                </h2>
+                <p>
+                    Wenn sich die Festplatte nicht mehr ansprechen lässt, dann
+                    sind wir die Richtigen um Sie aus der Not zu helfen. Wir
+                    können mit erprobten Methoden Daten wiederherstellen. Wenn
+                    es um physische Fehler geht, dann arbeiten wir mit
+                    renommierte Partner.
+                </p>
+            </div>
+            <div class="bg-white/10 p-6 rounded-xl shadow-lg backdrop-blur-sm border border-white/10 hover:shadow-xl hover:bg-white/15 transition-all duration-300">
+                <h2 class="font-bold text-2xl mb-2 text-[#f4d35e]">
+                    Datensicherung
+                </h2>
+                <p>
+                    Datensicherung ist eine der wichtigsten Aufgaben um schnell
+                    im Fall eines Systemabsturzes oder Datenverlustes wieder
+                    arbeiten zu können. Ein Datensicherungskonzept kann nach
+                    Ihren Bedürfnissen und Anforderungen zusammengestellt
+                    werden.
+                </p>
+            </div>
+        </section>
+    </div>
+    <KontaktButton />
 </Layout>
