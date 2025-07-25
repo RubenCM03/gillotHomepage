@@ -30,15 +30,8 @@ const currentLocale = supportedLocales.includes(localeFromPath)
 		<link rel="icon" href="/favicon.ico?v=2" type="image/x-icon" />
 		<slot name="noindex">
 		<slot name="preload" />
-		<link
-			rel="preload"
-			href="/_astro/agb.B6MZd-iQ.css"
-			as="style"
-			onload="this.onload=null;this.rel='stylesheet'"
-		/>
-		<noscript
-			><link rel="stylesheet" href="/_astro/agb.CzKZVwx4.css" /></noscript
-		>
+		<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+		<link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
 		<link rel="canonical" href="https://gillotconsulting.com/" />
 		<link rel="alternate" hreflang="de" href="https://gillotconsulting.com/" />
 		<link rel="alternate" hreflang="en" href="https://gillotconsulting.com/en/" />

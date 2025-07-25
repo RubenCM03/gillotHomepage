@@ -97,7 +97,7 @@ function withLocale(path: string) {
             }
             <Dienstleistungen />
 
-            <div
+            <li
                 class="hidden md:block md:ml-auto md:mr-6"
                 x-data="{ openLang: false }"
             >
@@ -119,13 +119,12 @@ function withLocale(path: string) {
                     </svg>
                 </button>
                 <LanguageMenu />
-            </div>
+            </li>
         </ul>
     </div>
 </nav>
 
-<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer
-></script>
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 <script>
     function changeLang(lang: string) {
         const supportedLangs = ["en", "fr"];
