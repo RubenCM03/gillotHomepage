@@ -7,9 +7,15 @@ const currentLocale = Astro.url.pathname.split("/")[1] || "de";
 const i18n = getI18N({ currentLocale });
 ---
 
-<Layout title={i18n.standort.SEO_TITLE} description={i18n.standort.SEO_DESCRIPTION} keywords="">
+<Layout
+    title={i18n.standort.SEO_TITLE}
+    description={i18n.standort.SEO_DESCRIPTION}
+    keywords={i18n.standort.KEYWORDS}
+>
     <div class="container mx-auto px-4">
-        <h1 class="text-4xl md:text-5xl font-bold text-center mx-auto mt-8 mb-5">
+        <h1
+            class="text-4xl md:text-5xl font-bold text-center mx-auto mt-8 mb-5"
+        >
             {i18n.standort.TITLE}
         </h1>
         <p class="text-center text-lg max-w-2xl mx-auto text-white/80 mb-6">
@@ -17,15 +23,23 @@ const i18n = getI18N({ currentLocale });
         </p>
         <!-- Delete this next div when the addres is changed (change the addres text and map below) -->
         <div class="mt-2 text-center mb-8 flex flex-col items-center space-y-2">
-            <p class="text-center text-lg font-medium bg-[#DB1F32] px-6 py-2 rounded-xl shadow-inner backdrop-blur-sm">
-                <span class="text-xl font-bold text-[#82121E]">{i18n.standort.ACHTUNG}</span>
-                <span class="text-base md:text-lg"><br> GILLOT CONSULTING SERVICES c/o Regus Messecarree</span>
-                <span class="text-base md:text-lg"><br> Ausstellungsstrasse 50/C/2.Stock, 1020 Wien, U-Bahn U2 Messe Prater</span>
+            <p
+                class="text-center text-lg font-medium bg-[#DB1F32] px-6 py-2 rounded-xl shadow-inner backdrop-blur-sm"
+            >
+                <span class="text-xl font-bold text-[#82121E]"
+                    >{i18n.standort.ACHTUNG}</span
+                >
+                <span class="text-base md:text-lg"
+                    ><br /> GILLOT CONSULTING SERVICES c/o Regus Messecarree</span
+                >
+                <span class="text-base md:text-lg"
+                    ><br /> Ausstellungsstrasse 50/C/2.Stock, 1020 Wien, U-Bahn U2
+                    Messe Prater</span
+                >
             </p>
         </div>
         <div class="flex justify-center items-center mb-10">
             <div class="relative">
-                
                 <iframe
                     loading="lazy"
                     title="Gillot Consulting Services Standort"
@@ -62,6 +76,5 @@ const i18n = getI18N({ currentLocale });
                 +43 66 44 54 32 44
             </p>
         </div>
-        
     </div>
 </Layout>

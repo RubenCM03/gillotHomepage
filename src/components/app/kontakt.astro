@@ -6,7 +6,7 @@ const currentLocale = Astro.url.pathname.split("/")[1] || "de";
 const i18n = getI18N({ currentLocale });
 ---
 
-<Layout title= {i18n.kontakt.SEO_TITLE} description= {i18n.kontakt.SEO_DESCRIPTION} keywords="">
+<Layout title= {i18n.kontakt.SEO_TITLE} description= {i18n.kontakt.SEO_DESCRIPTION} keywords={i18n.kontakt.KEYWORDS}>
     <script slot="schema" type="application/ld+json" data-astro-exec>
         {
             "@context": "https://schema.org",
@@ -45,7 +45,7 @@ const i18n = getI18N({ currentLocale });
             >
                 <img
                     src="/img/mailGillot.svg"
-                    alt="E-Mail Gillot Consulting"
+                    alt="E-Mail Gillot Computer Services"
                     class="w-[350px] max-w-full drop-shadow-lg mx-auto transition-transform hover:scale-105 flex justify-center items-center"
                 />
             </div>

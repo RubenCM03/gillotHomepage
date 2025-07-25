@@ -1,7 +1,18 @@
 ---
 import { getI18N } from "@/i18n/index.ts";
 
-const currentLocale = Astro.url.pathname.split("/")[1] || "de";
+
+const pathname = Astro.url.pathname;
+const localeFromPath = pathname.split("/")[1];
+const supportedLocales = ["de", "en", "fr"];
+const currentLocale = supportedLocales.includes(localeFromPath)
+    ? localeFromPath
+    : "de";
+
+function withLocale(path: string) {
+    return currentLocale === "de" ? path : `/${currentLocale}${path}`;
+}
+
 const i18n = getI18N({ currentLocale });
 ---
 <div class="text-center mt-10 px-4">
@@ -13,7 +24,7 @@ const i18n = getI18N({ currentLocale });
             abgestimmtes Angebot.
         </p>
         <a
-            href="/kontakt"
+            href={withLocale("/kontakt")}
             class="inline-block bg-[#f5a623] hover:bg-[#DB8C0A] font-bold px-8 py-3 rounded-xl shadow-lg transition-all duration-300"
         >
             Jetzt Kontakt aufnehmen
