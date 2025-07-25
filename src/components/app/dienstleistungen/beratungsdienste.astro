@@ -1,6 +1,43 @@
 ---
+import KontaktButton from "@/components/KontaktButton.astro";
 import Layout from "@/layouts/Layout.astro";
 ---
-<Layout title="IT Beratungsdienste in Wien – Strategische IT Lösungen | Gillot Consulting" description="Beratungsdienste von Gillot Consulting Services" keywords="">
 
+<Layout
+    title="IT Beratungsdienste in Wien – Strategische IT Lösungen | Gillot Consulting"
+    description="Beratungsdienste von Gillot Consulting Services"
+    keywords=""
+>
+    <div>
+        <h1 class="text-4xl md:text-5xl font-bold text-center mx-auto mt-8">
+            Beratungsdienste
+        </h1>
+        <section>
+            <h2 class="font-bold text-2xl mb-2 text-[#f4d35e]">Beratung</h2>
+            <p>
+                Die Beratung ist ein zentraler Aspekt eines jeden Gillot
+                Consulting Services Projektes. Ob Einzelplatz-, Netzwerk- oder
+                Internetanwendung, bevor wir eine Lösung anbieten und
+                implementieren, nehmen wir mit Ihnen Kontakt auf und beraten Sie
+                anschließend ausführlich und herstellerunabhängig...
+            </p>
+        </section>
+        <section>
+            <h2 class="font-bold text-2xl mb-2 text-[#f4d35e] mt-8">Wir bieten auch an:</h2>
+            <ul>
+                <li>Optimierung der EDV-Arbeit</li>
+                <li>
+                    Erfassung und Analyse des Ist-Zustandes der EDV, der
+                    TK-Infrastruktur und der Kommunikationsströme
+                </li>
+                <li>Optimierung der Infrastruktur</li>
+                <li>
+                    Sicherheitskonzepte (Infrastruktur, Backup, Virenschutz,
+                    Firewall, ...)
+                </li>
+                <li>Ausarbeitung und Analyse von Alternativlösungen</li>
+            </ul>
+        </section>
+    </div>
+    <KontaktButton />
 </Layout>
