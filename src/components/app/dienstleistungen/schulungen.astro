@@ -1,6 +1,44 @@
 ---
+import KontaktButton from "@/components/KontaktButton.astro";
 import Layout from "@/layouts/Layout.astro";
 ---
-<Layout title="IT Schulungen & Trainings in Wien – Praxisnahe Weiterbildung | Gillot Consulting" description="Schulungen von Gillot Consulting Services" keywords="">
 
+<Layout
+    title="IT Schulungen & Trainings in Wien – Praxisnahe Weiterbildung | Gillot Consulting"
+    description="Schulungen von Gillot Consulting Services"
+    keywords=""
+>
+    <div class="px-5">
+        <h1 class="text-4xl md:text-5xl font-bold text-center mx-auto mt-8">
+            Schulungen
+        </h1>
+        <h2
+            class="text-xl md:text-2xl text-center mx-auto text-white/70 max-w-2xl mb-6"
+        >
+            Schulungen nach Maß !
+        </h2>
+        <section class="text-center max-w-2xl mx-auto text-lg mb-8">
+            <p>
+                Wir haben uns auf das Training von Computeranwendern
+                spezialisiert. Wir bieten Ihnen daher konkrete Schulungen für
+                die tägliche Arbeit mit Ihrem Computer und zeigen Ihnen dabei
+                die Funktionen die Sie wirklich brauchen.
+            </p>
+        </section>
+        <hr
+                    class="w-100 sm:w-200 h-1 mx-auto bg-white/20 border-0 rounded-sm md:my-2 mb-8 md:mb-10"
+                />
+        <section class="bg-white/10 p-6 max-w-6xl mx-auto rounded-xl shadow-lg backdrop-blur-sm border border-white/10 hover:shadow-xl transition-all duration-300">
+            <h3 class="font-bold text-2xl mb-5 text-[#f4d35e]">Unser Schulungsangebot im Überblick</h3>
+            <ul>
+                <li class="list-disc list-inside">Allgemeine Einführung in die Benutzung und Bedienung eines Computers</li>
+                <li class="list-disc list-inside">Einführung Microsoft Office (u.a. Word, Excel, Powerpoint)</li>
+                <li class="list-disc list-inside">Schulung Internet und E-Mail</li>
+                <li class="list-disc list-inside">Einführung Virenschutz und Firewall</li>
+            </ul>
+            <p class="mt-5 leading-relaxed">Bei uns orientiert sich eine Schulung an den tatsächlichen Wünschen und Anforderungen des Kunden. Alle unsere Kurse werden einzeln oder mit begrenzter Teilnehmerzahl von maximal 10 Personen durchgeführt, damit wir auf jeden Teilnehmer persönlich eingehen können. Die intensive und anwendernahe Betreuung während der Seminare garantiert eine effiziente Schulung der Teilnehmer.
+</p>
+        </section>
+    </div>
+    <KontaktButton/>
 </Layout>
