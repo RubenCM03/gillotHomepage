@@ -1,12 +1,16 @@
 ---
 import KontaktButton from "@/components/KontaktButton.astro";
 import Layout from "@/layouts/Layout.astro";
+import { getI18N } from "@/i18n/index.ts";
+
+const currentLocale = Astro.url.pathname.split("/")[1] || "de";
+const i18n = getI18N({ currentLocale });
 ---
 
 <Layout
-    title="Sicherheit & Datenschutz in Wien – IT Schutz & Compliance | Gillot Consulting"
-    description="Verlässliche Sicherheits- und Datenschutzlösungen in Wien. Schutz Ihrer Daten nach EU-DSGVO mit modernster IT-Security und Compliance."
-    keywords="Datenschutz Wien, IT Sicherheit Wien, DSGVO Compliance, IT Schutz, Netzwerksicherheit, Gillot Consulting"
+    title=""
+    description=""
+    keywords=""
 >
     <div class="absolute inset-0 -z-10 opacity-10 pointer-events-none">
         <svg

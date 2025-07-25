@@ -259,11 +259,31 @@
 
     "dienstleistungen": {
         "computerNotdienst": {
-
+            "SEO_TITLE": "Computer Notdienst Wien – Schnelle IT Hilfe bei Problemen | Gillot Consulting",
+            "SEO_DESCRIPTION": "Schneller Computer Notdienst in Wien – Gillot Consulting bietet professionelle IT-Hilfe bei PC-Problemen, Ausfällen und Netzwerkstörungen.",
+            "KEYWORDS": "Computer Notdienst Wien, PC Hilfe Wien, IT Notfallservice Wien, IT Support vor Ort, Computer Reparatur Wien, Netzwerkprobleme lösen, Gillot Consulting",
+            "TITLE": "Computer Notdienst",
+            "SUBTITLE": "Sofortige Hilfe bei Computerproblemen – schnell, zuverlässig und professionell",
+            "TEXT_1": "Ob alleinstehende Computer und Peripherie im privaten Haushalt, oder Firmennetzwerke und Server, wir sind täglich für Sie im Einsatz.",
+            "TEXT_2": "Kompetenz und freundliches Service mit höchsten Qualitätsansprüchen sind unsere Maxime.",
+            "TEXT_3": "Wir bieten erste Hilfe bei Computerproblemen. Wir haben einen Vorort Service oder Sie können Ihr Computer zu uns bringen.",
+            "SERVICES": "Unsere Leistungen",
+            "SERVICE_1": "Notfall-Service",
+            "SERVICE_2": "Datenrettung",
+            "SERVICE_3": "Netzwerkprobleme",
+            "SERVICE_1_TEXT": "Schnelle Hilfe bei akuten IT-Ausfällen – wir sind sofort für Sie da.",
+            "SERVICE_2_TEXT": "Wiederherstellung von verlorenen oder beschädigten Dateien.",
+            "SERVICE_3_TEXT": "Diagnose und Lösung von LAN- oder WLAN-Störungen.",
+            "TEXT_4": "Immer am letzten Stand der Technik, finden wir eine Lösung für die schwierigsten Fehler."
         },
         
         "verkauf": {
-
+            "SEO_TITLE": "Computer & Laptop Verkauf mit Beratung in Wien | Gillot Consulting",
+            "SEO_DESCRIPTION": "Verkauf von Computern, Laptops & IT-Hardware in Wien mit individueller Beratung und maßgeschneiderten IT-Lösungen für Unternehmen und Privat.",
+            "KEYWORDS": "Computer Verkauf Wien, Laptop Verkauf Wien, IT Hardware Wien, Gillot Consulting, IT Beratung Wien, individuelle IT Konfiguration, Computer Systeme Wien, Serversysteme Verkauf",
+            "TITLE": "Verkauf",
+            "TEXT_1": "Wir stellen Computer- und Serversysteme nach Ihren persönlichen Wünschen zusammen, beschaffen Software, Peripheriegeräte, Festplatten, Speicher, Netzwerkswitche, Router, Funknetzwerkkomponenten und bauen spezielle Konfigurationen für Sie auf.",
+            "TEXT_2": "Außerdem entwickeln wir spezielle Konfigurationen für Unternehmen, die individuelle IT-Lösungen verlangen."
         },
 
         "software": {
@@ -284,15 +304,54 @@
         },
 
         "internet": {
-
+            "SEO_TITLE": "Internetlösungen & Netzwerkhilfe in Wien | Gillot Consulting",
+            "SEO_DESCRIPTION": "Professionelle Internetlösungen, Webdesign und individuelle Webentwicklung in Wien. Gillot Consulting bietet maßgeschneiderte IT-Services für Ihr Unternehmen.",
+            "KEYWORDS": "Internetlösungen Wien, Internetzugang Wien, Webdesign Wien, Webentwicklung Wien, individuelle Internetanwendungen, IT Services Wien, Gillot Consulting, Netzwerk Wien",
+            "TITLE": "Internet",
+            "SUBTITLE_1": "Internetzugang",
+            "SUBTITLE_2": "Webdesign",
+            "SUBTITLE_3": "Entwicklung",
+            "TEXT_1": "Kunden erwarten heute schnelle und aktuelle Informationen, Online-Service und Erreichbarkeit via World Wide Web. Unternehmen stellen hier unterschiedliche Anforderungen auf. Wir erstellen Ihnen einen optimalen Internetzugang nach Mass.",
+            "TEXT_2": "Einigen genügt als Visitenkarte die Präsenz im Internet, andere nutzen das Medium interaktiv. Wir konzipieren für Ihre spezifische Situation einen zielgruppenorientierten, bedarfsgerechten Internet-Auftritt. Wir beraten Sie unverbindlich und legen Ihnen ein Festpreisangebot vor. Wir sorgen für ein professionelles Erscheinungsbild, angepasst an Ihr Corporate Design.",
+            "TEXT_3": "Wir entwickeln und programmieren für Sie individuelle Internet-AnwendungenWir entwickeln und programmieren für Sie individuelle Internet-Anwendungen."
         },
 
         "netzwerk": {
-            
+            "SEO_TITLE": "Netzwerk Sicherheit & EDV Services in Wien | Gillot Consulting",
+            "SEO_DESCRIPTION": "Professionelle Netzwerklösungen & IT-Sicherheit in Wien. Aufbau, Planung und Service für Ihr Firmennetzwerk von Gillot Consulting.",
+            "KEYWORDS": "Netzwerk Wien, IT Sicherheit Wien, EDV Service Wien, Netzwerklösungen, Netzwerkplanung, IT Outsourcing, IT Support Wien",
+            "TITLE": "Netzwerk",
+            "SUBTITLE": "Viele Unternehmen haben nicht die Mittel eine EDV-Abteilung aufzubauen.",
+            "LIST_1": "Wir bauen das komplette Netzwerk für Sie auf",
+            "LIST_2": "Wir stehen als Outsourcing Partner für Sie zur Verfügung",
+            "LIST_3": "Sie brauchen nur gelegentliche Hilfe, wie bei Krankenständen oder sonstigen plötzlichen Ausfällen",
+            "TEXT": "Sie wollen ein Netzwerk einrichten, Ihnen fehlt aber die Zeit sich mit den technischen Details zu beschäftigen? Ihre Technik soll sich am Bedarf orientieren und nicht umgekehrt? Wir analysieren zunächst Ihre konkreten Leistungsanforderungen an ein Firmennetzwerk und erstellen Ihnen dann ein individuelles Angebot.",
+            "SERVICE_1": "Sicherheit",
+            "SERVICE_2": "Planung und Aufbau",
+            "SERVICE_3": "Service",
+            "SERVICE_1_TEXT": "Internetzugang, Firewalls, Virenschutz, Datensicherungskonzepte, Ausfallssicherheit.",
+            "SERVICE_2_TEXT": "Wir bieten individuelle Lösungen und persönliches Service bei Beratung, Analyse, Planung, Beschaffung und Realisierung Ihres Netzwerkes.",
+            "SERVICE_3_TEXT": "Wartung, Pflege, Notdienst."
         },
 
         "computerhilfeSenioren": {
-            
+            "SEO_TITLE": "Computerhilfe Für Senioren – IT-Hilfe für Senioren in Wien | Gillot Consulting",
+            "SEO_DESCRIPTION": "Professionelle Computerhilfe für Senioren in Wien. Unterstützung bei digitalen Amtswegen, Onlinebanking, ELGA, Handy-Signatur & mehr.",
+            "KEYWORDS": "digitale Hilfe Senioren Österreich, IT Unterstützung digitales Amt, ID Austria Hilfe Wien, Online Amtswege Seniorenhilfe, Technikhilfe ältere Menschen Wien, Computerhilfe für Senioren, Hilfe bei digitalen Amtswegen, Unterstützung bei E-Mail und Internet, Smartphone-Hilfe für ältere Menschen, Senioren und Digitalisierung, ELGA, FinanzOnline, Handy-Signatur, Geduldige PC-Hilfe, Fernwartung, Hilfe beim Online-Formular, Digitale Hilfe vor Ort, Technikhilfe für ältere Menschen",
+            "TITLE": "Computerhilfe für Senioren",
+            "SUBTITLE_1": "Was wir für Sie tun",
+            "LIST_1": "Registrierung und Nutzung des digitalen Amts",
+            "LIST_2": "Einrichtung und Nutzung von ID Austria (digitale ID).",
+            "LIST_3": "Unterstützung bei Smartphones, Tablets, Laptops und PCs.",
+            "LIST_4": "Ausfüllen von Online-Formularen und Umgang mit digitalen Amtswegen.",
+            "LIST_5": "Sicherer Umgang mit Passwörtern, SMS-Codes und App-Installationen.",
+            "LIST_6": "Persönliche Schulung – bei Ihnen zu Hause, in unserem Büro oder telefonisch.",
+            "SUBTITLE_2": "Geduldige, persönliche Technikhilfe",
+            "TEXT_1": "Wir wissen, dass der Umgang mit moderner Technik und digitalen Amtswegen für ältere Menschen oft eine Herausforderung ist. Deshalb bieten wir Ihnen verständliche, ruhige und persönliche Unterstützung.",
+            "TEXT_2": "Ob Onlinebanking, ELGA, FinanzOnline oder Handy-Signatur – wir helfen Ihnen Schritt für Schritt, damit Sie Ihre Angelegenheiten selbstständig erledigen können.",
+            "SUBTITLE_3": "Digitale Hilfe vor Ort und per Fernwartung",
+            "TEXT_3": "Wir bieten persönliche Technikhilfe direkt bei Ihnen zu Hause in Wien an – oder unkomplizierte Unterstützung per Fernwartung, wenn Sie Hilfe am Computer oder Smartphone benötigen.",
+            "TEXT_4": "Kontaktieren Sie uns für eine individuelle Beratung!"
         },
 
         "branchenlosungen": {
@@ -318,6 +377,50 @@
             "TEXT_DESCRIPTION_7": "Individuell zugeschnittene Vertragsmanagement-Systeme zur Optimierung Ihrer Geschäftsprozesse.",
             "TEXT_DESCRIPTION_8": "Maßgeschneiderte Programmierung für individuelle Softwareanforderungen.",
             "TEXT_DESCRIPTION_9": "Innovative Weblösungen, die perfekt auf Ihre Bedürfnisse und Ziele abgestimmt sind."
+        },
+        
+        "sicherheit": {
+            "SEO_TITLE": "Sicherheit & Datenschutz in Wien – IT Schutz & Compliance | Gillot Consulting",
+            "SEO_DESCRIPTION": "Verlässliche Sicherheits- und Datenschutzlösungen in Wien. Schutz Ihrer Daten nach EU-DSGVO mit modernster IT-Security und Compliance.",
+            "KEYWORDS": "Datenschutz Wien, IT Sicherheit Wien, DSGVO Compliance, IT Schutz, Netzwerksicherheit, Gillot Consulting",
+            "TITLE": "Sicherheit & Datenschutz",
+            "SUBTITLE_1": "Eu-Datenschutz-Gundverordnung (EU-DSGVO)",
+            "SUBTITLE_2": "Wir nehmen den Schutz der Daten unserer Kunden sehr ernst",
+            "SUBTITLE_3": "Besonderer Rechtshinweis:",
+            "SUBTITLE_4": "Beim Schutz der Daten kommen folgende Technologien zum Einsatz:",
+            "LIST_1": "Es werden ausschließlich Kundendaten (Namen, Vornamen, Telefonnummer, postalische Adresse, gegebenenfalls Mailadresse) zum Zweck der Erfüllung von durch Kunden erteilten Aufträgen und für die Erfüllung von buchhalterischen Aufgaben, gespeichert.",
+            "LIST_2": "Es werden keine Cookies benutzt bzw. ausgewertet.",
+            "LIST_3": "Es werden keine Mailings für Werbezwecke durchgeführt.",
+            "LIST_4": "Jeder Kunde hat das Recht zu wissen welche Daten und zu welchen Zwecken diese von uns erhoben wurden. Eine Anfrage mit dem Betreff: 'Erteilung der Auskunft nach Art 15 DSGVO' an die oben im Banner der Homepage stehende Mailadresse wird zeitgerecht beantwortet.",
+            "LIST_5": "Es werden keine Kundendaten an Organisationen, Firmen, Institutionen weitergeleitet.",
+            "LIST_6": "Kundendaten liegen auf unserem Firmenserver und unterliegen einem 2 stufigen Anmeldeprozess.",
+            "TEXT_1": "Keine Abmahnung ohne vorherigen Kontakt: Werden auf dieser Internetpräsenz Rechte Dritter verletzt, so teilen Sie uns dies bitte umgehend per eingeschriebenen Brief mit. Die beanstandeten Daten / Passagen werden dann nach Prüfung gelöscht oder abgeändert. Eine anwaltliche / behördliche Abmahnung zur Beanstandung bzw. Durchsetzung der Schutzrechtsverletzung ist nicht notwendig und die damit verbundenen Kosten werden vom Medieninhaber auch nicht erstattet. Auf Grund der zuvor gemachten Zusage zur Löschung/Abänderung beanstandeter Daten oder Passagen, besteht keine Veranlassung, mit Hilfe eines Anwalts oder einer Behörde die Verletzung fremder Rechte zu rügen. Es fehlt an einem entsprechenden Rechtsschutzbedürfnis. Erfolgt dennoch ohne vorherige Kontaktaufnahme eine anwaltliche / behördliche Abmahnung, kommt der Medieninhaber für die damit verbundenen Kosten nicht auf.",
+            "TEXT_2": "Zugriffsberechtigungen, Firewall, Intrusion Detection Systeme, Verschlüsselung, Aufbau von virtuellen privaten Netzwerken (VPN) für sichere Verbindungen und umfassende Antivirenlösungen für ganze Netzwerke mit automatischer Aktualisierung von Antivirus Software."
+        },
+
+        "datensicherung": {
+            "SEO_TITLE": "",
+            "SEO_DESCRIPTION": "",
+            "KEYWORDS": "",
+            "TITLE": ""
+
+        },
+
+        "beratungsdienste": {
+            "SEO_TITLE": "",
+            "SEO_DESCRIPTION": "",
+            "KEYWORDS": "",
+            "TITLE": ""
+
+        },
+
+        "schulungen": {
+            "SEO_TITLE": "",
+            "SEO_DESCRIPTION": "",
+            "KEYWORDS": "",
+            "TITLE": ""
+
         }
+
     }
 }

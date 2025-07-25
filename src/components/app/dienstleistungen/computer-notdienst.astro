@@ -8,18 +8,16 @@ const i18n = getI18N({ currentLocale });
 ---
 
 <Layout
-    title="Computer Notdienst Wien – Schnelle IT Hilfe bei Problemen | Gillot Consulting"
-    description="Schneller Computer Notdienst in Wien – Gillot Consulting bietet professionelle IT-Hilfe bei PC-Problemen, Ausfällen und Netzwerkstörungen."
-    keywords="Computer Notdienst Wien, PC Hilfe Wien, IT Notfallservice Wien, IT Support vor Ort, Computer Reparatur Wien, Netzwerkprobleme lösen, Gillot Consulting"
+    title={i18n.dienstleistungen.computerNotdienst.SEO_TITLE}
+    description={i18n.dienstleistungen.computerNotdienst.SEO_DESCRIPTION}
+    keywords={i18n.dienstleistungen.computerNotdienst.KEYWORDS}
 >
     <h1 class="text-4xl md:text-5xl font-bold text-center mx-auto mt-8">
-        Computer Notdienst
+        {i18n.dienstleistungen.computerNotdienst.TITLE}
     </h1>
     <section class="container mx-auto px-4">
         <h2 class="text-xl md:text-2xl text-center mx-auto text-white/70 max-w-2xl">
-            Sofortige Hilfe bei Computerproblemen – <span class="font-semibold"
-                >schnell, zuverlässig und professionell</span
-            >.
+            {i18n.dienstleistungen.computerNotdienst.SUBTITLE}
         </h2>
     </section>
 
@@ -28,17 +26,13 @@ const i18n = getI18N({ currentLocale });
     >
         <div class="flex-1 space-y-6 text-center md:text-left">
             <p>
-                Ob alleinstehende Computer und Peripherie im privaten Haushalt,
-                oder Firmennetzwerke und Server, wir sind täglich für Sie im
-                Einsatz.
+                {i18n.dienstleistungen.computerNotdienst.TEXT_1}
             </p>
             <p class="text-[#f4d35e] font-bold">
-                Kompetenz und freundliches Service mit höchsten
-                Qualitätsansprüchen sind unsere Maxime.
+                {i18n.dienstleistungen.computerNotdienst.TEXT_2}
             </p>
             <p>
-                Wir bieten erste Hilfe bei Computerproblemen. Wir haben einen
-                Vorort Service oder Sie können Ihr Computer zu uns bringen
+                {i18n.dienstleistungen.computerNotdienst.TEXT_3}
             </p>
         </div>
         <img
@@ -50,7 +44,7 @@ const i18n = getI18N({ currentLocale });
 
     <section class="bg-white/10 py-8 md:py-10">
         <h3 class="text-2xl md:text-3xl font-bold text-center mb-8">
-            Unsere Leistungen
+            {i18n.dienstleistungen.computerNotdienst.SERVICES}
         </h3>
         <div
             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-5xl mx-auto px-4 text-center"
@@ -73,10 +67,9 @@ const i18n = getI18N({ currentLocale });
                     ></path><path d="M12 12h3.5"></path><path d="M12 7v5"
                     ></path></svg
                 >
-                <h4 class="text-lg font-semibold mb-2">Notfall-Service</h4>
+                <h4 class="text-lg font-semibold mb-2">{i18n.dienstleistungen.computerNotdienst.SERVICE_1}</h4>
                 <p class="text-sm">
-                    Schnelle Hilfe bei akuten IT-Ausfällen – wir sind sofort für
-                    Sie da.
+                    {i18n.dienstleistungen.computerNotdienst.SERVICE_1_TEXT}
                 </p>
             </div>
             <div
@@ -97,9 +90,9 @@ const i18n = getI18N({ currentLocale });
                     ></path><path d="M4 6v6a8 3 0 0 0 16 0v-6"></path><path
                         d="M4 12v6a8 3 0 0 0 16 0v-6"></path></svg
                 >
-                <h4 class="text-lg font-semibold mb-2">Datenrettung</h4>
+                <h4 class="text-lg font-semibold mb-2">{i18n.dienstleistungen.computerNotdienst.SERVICE_2}</h4>
                 <p class="text-sm">
-                    Wiederherstellung von verlorenen oder beschädigten Dateien.
+                    {i18n.dienstleistungen.computerNotdienst.SERVICE_2_TEXT}
                 </p>
             </div>
             <div
@@ -126,15 +119,14 @@ const i18n = getI18N({ currentLocale });
                         d="M10 20a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path><path
                         d="M12 15v3"></path></svg
                 >
-                <h4 class="text-lg font-semibold mb-2">Netzwerkprobleme</h4>
+                <h4 class="text-lg font-semibold mb-2">{i18n.dienstleistungen.computerNotdienst.SERVICE_3}</h4>
                 <p class="text-sm">
-                    Diagnose und Lösung von LAN- oder WLAN-Störungen.
+                    {i18n.dienstleistungen.computerNotdienst.SERVICE_3_TEXT}
                 </p>
             </div>
         </div>
         <p class="text-center mt-8 font-semibold">
-            Immer am letzten Stand der Technik, finden wir eine Lösung für die
-            schwierigsten Fehler.
+            {i18n.dienstleistungen.computerNotdienst.TEXT_4}
         </p>
     </section>
     <KontaktButton/>

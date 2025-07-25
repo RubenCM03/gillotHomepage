@@ -1,12 +1,16 @@
 ---
 import KontaktButton from "@/components/KontaktButton.astro";
 import Layout from "@/layouts/Layout.astro";
+import { getI18N } from "@/i18n/index.ts";
+
+const currentLocale = Astro.url.pathname.split("/")[1] || "de";
+const i18n = getI18N({ currentLocale });
 ---
 
 <Layout
-    title="Netzwerk Sicherheit & EDV Services in Wien | Gillot Consulting"
-    description="Professionelle Netzwerklösungen & IT-Sicherheit in Wien. Aufbau, Planung und Service für Ihr Firmennetzwerk von Gillot Consulting."
-    keywords="Netzwerk Wien, IT Sicherheit Wien, EDV Service Wien, Netzwerklösungen, Netzwerkplanung, IT Outsourcing, IT Support Wien"
+    title=""
+    description=""
+    keywords=""
 >
     <div>
         <h1
@@ -33,12 +37,10 @@ import Layout from "@/layouts/Layout.astro";
                     <ul class="list-disc list-inside text-lg space-y-2 mb-6">
                         <li>Wir bauen das komplette Netzwerk für Sie auf</li>
                         <li>
-                            Wir stehen als Outsourcing Partner für Sie zur
-                            Verfügung
+                            Wir stehen als Outsourcing Partner für Sie zur Verfügung
                         </li>
                         <li>
-                            Sie brauchen nur gelegentliche Hilfe, wie bei
-                            Krankenständen oder sonstigen plötzlichen Ausfällen
+                            Sie brauchen nur gelegentliche Hilfe, wie bei Krankenständen oder sonstigen plötzlichen Ausfällen
                         </li>
                     </ul>
                     <p class="text-lg leading-relaxed">
