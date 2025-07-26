@@ -8,15 +8,15 @@ const i18n = getI18N({ currentLocale });
 ---
 
 <Layout
-    title=""
-    description=""
-    keywords=""
+    title={i18n.dienstleistungen.netzwerk.SEO_TITLE}
+    description={i18n.dienstleistungen.netzwerk.SEO_DESCRIPTION}
+    keywords={i18n.dienstleistungen.netzwerk.KEYWORDS}
 >
     <div>
         <h1
             class="text-4xl md:text-5xl font-bold text-center mx-auto mt-8 mb-2"
         >
-            Netzwerk
+            {i18n.dienstleistungen.netzwerk.TITLE}
         </h1>
         <section class="p-6 md:p-10 max-w-6xl mx-auto">
             <div class="flex flex-col-reverse md:flex-row items-center gap-8">
@@ -31,25 +31,19 @@ const i18n = getI18N({ currentLocale });
                     <h2
                         class="text-2xl font-semibold mb-4 text-[#f4d35e] text-center md:text-left"
                     >
-                        Viele Unternehmen haben nicht die Mittel eine
-                        EDV-Abteilung aufzubauen.
+                        {i18n.dienstleistungen.netzwerk.SUBTITLE}
                     </h2>
                     <ul class="list-disc list-inside text-lg space-y-2 mb-6">
-                        <li>Wir bauen das komplette Netzwerk für Sie auf</li>
+                        <li>{i18n.dienstleistungen.netzwerk.LIST_1}</li>
                         <li>
-                            Wir stehen als Outsourcing Partner für Sie zur Verfügung
+                            {i18n.dienstleistungen.netzwerk.LIST_2}
                         </li>
                         <li>
-                            Sie brauchen nur gelegentliche Hilfe, wie bei Krankenständen oder sonstigen plötzlichen Ausfällen
+                            {i18n.dienstleistungen.netzwerk.LIST_3}
                         </li>
                     </ul>
                     <p class="text-lg leading-relaxed">
-                        Sie wollen ein Netzwerk einrichten, Ihnen fehlt aber die
-                        Zeit sich mit den technischen Details zu beschäftigen?
-                        Ihre Technik soll sich am Bedarf orientieren und nicht
-                        umgekehrt? Wir analysieren zunächst Ihre konkreten
-                        Leistungsanforderungen an ein Firmennetzwerk und
-                        erstellen Ihnen dann ein individuelles Angebot.
+                        {i18n.dienstleistungen.netzwerk.TEXT}
                     </p>
                 </div>
             </div>
@@ -60,22 +54,19 @@ const i18n = getI18N({ currentLocale });
                     <h3
                         class="text-xl font-semibold mb-3 text-[#f4d35e] text-center"
                     >
-                        Sicherheit
+                        {i18n.dienstleistungen.netzwerk.SERVICE_1}
                     </h3>
                     <p class="text-lg leading-relaxed text-center">
-                        Internetzugang, Firewalls, Virenschutz,
-                        Datensicherungskonzepte, Ausfallssicherheit.
+                        {i18n.dienstleistungen.netzwerk.SERVICE_1_TEXT}
                     </p>
                 </div>
     
                 <div class="p-6">
                     <h3 class="text-xl font-bold mb-3 text-[#f4d35e] text-center">
-                        Planung und Aufbau
+                        {i18n.dienstleistungen.netzwerk.SERVICE_2}
                     </h3>
                     <p class="text-lg leading-relaxed text-center">
-                        Wir bieten individuelle Lösungen und persönliches Service
-                        bei Beratung, Analyse, Planung, Beschaffung und Realisierung
-                        Ihres Netzwerkes.
+                        {i18n.dienstleistungen.netzwerk.SERVICE_2_TEXT}
                     </p>
                 </div>
     
@@ -83,10 +74,10 @@ const i18n = getI18N({ currentLocale });
                     <h3
                         class="text-xl font-semibold mb-3 text-[#f4d35e] text-center"
                     >
-                        Service
+                        {i18n.dienstleistungen.netzwerk.SERVICE_3}
                     </h3>
                     <p class="text-lg leading-relaxed text-center">
-                        Wartung, Pflege, Notdienst.
+                        {i18n.dienstleistungen.netzwerk.SERVICE_3_TEXT}
                     </p>
                 </div>
             </div>

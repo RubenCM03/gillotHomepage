@@ -8,9 +8,9 @@ const i18n = getI18N({ currentLocale });
 ---
 
 <Layout
-    title=""
-    description=""
-    keywords=""
+    title={i18n.dienstleistungen.sicherheit.SEO_TITLE}
+    description={i18n.dienstleistungen.sicherheit.SEO_DESCRIPTION}
+    keywords={i18n.dienstleistungen.sicherheit.KEYWORDS}
 >
     <div class="absolute inset-0 -z-10 opacity-10 pointer-events-none">
         <svg
@@ -50,79 +50,51 @@ const i18n = getI18N({ currentLocale });
     <div class="">
         <div class="px-5">
             <h1 class="text-4xl md:text-5xl font-bold text-center mx-auto mt-8">
-                Sicherheit & Datenschutz
+                {i18n.dienstleistungen.sicherheit.TITLE}
             </h1>
             <h2
                 class="text-xl md:text-2xl text-center mx-auto text-white/70 max-w-2xl mb-8"
             >
-                Eu-Datenschutz-Gundverordnung (EU-DSGVO)
+                {i18n.dienstleistungen.sicherheit.SUBTITLE_1}
             </h2>
             <section
                 class="bg-white/10 border border-white/10 rounded-xl max-w-5xl mx-auto p-6 shadow-md transition hover:shadow-lg"
             >
                 <h3 class="font-bold text-2xl mb-2 text-center">
-                    Wir nehmen den Schutz der Daten unserer Kunden sehr ernst
+                    {i18n.dienstleistungen.sicherheit.SUBTITLE_2}
                 </h3>
                 <ul class="list-disc list-inside">
                     <li>
-                        Es werden ausschließlich Kundendaten (Namen, Vornamen,
-                        Telefonnummer, postalische Adresse, gegebenenfalls
-                        Mailadresse) zum Zweck der Erfüllung von durch Kunden
-                        erteilten Aufträgen und für die Erfüllung von
-                        buchhalterischen Aufgaben, gespeichert.
+                        {i18n.dienstleistungen.sicherheit.LIST_1}
                     </li>
-                    <li>Es werden keine Cookies benutzt bzw. ausgewertet</li>
+                    <li>{i18n.dienstleistungen.sicherheit.LIST_2}</li>
                     <li>
-                        Es werden keine Mailings für Werbezwecke durchgeführt
+                        {i18n.dienstleistungen.sicherheit.LIST_3}
                     </li>
                     <li>
-                        Jeder Kunde hat das Recht zu wissen welche Daten und zu
-                        welchen Zwecken diese von uns erhoben wurden. Eine
-                        Anfrage mit dem Betreff: "Erteilung der Auskunft nach
-                        Art 15 DSGVO" an die oben im Banner der Homepage
-                        stehende Mailadresse wird zeitgerecht beantwortet.
+                        {i18n.dienstleistungen.sicherheit.LIST_4}
                     </li>
                     <li>
-                        Es werden keine Kundendaten an Organisationen, Firmen,
-                        Institutionen weitergeleitet
+                        {i18n.dienstleistungen.sicherheit.LIST_5}
                     </li>
                     <li>
-                        Kundendaten liegen auf unserem Firmenserver und
-                        unterliegen einem 2 stufigen Anmeldeprozess.
+                        {i18n.dienstleistungen.sicherheit.LIST_6}
                     </li>
                 </ul>
             </section>
         </div>
         <section class="bg-black/10 mt-8 p-10">
             <h3 class="font-bold text-2xl mb-2 text-[#f4d35e]">
-                Besonderer Rechtshinweis:
+                {i18n.dienstleistungen.sicherheit.SUBTITLE_3}
             </h3>
             <p class="leading-relaxed">
-                Keine Abmahnung ohne vorherigen Kontakt: Werden auf dieser
-                Internetpräsenz Rechte Dritter verletzt, so teilen Sie uns dies
-                bitte umgehend per eingeschriebenen Brief mit. Die beanstandeten
-                Daten / Passagen werden dann nach Prüfung gelöscht oder
-                abgeändert. Eine anwaltliche / behördliche Abmahnung zur
-                Beanstandung bzw. Durchsetzung der Schutzrechtsverletzung ist
-                nicht notwendig und die damit verbundenen Kosten werden vom
-                Medieninhaber auch nicht erstattet. Auf Grund der zuvor
-                gemachten Zusage zur Löschung/Abänderung beanstandeter Daten
-                oder Passagen, besteht keine Veranlassung, mit Hilfe eines
-                Anwalts oder einer Behörde die Verletzung fremder Rechte zu
-                rügen. Es fehlt an einem entsprechenden Rechtsschutzbedürfnis.
-                Erfolgt dennoch ohne vorherige Kontaktaufnahme eine anwaltliche
-                / behördliche Abmahnung, kommt der Medieninhaber für die damit
-                verbundenen Kosten nicht auf.
+                {i18n.dienstleistungen.sicherheit.TEXT_1}
             </p>
             <h3 class="font-bold text-2xl mt-5 mb-2 text-[#f4d35e]">
-                Beim Schutz der Daten kommen folgende Technologien zum Einsatz:
+                {i18n.dienstleistungen.sicherheit.SUBTITLE_4}
             </h3>
             <p class="leading-relaxed">
-                Zugriffsberechtigungen, Firewall, Intrusion Detection Systeme,
-                Verschlüsselung, Aufbau von virtuellen privaten Netzwerken (VPN)
-                für sichere Verbindungen und umfassende Antivirenlösungen für
-                ganze Netzwerke mit automatischer Aktualisierung von Antivirus
-                Software.
+                {i18n.dienstleistungen.sicherheit.TEXT_2}
             </p>
         </section>
     </div>

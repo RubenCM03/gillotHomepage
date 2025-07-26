@@ -17,16 +17,15 @@ const i18n = getI18N({ currentLocale });
 ---
 <div class="text-center mt-10 px-4">
         <h2 class="text-2xl md:text-3xl font-bold mb-4">
-            Haben Sie Interesse?
+            {i18n.dienstleistungen.kontakt_button.TITLE}
         </h2>
         <p class="text-lg mb-6">
-            Gerne beraten wir Sie ausführlich und unterbreiten Ihnen ein auf Sie
-            abgestimmtes Angebot.
+            {i18n.dienstleistungen.kontakt_button.TEXT}
         </p>
         <a
             href={withLocale("/kontakt")}
-            class="inline-block bg-[#f5a623] hover:bg-[#DB8C0A] font-bold px-8 py-3 rounded-xl shadow-lg transition-all duration-300"
+            class="inline-block bg-[#f5a623] hover:bg-[#DB8C0A] hover:text-lg font-bold px-8 py-3 rounded-xl shadow-lg transition-all duration-300"
         >
-            Jetzt Kontakt aufnehmen
+            {i18n.dienstleistungen.kontakt_button.BUTTON}
         </a>
     </div>

@@ -261,22 +261,22 @@
     "dienstleistungen": {
         
         "computerNotdienst": {
-            "SEO_TITLE": "Computer Notdienst Wien – Schnelle IT Hilfe bei Problemen | Gillot Consulting",
-            "SEO_DESCRIPTION": "Schneller Computer Notdienst in Wien – Gillot Consulting bietet professionelle IT-Hilfe bei PC-Problemen, Ausfällen und Netzwerkstörungen.",
-            "KEYWORDS": "Computer Notdienst Wien, PC Hilfe Wien, IT Notfallservice Wien, IT Support vor Ort, Computer Reparatur Wien, Netzwerkprobleme lösen, Gillot Consulting",
-            "TITLE": "Computer Notdienst",
-            "SUBTITLE": "Sofortige Hilfe bei Computerproblemen – schnell, zuverlässig und professionell",
-            "TEXT_1": "Ob alleinstehende Computer und Peripherie im privaten Haushalt, oder Firmennetzwerke und Server, wir sind täglich für Sie im Einsatz.",
-            "TEXT_2": "Kompetenz und freundliches Service mit höchsten Qualitätsansprüchen sind unsere Maxime.",
-            "TEXT_3": "Wir bieten erste Hilfe bei Computerproblemen. Wir haben einen Vorort Service oder Sie können Ihr Computer zu uns bringen.",
-            "SERVICES": "Unsere Leistungen",
-            "SERVICE_1": "Notfall-Service",
-            "SERVICE_2": "Datenrettung",
-            "SERVICE_3": "Netzwerkprobleme",
-            "SERVICE_1_TEXT": "Schnelle Hilfe bei akuten IT-Ausfällen – wir sind sofort für Sie da.",
-            "SERVICE_2_TEXT": "Wiederherstellung von verlorenen oder beschädigten Dateien.",
-            "SERVICE_3_TEXT": "Diagnose und Lösung von LAN- oder WLAN-Störungen.",
-            "TEXT_4": "Immer am letzten Stand der Technik, finden wir eine Lösung für die schwierigsten Fehler."
+            "SEO_TITLE": "Service d'urgence informatique Vienne - Aide informatique rapide en cas de problème | Gillot Consulting",
+            "SEO_DESCRIPTION": "Service d'urgence informatique rapide à Vienne - Gillot Consulting propose une aide informatique professionnelle en cas de problèmes de PC, de pannes et de dysfonctionnements du réseau.",
+            "KEYWORDS": "Service d'urgence informatique Vienne, Aide PC Vienne, Service d'urgence informatique Vienne, Support informatique sur site, Réparation ordinateur Vienne, Résoudre les problèmes de réseau, Gillot Consulting",
+            "TITLE": "Service d'urgence informatique",
+            "SUBTITLE": "Aide immédiate en cas de problèmes informatiques - rapide, fiable et professionnelle",
+            "TEXT_1": "Qu'il s'agisse d'ordinateurs et de périphériques isolés chez les particuliers ou de réseaux d'entreprise et de serveurs, nous intervenons quotidiennement pour vous.",
+            "TEXT_2": "Compétence et service aimable avec les plus hautes exigences de qualité sont notre maxime.",
+            "TEXT_3": "Nous offrons une première aide en cas de problèmes informatiques. Nous avons un service sur place ou vous pouvez apporter votre ordinateur chez nous.",
+            "SERVICES": "Nos services",
+            "SERVICE_1": "Service d'urgence",
+            "SERVICE_2": "Récupération de données",
+            "SERVICE_3": "Problèmes de réseau",
+            "SERVICE_1_TEXT": "Aide rapide en cas de panne informatique aiguë - nous sommes immédiatement à votre disposition.",
+            "SERVICE_2_TEXT": "Récupération de fichiers perdus ou endommagés.",
+            "SERVICE_3_TEXT": "Diagnostic et résolution des perturbations LAN ou WLAN.",
+            "TEXT_4": "Toujours à la pointe de la technologie, nous trouvons une solution aux erreurs les plus difficiles."
         },
         
         "verkauf": {
@@ -292,17 +292,17 @@
             "SEO_TITLE": "Solutions logicielles & conseil en informatique à Vienne | Gillot Computer Services",
             "SEO_DESCRIPTION": "Services logiciels professionnels à Vienne : conseil, développement, implémentation et support pour des solutions informatiques individuelles.",
             "KEYWORDS": "Services logiciels Vienne, Conseil informatique Vienne, Développement de logiciels, Support informatique Vienne, Solutions logicielles personnalisées, Gillot Computer Services",
-            "TITLE": "Software",
-            "SUBTITLE": "Installation, Anpassung und Entwicklung von Software",
-            "TEXT_1": "Installieren, Konfigurieren und Anpassen von Betriebssystemen und Standardsoftware gehören zu unserem tälike Geschäft.",
-            "TEXT_2": "Entwicklungen von Internetlösungen wie Homepage, Webshops und Webdatenbanken werden nach Kundenwünschen erstellt.",
-            "TEXT_3": "Migration alter Windows- und Novell-Systeme auf die Software-Updates der Windows 2003-Plattform.",
-            "TEXT_4": "Software-Aktualisierungen.",
-            "TEXT_5": "Installation und Konfiguration von Buchhaltungssoftware.",
-            "TEXT_6": "Terminverwaltungssysteme.",
-            "TEXT_7": "E-Mail-Systeme.",
-            "TEXT_8": "Wir beraten und unterstützen Sie bei der Einrichtung oder Optimierung der COMPUTER-gestützten Arbeit in Ihrem Unternehmen.",
-            "TEXT_9": "Maßgeschneiderte Neu- oder Weiterentwicklung Ihres eigenen Unternehmens."
+            "TITLE": "Logiciel",
+            "SUBTITLE": "Installation, adaptation et développement de logiciels",
+            "TEXT_1": "L'installation, la configuration et l'adaptation de systèmes d'exploitation et de logiciels standard font partie de notre métier de base.",
+            "TEXT_2": "Les développements de solutions Internet telles que les pages d'accueil, les boutiques en ligne et les bases de données Web sont réalisés selon les souhaits des clients.",
+            "TEXT_3": "Migration des anciens systèmes Windows et Novell vers les mises à jour logicielles de la plate-forme Windows 2003.",
+            "TEXT_4": "Mises à jour du logiciel.",
+            "TEXT_5": "Installation et configuration de logiciels de comptabilité.",
+            "TEXT_6": "Systèmes de gestion des rendez-vous.",
+            "TEXT_7": "Systèmes de messagerie électronique.",
+            "TEXT_8": "Nous vous conseillons et vous aidons à mettre en place ou à optimiser le travail assisté par ordinateur dans votre entreprise.",
+            "TEXT_9": "Création ou développement sur mesure de votre propre entreprise."
         },
 
         "internet": {
@@ -315,7 +315,7 @@
             "SUBTITLE_3": "Développement",
             "TEXT_1": "Les clients attendent aujourd'hui des informations rapides et actuelles, un service en ligne et une accessibilité via le World Wide Web. Les entreprises ont des exigences différentes en la matière. Nous créons un accès Internet optimal sur mesure.",
             "TEXT_2": "Certains se contentent d'une présence sur Internet comme carte de visite, d'autres utilisent ce média de manière interactive. Nous concevons pour votre situation spécifique une présence sur Internet orientée vers le groupe cible et adaptée à vos besoins. Nous vous conseillons sans engagement et vous soumettons une offre de prix fixe. Nous assurons une présentation professionnelle, adaptée à votre corporate design.",
-            "TEXT_3": "Wir entwickeln und programmieren für Sie individuelle InternetanwendungenWir entwickeln und programmieren für Sie individuelle Internetanwendungen."
+            "TEXT_3": "Nous développons et programmons pour vous des applications Internet individuellesNous développons et programmons pour vous des applications Internet individuelles."
         },
 
         "netzwerk": {
@@ -337,23 +337,23 @@
         },
 
         "computerhilfeSenioren": {
-            "SEO_TITLE": "Computerhilfe Für Senioren – IT-Hilfe für Senioren in Wien | Gillot Consulting",
-            "SEO_DESCRIPTION": "Professionelle Computerhilfe für Senioren in Wien. Unterstützung bei digitalen Amtswegen, Onlinebanking, ELGA, Handy-Signatur & mehr.",
-            "KEYWORDS": "digitale Hilfe Senioren Österreich, IT Unterstützung digitales Amt, ID Austria Hilfe Wien, Online Amtswege Seniorenhilfe, Technikhilfe ältere Menschen Wien, Computerhilfe für Senioren, Hilfe bei digitalen Amtswegen, Unterstützung bei E-Mail und Internet, Smartphone-Hilfe für ältere Menschen, Senioren und Digitalisierung, ELGA, FinanzOnline, Handy-Signatur, Geduldige PC-Hilfe, Fernwartung, Hilfe beim Online-Formular, Digitale Hilfe vor Ort, Technikhilfe für ältere Menschen",
-            "TITLE": "Computerhilfe für Senioren",
-            "SUBTITLE_1": "Was wir für Sie tun",
-            "LIST_1": "Registrierung und Nutzung des digitalen Amts",
-            "LIST_2": "Einrichtung und Nutzung von ID Austria (digitale ID).",
-            "LIST_3": "Unterstützung bei Smartphones, Tablets, Laptops und PCs.",
-            "LIST_4": "Ausfüllen von Online-Formularen und Umgang mit digitalen Amtswegen.",
-            "LIST_5": "Sicherer Umgang mit Passwörtern, SMS-Codes und App-Installationen.",
-            "LIST_6": "Persönliche Schulung – bei Ihnen zu Hause, in unserem Büro oder telefonisch.",
-            "SUBTITLE_2": "Geduldige, persönliche Technikhilfe",
-            "TEXT_1": "Wir wissen, dass der Umgang mit moderner Technik und digitalen Amtswegen für ältere Menschen oft eine Herausforderung ist. Deshalb bieten wir Ihnen verständliche, ruhige und persönliche Unterstützung.",
-            "TEXT_2": "Ob Onlinebanking, ELGA, FinanzOnline oder Handy-Signatur – wir helfen Ihnen Schritt für Schritt, damit Sie Ihre Angelegenheiten selbstständig erledigen können.",
-            "SUBTITLE_3": "Digitale Hilfe vor Ort und per Fernwartung",
-            "TEXT_3": "Wir bieten persönliche Technikhilfe direkt bei Ihnen zu Hause in Wien an – oder unkomplizierte Unterstützung per Fernwartung, wenn Sie Hilfe am Computer oder Smartphone benötigen.",
-            "TEXT_4": "Kontaktieren Sie uns für eine individuelle Beratung!"
+            "SEO_TITLE": "Aide informatique pour les seniors - Aide informatique pour les seniors à Vienne | Gillot Consulting",
+            "SEO_DESCRIPTION": "Aide informatique professionnelle pour les seniors à Vienne. Assistance pour les démarches administratives numériques, la banque en ligne, ELGA, la signature du téléphone portable & plus encore.",
+            "KEYWORDS": "Aide numérique seniors Autriche, soutien informatique bureau numérique, aide ID Austria Vienne, aide en ligne démarches administratives seniors, aide technique personnes âgées Vienne, aide informatique pour seniors, aide aux démarches administratives numériques, soutien e-mail et internet, aide smartphone pour personnes âgées, seniors et numérisation, ELGA, FinanzOnline, signature mobile, aide patiente PC, télémaintenance, aide aux formulaires en ligne, aide numérique sur place, aide technique pour personnes âgées",
+            "TITLE": "Aide Informatique Pour les Seniors",
+            "SUBTITLE_1": "Ce que nous faisons pour vous",
+            "LIST_1": "Enregistrement et utilisation de l'office numérique",
+            "LIST_2": "Mise en place et utilisation de ID Austria (ID numérique).",
+            "LIST_3": "Prise en charge des smartphones, tablettes, ordinateurs portables et PC.",
+            "LIST_4": "Remplir des formulaires en ligne et gérer les démarches administratives numériques.",
+            "LIST_5": "Utilisation sûre des mots de passe, des codes SMS et des installations d'applications.",
+            "LIST_6": "Formation personnalisée - à votre domicile, dans nos bureaux ou par téléphone.",
+            "SUBTITLE_2": "Une aide technique patiente et personnalisée",
+            "TEXT_1": "Nous savons que l'utilisation de la technologie moderne et des démarches administratives numériques est souvent un défi pour les personnes âgées. C'est pourquoi nous vous proposons un soutien compréhensible, calme et personnalisé.",
+            "TEXT_2": "Qu'il s'agisse de banque en ligne, d'ELGA, de FinanzOnline ou de signature sur téléphone portable, nous vous aidons pas à pas pour que vous puissiez régler vos affaires en toute autonomie.",
+            "SUBTITLE_3": "Aide numérique sur place et à distance",
+            "TEXT_3": "Nous proposons une assistance technique personnelle directement chez vous à Vienne - ou une assistance à distance simple si vous avez besoin d'aide sur votre ordinateur ou votre smartphone.",
+            "TEXT_4": "Contactez-nous pour un conseil personnalisé !"
         },
 
         "branchenlosungen": {
@@ -382,64 +382,69 @@
         },
         
         "sicherheit": {
-            "SEO_TITLE": "Sicherheit & Datenschutz in Wien – IT Schutz & Compliance | Gillot Consulting",
-            "SEO_DESCRIPTION": "Verlässliche Sicherheits- und Datenschutzlösungen in Wien. Schutz Ihrer Daten nach EU-DSGVO mit modernster IT-Security und Compliance.",
-            "KEYWORDS": "Datenschutz Wien, IT Sicherheit Wien, DSGVO Compliance, IT Schutz, Netzwerksicherheit, Gillot Consulting",
-            "TITLE": "Sicherheit & Datenschutz",
-            "SUBTITLE_1": "Eu-Datenschutz-Gundverordnung (EU-DSGVO)",
-            "SUBTITLE_2": "Wir nehmen den Schutz der Daten unserer Kunden sehr ernst",
-            "SUBTITLE_3": "Besonderer Rechtshinweis:",
-            "SUBTITLE_4": "Beim Schutz der Daten kommen folgende Technologien zum Einsatz:",
-            "LIST_1": "Es werden ausschließlich Kundendaten (Namen, Vornamen, Telefonnummer, postalische Adresse, gegebenenfalls Mailadresse) zum Zweck der Erfüllung von durch Kunden erteilten Aufträgen und für die Erfüllung von buchhalterischen Aufgaben, gespeichert.",
-            "LIST_2": "Es werden keine Cookies benutzt bzw. ausgewertet.",
-            "LIST_3": "Es werden keine Mailings für Werbezwecke durchgeführt.",
-            "LIST_4": "Jeder Kunde hat das Recht zu wissen welche Daten und zu welchen Zwecken diese von uns erhoben wurden. Eine Anfrage mit dem Betreff: 'Erteilung der Auskunft nach Art 15 DSGVO' an die oben im Banner der Homepage stehende Mailadresse wird zeitgerecht beantwortet.",
-            "LIST_5": "Es werden keine Kundendaten an Organisationen, Firmen, Institutionen weitergeleitet.",
-            "LIST_6": "Kundendaten liegen auf unserem Firmenserver und unterliegen einem 2 stufigen Anmeldeprozess.",
-            "TEXT_1": "Keine Abmahnung ohne vorherigen Kontakt: Werden auf dieser Internetpräsenz Rechte Dritter verletzt, so teilen Sie uns dies bitte umgehend per eingeschriebenen Brief mit. Die beanstandeten Daten / Passagen werden dann nach Prüfung gelöscht oder abgeändert. Eine anwaltliche / behördliche Abmahnung zur Beanstandung bzw. Durchsetzung der Schutzrechtsverletzung ist nicht notwendig und die damit verbundenen Kosten werden vom Medieninhaber auch nicht erstattet. Auf Grund der zuvor gemachten Zusage zur Löschung/Abänderung beanstandeter Daten oder Passagen, besteht keine Veranlassung, mit Hilfe eines Anwalts oder einer Behörde die Verletzung fremder Rechte zu rügen. Es fehlt an einem entsprechenden Rechtsschutzbedürfnis. Erfolgt dennoch ohne vorherige Kontaktaufnahme eine anwaltliche / behördliche Abmahnung, kommt der Medieninhaber für die damit verbundenen Kosten nicht auf.",
-            "TEXT_2": "Zugriffsberechtigungen, Firewall, Intrusion Detection Systeme, Verschlüsselung, Aufbau von virtuellen privaten Netzwerken (VPN) für sichere Verbindungen und umfassende Antivirenlösungen für ganze Netzwerke mit automatischer Aktualisierung von Antivirus Software."
+            "SEO_TITLE": "Sécurité et protection des données à Vienne - IT Protection & Compliance | Gillot Consulting",
+            "SEO_DESCRIPTION": "Solutions fiables de sécurité et de protection des données à Vienne. Protection de vos données conformément au RGPD de l'UE avec une sécurité informatique et une conformité de pointe.",
+            "KEYWORDS": "Protection des données Vienne, sécurité informatique Vienne, DSGVO Compliance, protection informatique, sécurité du réseau, Gillot Consulting",
+            "TITLE": "Sécurité et Protection Des Données",
+            "SUBTITLE_1": "Règlement général sur la protection des données de l'UE (RGPD)",
+            "SUBTITLE_2": "Nous prenons la protection des données de nos clients très au sérieux",
+            "SUBTITLE_3": "Avis juridique particulier :",
+            "SUBTITLE_4": "Les technologies suivantes sont utilisées pour la protection des données :",
+            "LIST_1": "Seules les données des clients (nom, prénom, numéro de téléphone, adresse postale et, le cas échéant, adresse e-mail) sont enregistrées dans le but d'exécuter les commandes passées par les clients et de remplir les tâches comptables.",
+            "LIST_2": "Aucun cookie n'est utilisé ou évalué.",
+            "LIST_3": "Aucun mailing n'est effectué à des fins publicitaires.",
+            "LIST_4": "Chaque client a le droit de savoir quelles données ont été collectées par nous et à quelles fins. Une demande avec l'objet : “Délivrance de l'information selon l'article 15 du RGPD” à l'adresse e-mail indiquée en haut de la bannière de la page d'accueil recevra une réponse en temps voulu.",
+            "LIST_5": "Aucune donnée client n'est transmise à des organisations, entreprises, institutions.",
+            "LIST_6": "Les données des clients sont stockées sur notre serveur d'entreprise et sont soumises à un processus de connexion en deux étapes.",
+            "TEXT_1": "Pas de mise en demeure sans contact préalable : Si des droits de tiers sont violés sur ce site Internet, veuillez nous en informer immédiatement par lettre recommandée. Les données / passages incriminés seront alors supprimés ou modifiés après vérification. Il n'est pas nécessaire de faire appel à un avocat / à une autorité pour contester ou faire valoir la violation des droits de propriété intellectuelle, et les frais qui y sont liés ne sont pas non plus remboursés par le propriétaire du média. En raison de l'engagement pris précédemment de supprimer/modifier les données ou passages contestés, il n'y a pas lieu de faire appel à un avocat ou à une autorité pour dénoncer la violation de droits de tiers. Il n'y a pas de besoin de protection juridique correspondant. Si, malgré tout, un avertissement par un avocat / une autorité a lieu sans prise de contact préalable, le propriétaire du média ne prend pas en charge les frais qui y sont liés.",
+            "TEXT_2": "Autorisations d'accès, pare-feu, systèmes de détection d'intrusion, cryptage, mise en place de réseaux privés virtuels (VPN) pour des connexions sécurisées et solutions antivirus complètes pour des réseaux entiers avec mise à jour automatique des logiciels antivirus."
         },
 
         "datensicherung": {
-            "SEO_TITLE": "Datensicherung & Datenrettung in Wien – Sichere IT Lösungen | Gillot Consulting",
-            "SEO_DESCRIPTION": "Professionelle Datensicherung & Datenrettung in Wien – Gillot Consulting schützt Ihre Daten mit zuverlässigen IT-Lösungen & erprobten Methoden.",
-            "KEYWORDS": "Datensicherung Wien, Datenrettung Wien, IT Sicherheit Wien, Backup Lösungen, Daten wiederherstellen Wien, Datenverlust Hilfe, IT Services Wien, Gillot Consulting",
-            "TITLE": "Datensicherung & Rettung",
-            "SUBTITLE_1": "Datenrettung",
-            "SUBTITLE_2": "Datensicherung",
-            "TEXT_1": "Wenn sich die Festplatte nicht mehr ansprechen lässt, dann sind wir die Richtigen um Sie aus der Not zu helfen. Wir können mit erprobten Methoden Daten wiederherstellen. Wenn es um physische Fehler geht, dann arbeiten wir mit renommierte Partner.",
-            "TEXT_2": "Datensicherung ist eine der wichtigsten Aufgaben um schnell im Fall eines Systemabsturzes oder Datenverlustes wieder arbeiten zu können. Ein Datensicherungskonzept kann nach Ihren Bedürfnissen und Anforderungen zusammengestellt werden."
+            "SEO_TITLE": "Sauvegarde et récupération de données à Vienne - Solutions informatiques sécurisées | Gillot Consulting",
+            "SEO_DESCRIPTION": "Sauvegarde & récupération de données professionnelles à Vienne - Gillot Consulting protège vos données avec des solutions informatiques fiables & des méthodes éprouvées.",
+            "KEYWORDS": "Sauvegarde de données Vienne, Récupération de données Vienne, Sécurité informatique Vienne, Solutions de sauvegarde, Restauration de données Vienne, Aide en cas de perte de données, IT Services Vienne, Gillot Consulting",
+            "TITLE": "Sauvegarde et Sauvetage des Données",
+            "SUBTITLE_1": "Récupération de données",
+            "SUBTITLE_2": "Sauvegarde des données",
+            "TEXT_1": "Si votre disque dur ne répond plus, nous sommes les mieux placés pour vous aider à vous en sortir. Nous pouvons récupérer des données à l'aide de méthodes éprouvées. S'il s'agit d'erreurs physiques, nous travaillons avec des partenaires renommés.",
+            "TEXT_2": "La sauvegarde des données est l'une des tâches les plus importantes pour pouvoir reprendre rapidement le travail en cas de panne du système ou de perte de données. Un concept de sauvegarde des données peut être mis en place en fonction de vos besoins et de vos exigences."
         },
 
         "beratungsdienste": {
-            "SEO_TITLE": "IT Beratungsdienste in Wien – Strategische IT Lösungen | Gillot Consulting",
-            "SEO_DESCRIPTION": "Professionelle IT Beratungsdienste in Wien – Gillot Consulting bietet herstellerunabhängige Beratung zu EDV, IT-Sicherheit, Backup & Netzwerkinfrastruktur.",
-            "KEYWORDS": "IT Beratung Wien, IT Beratungsdienste Wien, EDV Beratung Wien, IT Consulting Wien, IT Strategie Wien, IT Infrastruktur Beratung, IT Sicherheitsberatung Wien, IT Analyse Wien, EDV Optimierung Wien, Backup Beratung Wien, IT Sicherheitskonzepte Wien",
-            "TITLE": "Beratungsdienste",
-            "SUBTITLE_1": "Beratung",
-            "SUBTITLE_2": "Wir bieten auch an:",
-            "TEXT": "Die Beratung ist ein zentraler Aspekt eines jeden Gillot Consulting Services Projektes. Ob Einzelplatz-, Netzwerk- oder Internetanwendung, bevor wir eine Lösung anbieten und implementieren, nehmen wir mit Ihnen Kontakt auf und beraten Sie anschließend ausführlich und herstellerunabhängig...",
-            "LIST_1": "Optimierung der EDV-Arbeit",
-            "LIST_2": "Erfassung und Analyse des Ist-Zustandes der EDV, der TK-Infrastruktur und der Kommunikationsströme.",
-            "LIST_3": "Optimierung der Infrastruktur.",
-            "LIST_4": "Sicherheitskonzepte (Infrastruktur, Backup, Virenschutz, Firewall, ...).",
-            "LIST_5": "Ausarbeitung und Analyse von Alternativlösungen."
+            "SEO_TITLE": "Services de conseil en informatique à Vienne - Solutions informatiques stratégiques | Gillot Consulting",
+            "SEO_DESCRIPTION": "Services professionnels de conseil en informatique à Vienne - Gillot Consulting propose des conseils indépendants des fabricants en matière d'informatique, de sécurité informatique, de sauvegarde & d'infrastructure réseau.",
+            "KEYWORDS": "Conseil informatique Vienne, Services de conseil informatique Vienne, Conseil informatique Vienne, IT Consulting Vienne, Stratégie informatique Vienne, Conseil en infrastructure informatique, Conseil en sécurité informatique Vienne, Analyse informatique Vienne, Optimisation informatique Vienne, Conseil en sauvegarde Vienne, Concepts de sécurité informatique Vienne",
+            "TITLE": "Services de Conseil",
+            "SUBTITLE_1": "Conseil",
+            "SUBTITLE_2": "Nous proposons également",
+            "TEXT": "Le conseil est un aspect central de tout projet de Gillot Consulting Services. Qu'il s'agisse d'une application monoposte, en réseau ou sur Internet, avant de proposer et d'implémenter une solution, nous prenons contact avec vous et vous conseillons ensuite de manière détaillée et indépendante du fabricant...",
+            "LIST_1": "Optimisation du travail informatique",
+            "LIST_2": "Saisie et analyse de l'état actuel de l'informatique, de l'infrastructure TK et des flux de communication.",
+            "LIST_3": "Optimisation de l'infrastructure.",
+            "LIST_4": "Concepts de sécurité (infrastructure, sauvegarde, antivirus, pare-feu, ...).",
+            "LIST_5": "Élaboration et analyse de solutions alternatives."
         },
 
-
         "schulungen": {
-            "SEO_TITLE": "IT Schulungen & Trainings in Wien – Praxisnahe Weiterbildung | Gillot Consulting",
-            "SEO_DESCRIPTION": "Praxisnahe IT-Schulungen in Wien für Computeranwender. Individuelle Trainings zu Office, Internet, Virenschutz & mehr.",
-            "KEYWORDS": "IT Schulung Wien, Computer Training Wien, Microsoft Office Schulung, Virenschutz Training, Gillot Consulting",
-            "TITLE": "Schulungen",
-            "SUBTITLE_1": "Schulungen nach Maß !",
-            "SUBTITLE_2": "Unser Schulungsangebot im Überblick",
-            "TEXT_1": "Wir haben uns auf das Training von Computeranwendern spezialisiert. Wir bieten Ihnen daher konkrete Schulungen für die tägliche Arbeit mit Ihrem Computer und zeigen Ihnen dabei die Funktionen die Sie wirklich brauchen.",
-            "LIST_1": "Allgemeine Einführung in die Benutzung und Bedienung eines Computers.",
-            "LIST_2": "Einführung Microsoft Office (u.a. Word, Excel, Powerpoint).",
-            "LIST_3": "Schulung Internet und E-Mail.",
-            "LIST_4": "Einführung Virenschutz und Firewall.",
-            "TEXT_2": "Bei uns orientiert sich eine Schulung an den tatsächlichen Wünschen und Anforderungen des Kunden. Alle unsere Kurse werden einzeln oder mit begrenzter Teilnehmerzahl durchgeführt, damit wir auf jeden Teilnehmer persönlich eingehen können. Die intensive und anwendernahe Betreuung während der Seminare garantiert eine effiziente Schulung der Teilnehmer."
+            "SEO_TITLE": "Formations IT à Vienne - Formation continue pratique | Gillot Consulting",
+            "SEO_DESCRIPTION": "Formations informatiques pratiques à Vienne pour les utilisateurs d'ordinateurs. Formations individuelles sur Office, Internet, protection antivirus & plus encore.",
+            "KEYWORDS": "Formation IT Vienne, Formation informatique Vienne, Formation Microsoft Office, Formation antivirus, Gillot Consulting",
+            "TITLE": "Formations",
+            "SUBTITLE_1": "Formations sur mesure !",
+            "SUBTITLE_2": "Aperçu de notre offre de formation",
+            "TEXT_1": "Nous sommes spécialisés dans la formation des utilisateurs d'ordinateurs. Nous vous proposons donc des formations concrètes pour l'utilisation quotidienne de votre ordinateur, tout en vous montrant les fonctions dont vous avez réellement besoin.",
+            "LIST_1": "Introduction générale à l'utilisation et au fonctionnement d'un ordinateur.",
+            "LIST_2": "Introduction à Microsoft Office (entre autres Word, Excel, Powerpoint).",
+            "LIST_3": "Formation à Internet et au courrier électronique.",
+            "LIST_4": "Introduction à la protection antivirus et au pare-feu.",
+            "TEXT_2": "Chez nous, une formation s'oriente sur les souhaits et exigences réels du client. Tous nos cours sont organisés individuellement ou avec un nombre limité de participants, afin que nous puissions nous occuper personnellement de chaque participant. L'encadrement intensif et proche de l'utilisateur pendant les séminaires garantit une formation efficace des participants."
+        },
+
+        "kontakt_button": {
+            "TITLE": "Vous êtes intéressé ?",
+            "TEXT": "Nous nous ferons un plaisir de vous conseiller en détail et de vous soumettre une offre adaptée à vos besoins.",
+            "BUTTON": "Contactez-nous maintenant"
         }
     }
 }
