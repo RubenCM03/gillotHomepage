@@ -7,6 +7,11 @@ const i18n = getI18N({ currentLocale });
 ---
 
 <Layout title= {i18n.kontakt.SEO_TITLE} description= {i18n.kontakt.SEO_DESCRIPTION} keywords={i18n.kontakt.KEYWORDS}>
+    <link slot="alternate" rel="alternate" hreflang="de" href="https://gillotconsulting.com/kontakt/" />
+	<link slot="alternate" rel="alternate" hreflang="en" href="https://gillotconsulting.com/en/kontakt/" />
+	<link slot="alternate" rel="alternate" hreflang="fr" href="https://gillotconsulting.com/fr/kontakt/" />
+	<link slot="alternate" rel="alternate" hreflang="x-default" href="https://gillotconsulting.com/kontakt/" />
+
     <script slot="schema" type="application/ld+json" data-astro-exec>
         {
             "@context": "https://schema.org",

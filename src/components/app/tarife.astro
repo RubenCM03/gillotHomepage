@@ -11,6 +11,11 @@ const i18n = getI18N({ currentLocale });
     description={i18n.tarife.SEO_DESCRIPTION}
     keywords={i18n.tarife.KEYWORDS}
 >
+    <link slot="alternate" rel="alternate" hreflang="de" href="https://gillotconsulting.com/tarife/" />
+	<link slot="alternate" rel="alternate" hreflang="en" href="https://gillotconsulting.com/en/tarife/" />
+	<link slot="alternate" rel="alternate" hreflang="fr" href="https://gillotconsulting.com/fr/tarife/" />
+	<link slot="alternate" rel="alternate" hreflang="x-default" href="https://gillotconsulting.com/tarife/" />
+
     <div class="container mx-auto">
         <h1
             class="text-4xl md:text-5xl font-bold text-center mx-auto mt-8 mb-8"
@@ -109,7 +114,7 @@ const i18n = getI18N({ currentLocale });
                         {i18n.tarife.KONTAKT_TEXT}
                     </p>
                     <a
-                        href="/kontakt"
+                        href="/kontakt/"
                         class="inline-block mt-2 bg-[#0C3956] hover:bg-black/50 font-bold py-2 px-4 rounded transition-colors duration-200 shadow"
                         >{i18n.tarife.KONTAKT_BUTTON}</a
                     >

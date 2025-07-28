@@ -16,8 +16,8 @@ export default function CookieBanner({ currentLocale }: CookieBannerProps) {
   const pathParts = path.split('/').filter(Boolean);
   const currentLang = supportedLangs.includes(pathParts[0]) ? pathParts[0] : 'de';
 
-  const cookiesPage = currentLang === 'de' ? '/cookies' : `/${currentLang}/cookies`;
-  const deniedPage = currentLang === 'de' ? '/cookies-denied' : `/${currentLang}/cookies-denied`;
+  const cookiesPage = currentLang === 'de' ? '/cookies/' : `/${currentLang}/cookies/`;
+  const deniedPage = currentLang === 'de' ? '/cookies-denied/' : `/${currentLang}/cookies-denied/`;
 
   useEffect(() => {
     const accepted = Cookies.get('cookies-accepted');
@@ -50,7 +50,7 @@ export default function CookieBanner({ currentLocale }: CookieBannerProps) {
     setVisible(false);
     document.body.style.overflow = '';
     if (window.location.pathname === deniedPage) {
-      window.location.href = currentLang === 'de' ? '/' : `/${currentLang}`;
+      window.location.href = currentLang === 'de' ? '/' : `/${currentLang}/`;
     }
   };
 

@@ -10,7 +10,12 @@ const i18n = getI18N({ currentLocale });
     title={i18n.uber_uns.SEO_TITLE}
     description={i18n.uber_uns.SEO_DESCRIPTION}
     keywords={i18n.uber_uns.KEYWORDS}
->
+>   
+    <link slot="alternate" rel="alternate" hreflang="de" href="https://gillotconsulting.com/uber_uns/" />
+	<link slot="alternate" rel="alternate" hreflang="en" href="https://gillotconsulting.com/en/uber_uns/" />
+	<link slot="alternate" rel="alternate" hreflang="fr" href="https://gillotconsulting.com/fr/uber_uns/" />
+	<link slot="alternate" rel="alternate" hreflang="x-default" href="https://gillotconsulting.com/uber_uns/" />
+
     <script type="application/ld+json" data-astro-exec>
         {
             "@context": "https://schema.org",

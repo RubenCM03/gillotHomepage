@@ -12,11 +12,15 @@ const i18n = getI18N({ currentLocale });
     description={i18n.dienstleistungen.computerhilfeSenioren.SEO_DESCRIPTION}
     keywords={i18n.dienstleistungen.computerhilfeSenioren.KEYWORDS}
 >
+    <link slot="alternate" rel="alternate" hreflang="de" href="https://gillotconsulting.com/computerhilfe-fur-senioren/" />
+	<link slot="alternate" rel="alternate" hreflang="en" href="https://gillotconsulting.com/en/computerhilfe-fur-senioren/" />
+	<link slot="alternate" rel="alternate" hreflang="fr" href="https://gillotconsulting.com/fr/computerhilfe-fur-senioren/" />
+	<link slot="alternate" rel="alternate" hreflang="x-default" href="https://gillotconsulting.com/computerhilfe-fur-senioren/" />
+
     <h1 class="text-4xl md:text-5xl font-bold text-center mx-auto mt-8 mb-8">
         {i18n.dienstleistungen.computerhilfeSenioren.TITLE}
     </h1>
     <div class="max-w-4xl mx-auto px-5 space-y-12">
-
         <section class="space-y-4">
             <h2 class="text-2xl font-semibold text-[#f4d35e]">
                 {i18n.dienstleistungen.computerhilfeSenioren.SUBTITLE_1}
@@ -24,7 +28,11 @@ const i18n = getI18N({ currentLocale });
             <ul class="list-disc list-inside text-lg space-y-2">
                 <li>
                     {i18n.dienstleistungen.computerhilfeSenioren.LIST_1}
-                    (<a class="underline hover:text-white/70" href="https://www.oesterreich.gv.at" target="_blank">oesterreich.gv.at</a>)
+                    (<a
+                        class="underline hover:text-white/70"
+                        href="https://www.oesterreich.gv.at"
+                        target="_blank">oesterreich.gv.at</a
+                    >)
                 </li>
                 <li>{i18n.dienstleistungen.computerhilfeSenioren.LIST_2}</li>
                 <li>{i18n.dienstleistungen.computerhilfeSenioren.LIST_3}</li>
@@ -59,7 +67,9 @@ const i18n = getI18N({ currentLocale });
             </div>
         </section>
 
-        <section class="bg-white/10 p-5 rounded-2xl shadow-lg backdrop-blur-sm border border-white/10">
+        <section
+            class="bg-white/10 p-5 rounded-2xl shadow-lg backdrop-blur-sm border border-white/10"
+        >
             <h2 class="text-2xl font-semibold text-[#f4d35e] mb-4 text-center">
                 {i18n.dienstleistungen.computerhilfeSenioren.SUBTITLE_3}
             </h2>

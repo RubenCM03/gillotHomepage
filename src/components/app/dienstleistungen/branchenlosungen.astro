@@ -14,7 +14,7 @@ const services = [
     i18n.dienstleistungen.branchenlosungen.TEXT_6,
     i18n.dienstleistungen.branchenlosungen.TEXT_7,
     i18n.dienstleistungen.branchenlosungen.TEXT_8,
-    i18n.dienstleistungen.branchenlosungen.TEXT_9
+    i18n.dienstleistungen.branchenlosungen.TEXT_9,
 ];
 
 const descriptions = [
@@ -26,16 +26,23 @@ const descriptions = [
     i18n.dienstleistungen.branchenlosungen.TEXT_DESCRIPTION_6,
     i18n.dienstleistungen.branchenlosungen.TEXT_DESCRIPTION_7,
     i18n.dienstleistungen.branchenlosungen.TEXT_DESCRIPTION_8,
-    i18n.dienstleistungen.branchenlosungen.TEXT_DESCRIPTION_9
+    i18n.dienstleistungen.branchenlosungen.TEXT_DESCRIPTION_9,
 ];
 ---
 
 <Layout
     title={i18n.dienstleistungen.branchenlosungen.SEO_TITLE}
     description={i18n.dienstleistungen.branchenlosungen.SEO_DESCRIPTION}
-    keywords=
+    keywords={i18n.dienstleistungen.branchenlosungen.KEYWORDS}
 >
-    <h1 class="text-4xl md:text-5xl font-bold text-center">{i18n.dienstleistungen.branchenlosungen.TITLE}</h1>
+    <link slot="alternate" rel="alternate" hreflang="de" href="https://gillotconsulting.com/branchenlosungen/" />
+	<link slot="alternate" rel="alternate" hreflang="en" href="https://gillotconsulting.com/en/branchenlosungen/" />
+	<link slot="alternate" rel="alternate" hreflang="fr" href="https://gillotconsulting.com/fr/branchenlosungen/" />
+	<link slot="alternate" rel="alternate" hreflang="x-default" href="https://gillotconsulting.com/branchenlosungen/" />
+
+    <h1 class="text-4xl md:text-5xl font-bold text-center">
+        {i18n.dienstleistungen.branchenlosungen.TITLE}
+    </h1>
     <section class="max-w-2xl mx-auto px-6 py-12">
         <div class="space-y-5">
             {
@@ -52,9 +59,7 @@ const descriptions = [
                             <h2 class="text-2xl font-semibold mb-2 text-white">
                                 {service}
                             </h2>
-                            <p class="text-white/80">
-                                {descriptions[index]}
-                            </p>
+                            <p class="text-white/80">{descriptions[index]}</p>
                         </div>
                     </div>
                 ))

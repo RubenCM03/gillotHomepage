@@ -11,6 +11,11 @@ const i18n = getI18N({ currentLocale });
     description={i18n.impressum.SEO_DESCRIPTION}
     keywords={i18n.impressum.KEYWORDS}
 >
+    <link slot="alternate" rel="alternate" hreflang="de" href="https://gillotconsulting.com/impressum/" />
+	<link slot="alternate" rel="alternate" hreflang="en" href="https://gillotconsulting.com/en/impressum/" />
+	<link slot="alternate" rel="alternate" hreflang="fr" href="https://gillotconsulting.com/fr/impressum/" />
+	<link slot="alternate" rel="alternate" hreflang="x-default" href="https://gillotconsulting.com/impressum/" />
+
     <section class="px-5">
         <h1 class="text-4xl md:text-5xl font-bold text-center mx-auto mt-8">{i18n.impressum.TITLE}</h1>
 
